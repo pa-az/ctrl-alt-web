@@ -1,0 +1,38 @@
+<svg width="1024" height="1024" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="background:#0a0a0e;">
+  <defs>
+    <radialGradient id="coingrad" cx="45%" cy="38%" r="60%">
+      <stop offset="0%"   stop-color="#FFE07A"/>
+      <stop offset="40%"  stop-color="#F0B429"/>
+      <stop offset="100%" stop-color="#B97B10"/>
+    </radialGradient>
+    <radialGradient id="coininner" cx="45%" cy="38%" r="60%">
+      <stop offset="0%"   stop-color="#FFD45E"/>
+      <stop offset="100%" stop-color="#C98A14"/>
+    </radialGradient>
+    <radialGradient id="dotgrad" cx="38%" cy="35%" r="65%">
+      <stop offset="0%"   stop-color="#FF6B6B"/>
+      <stop offset="100%" stop-color="#C0392B"/>
+    </radialGradient>
+  </defs>
+
+  <!-- App icon background -->
+  <rect width="200" height="200" rx="45" fill="#060A0F"/>
+
+  <!-- Eye shape — stroke only, no fill so corners stay black -->
+  <path d="M20 100 Q100 38 180 100 Q100 162 20 100Z" fill="none" stroke="#3ABFA0" stroke-width="2.5"/>
+
+  <!-- Iris ring (teal) -->
+  <circle cx="100" cy="100" r="36" fill="#0A1018" stroke="#3ABFA0" stroke-width="3"/>
+
+  <!-- Gold coin -->
+  <circle cx="100" cy="100" r="26" fill="url(#coingrad)"/>
+  <circle cx="100" cy="100" r="26" fill="none" stroke="#B97B10" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="100" cy="100" r="20" fill="none" stroke="#FFE07A" stroke-width="1" opacity="0.4"/>
+  <circle cx="100" cy="100" r="18" fill="url(#coininner)" opacity="0.6"/>
+
+  <!-- Red dot pupil -->
+  <circle cx="104" cy="96" r="10" fill="url(#dotgrad)"/>
+  <!-- White specular at 45 degrees top-right -->
+  <circle cx="108" cy="92" r="3" fill="#fff" opacity="0.55"/>
+
+</svg>
