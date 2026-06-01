@@ -42336,7 +42336,7 @@ j=A.c4(a1,d,k).w
 k=A.c4(a1,d,k).w
 i=e.e
 i.toString
-f=A.i6(d,A.kf(!1,B.ab,!0,new A.c8(B.b_,d,B.ai,B.F,A.c([l,A.b8(A.i6(d,new A.dJ(B.Hw,A.bB(new A.qS(i,!0,new A.amb(e),d),k.a.b*0.65,j.a.a*0.85),d),B.ag,!1,d,d,d,d,d,d,d,d,d,d,d,d,d,d,new A.amc(),d,d,d,d,d,d),d,d)],m),d),B.m,d,0,d,d,d,d,d,B.d9),B.ag,!1,new A.cP(o,f),d,d,d,d,d,d,d,d,d,d,d,d,d,new A.amd(e),d,d,d,d,d,d)
+f=A.i6(d,A.kf(!1,B.ab,!0,new A.c8(B.b_,d,B.ai,B.F,A.c([l,A.b8(A.i6(d,new A.dJ(B.Hw,A.bB(new A.qS(i,!0,new A.amb(e),d),k.a.b*0.75,j.a.a*0.85),d),B.ag,!1,d,d,d,d,d,d,d,d,d,d,d,d,d,d,new A.amc(),d,d,d,d,d,d),d,d)],m),d),B.m,d,0,d,d,d,d,d,B.d9),B.ag,!1,new A.cP(o,f),d,d,d,d,d,d,d,d,d,d,d,d,d,new A.amd(e),d,d,d,d,d,d)
 o=f}else o=B.a6o
 return A.a1d(new A.c8(B.b_,d,B.ai,B.F,A.c([n,A.Oh(0,A.vk(o,B.k9,A.a0s(),B.h6,B.aR,new A.ame()))],m),d),new A.b1(b,d,d,d,d,p,B.E),B.ct,d,d,d)}}
 A.alY.prototype={
@@ -44184,7 +44184,7 @@ $2(a,b){var s,r,q=null,p=this.a,o=p.a,n=o.d?48:0,m=this.b
 o=A.aW(o.c.b,q,q,A.iM().$3$color$fontSize$fontWeight(m.r,28,B.cw),q)
 s=p.a
 r=A.bB(q,s.d?32:12,q)
-m=A.aW(s.c.c,q,q,A.dE().$3$color$fontSize$height(m.w,18,1.5),q)
+m=A.aW(s.c.c,q,q,A.dE().$3$color$fontSize$height(m.w,16,1.5),q)
 p=p.a
 return A.PR(new A.dJ(new A.ad(0,1/0,b.d,1/0),new A.c6(B.MC,A.c1(A.c([new A.c6(new A.ax(0,0,n,0),o,q),r,m,A.bB(q,p.d?24:16,q),A.bB(new A.e6(B.r,q,q,new A.Ku(p.c.a,q),q),120,1/0)],t.p),B.aq,B.a9,B.x),q),q),q,B.ag,q,q,B.aQ)},
 $S:457}
