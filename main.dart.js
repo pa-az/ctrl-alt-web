@@ -43599,7 +43599,7 @@ A.as_.prototype={
 $0(){var s=this.a,r=s.f=(s.f+1)%3
 if(r===0)s.e=s.d=20
 else if(r===1){s.d=60
-s.e=130}else{s.d=10
+s.e=100}else{s.d=10
 s.e=80}},
 $S:0}
 A.CK.prototype={
