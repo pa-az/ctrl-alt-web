@@ -46851,9 +46851,9 @@ d=A.aN(24)
 if(e)e=A.X(13,B.i.m()>>>16&255,B.i.m()>>>8&255,B.i.m()&255)
 else{e=a0.e
 e=A.X(B.c.a4(127.5),e.m()>>>16&255,e.m()>>>8&255,e.m()&255)}e=A.cC(e,1)
-q=A.aj("Ethical Gamification",m,m,A.bS().$3$color$fontSize$fontWeight(k,16,B.aN),m)
+q=A.aj("Gamification",m,m,A.bS().$3$color$fontSize$fontWeight(k,16,B.aN),m)
 p=a0.w
-q=A.CU(r,B.al,new A.avW(a,a0,a2),A.aj("Simulate reward loops and compulsive engagement",m,m,A.bS().$2$color$fontSize(p,12),m),q,a2.a)
+q=A.CU(r,B.al,new A.avW(a,a0,a2),A.aj("Simulate reward loops and compulsive engagement (Tactics tab)",m,m,A.bS().$2$color$fontSize(p,12),m),q,a2.a)
 o=A.aj("Red Dot",m,m,A.bS().$3$color$fontSize$fontWeight(k,16,B.aN),m)
 o=A.CU(r,B.al,a2.gamt(),A.aj("Simulate notification anxiety (Tactics tab)",m,m,A.bS().$2$color$fontSize(p,12),m),o,a2.b)
 n=A.aj("Pull to Refresh",m,m,A.bS().$3$color$fontSize$fontWeight(k,16,B.aN),m)
