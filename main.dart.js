@@ -43955,7 +43955,7 @@ s=l.a?2:3
 break
 case 2:s=4
 return A.r(l.kR(m),$async$$0)
-case 4:if(b)q.a.P8("+1",B.QF,n.b,"Card Opened!","+150 XP")
+case 4:if(b)q.a.P8("+1",B.QF,"","","+150 XP")
 case 3:if(A.aF(p,!1,t.A).c)q.a.d.pN(new A.wH("sounds/card_flip.mp3",null))
 p=q.a
 p.an(new A.ap3(p,n))
@@ -44057,31 +44057,39 @@ G(a){var s=this.d
 s===$&&A.a()
 return A.bh(s,new A.at1(this),null)}}
 A.at1.prototype={
-$2(a,b){var s,r,q,p,o,n,m=null,l=this.a,k=l.a.w,j=A.aP(20),i=k.f,h=l.d
-h===$&&A.a()
-h=h.x
-h===$&&A.a()
-i=A.X(B.c.a6(255*(0.3+0.2*h)),i.m()>>>16&255,i.m()>>>8&255,i.m()&255)
-h=l.d.x
-h===$&&A.a()
-h=A.b([new A.cB(2*h,B.aE,i,B.l,12+8*h)],t.V)
-i=l.a.w.f
-i=A.cK(A.X(B.c.a6(127.5),i.m()>>>16&255,i.m()>>>8&255,i.m()&255),2)
-s=l.d.x
+$2(a,b){var s,r,q,p,o,n,m,l,k=null,j=this.a,i=j.a.w,h=A.aP(20),g=i.f,f=j.d
+f===$&&A.a()
+f=f.x
+f===$&&A.a()
+g=A.X(B.c.a6(255*(0.3+0.2*f)),g.m()>>>16&255,g.m()>>>8&255,g.m()&255)
+f=j.d.x
+f===$&&A.a()
+f=A.b([new A.cB(2*f,B.aE,g,B.l,12+8*f)],t.V)
+g=j.a.w.f
+g=A.cK(A.X(B.c.a6(127.5),g.m()>>>16&255,g.m()>>>8&255,g.m()&255),2)
+s=j.d.x
 s===$&&A.a()
-s=A.jS(A.n0(B.o,0.1*s,A.aN(l.a.r,m,m,B.b8,m,m,m,m,m,m,m,32,m,m)),1+0.2*s)
-r=l.a
-r=A.an(r.c,m,m,A.hc().$3$color$fontSize$fontWeight(r.w.r,16,B.E),m)
-q=l.a
-q=A.an(q.d+" ("+q.e+")",m,m,A.c8().$3$color$fontSize$fontWeight(q.w.f,14,B.b_),m)
-p=B.b8.dY(0.2)
-o=A.aP(8)
-n=t.p
-o=A.bF(A.b([r,A.bI(A.b([q,B.cZ,A.ar(m,A.bI(A.b([B.pZ,B.fO,A.an(l.a.f,m,m,A.c8().$3$color$fontSize$fontWeight(B.b8,12,B.E),m)],n),B.q,B.G,B.r,0),B.j,m,m,new A.at(p,m,m,o,m,m,B.u),m,m,m,B.pr,m,m,m)],n),B.q,B.G,B.r,0)],n),B.ai,B.G,B.aC)
-l=l.d.x
-l===$&&A.a()
-l=1-l
-return A.iw(!1,B.a6,!0,A.ar(m,A.bI(A.b([s,B.dC,o,B.dC,A.jS(A.n0(B.o,-0.1*l,B.RK),1+0.2*l)],n),B.q,B.G,B.aC,0),B.j,m,m,new A.at(k.d,m,i,j,h,m,B.u),m,m,B.pm,B.pq,m,m,m),B.j,B.x,0,m,m,m,m,m,B.bR)},
+s=A.jS(A.n0(B.o,0.1*s,A.aN(j.a.r,k,k,B.b8,k,k,k,k,k,k,k,32,k,k)),1+0.2*s)
+r=t.p
+q=A.b([],r)
+p=j.a
+o=p.c
+if(o.length!==0)q.push(A.an(o,k,k,A.hc().$3$color$fontSize$fontWeight(p.w.r,16,B.E),k))
+p=A.b([],r)
+o=j.a
+n=o.d
+m=n.length===0
+if(!m||o.e.length!==0){l=o.e
+n=m?l:n+" ("+l+")"
+B.b.L(p,A.b([A.an(n,k,k,A.c8().$3$color$fontSize$fontWeight(o.w.f,14,B.b_),k),B.cZ],r))}o=B.b8.dY(0.2)
+n=A.aP(8)
+p.push(A.ar(k,A.bI(A.b([B.pZ,B.fO,A.an(j.a.f,k,k,A.c8().$3$color$fontSize$fontWeight(B.b8,12,B.E),k)],r),B.q,B.G,B.r,0),B.j,k,k,new A.at(o,k,k,n,k,k,B.u),k,k,k,B.pr,k,k,k))
+q.push(A.bI(p,B.q,B.G,B.r,0))
+q=A.bF(q,B.ai,B.G,B.aC)
+j=j.d.x
+j===$&&A.a()
+j=1-j
+return A.iw(!1,B.a6,!0,A.ar(k,A.bI(A.b([s,B.dC,q,B.dC,A.jS(A.n0(B.o,-0.1*j,B.RK),1+0.2*j)],r),B.q,B.G,B.aC,0),B.j,k,k,new A.at(i.d,k,g,h,f,k,B.u),k,k,B.pm,B.pq,k,k,k),B.j,B.x,0,k,k,k,k,k,B.bR)},
 $S:362}
 A.HB.prototype={
 l(){var s=this,r=s.N$
