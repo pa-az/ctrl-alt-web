@@ -5750,8 +5750,6 @@ SOFTWARE.
 
 --------------------------------------------------------------------------------
 flutter_lints
-in_app_purchase
-in_app_purchase_platform_interface
 path_provider
 path_provider_linux
 path_provider_platform_interface
@@ -11294,8 +11292,6 @@ See the License for the specific language governing permissions and
 limitations under the License.
 --------------------------------------------------------------------------------
 google_fonts
-in_app_purchase_android
-in_app_purchase_storekit
 path_provider_android
 path_provider_foundation
 shared_preferences
