@@ -44452,7 +44452,7 @@ $S:141}
 A.auY.prototype={
 $2(a,b){var s,r,q=this
 if(b===0){s=q.a.e
-s=s!=null?"Last updated: "+s.VM().j(0).split(".")[0]:"Checking for updates..."
+s=s!=null?"Source last updated: "+s.VM().j(0).split(".")[0]:"Checking for updates..."
 r=q.b.w
 return new A.bi(B.f9,A.ak(s,null,null,A.bX().$2$color$fontSize(A.Y(B.c.a5(178.5),r.m()>>>16&255,r.m()>>>8&255,r.m()&255),12),B.bE),null)}s=q.a.d
 s.toString
@@ -46804,8 +46804,8 @@ p=c.w
 q=A.SI(s,B.aq,new A.avQ(a,c,a1),A.ak("Simulate reward loops and compulsive engagement",n,n,A.bX().$2$color$fontSize(p,12),n),q,a1.a)
 o=A.ak('The Phantom "Red Dot" Mode',n,n,A.bX().$3$color$fontSize$fontWeight(l,16,B.aV),n)
 o=A.SI(s,B.aq,a1.gamm(),A.ak("Simulate notification anxiety",n,n,A.bX().$2$color$fontSize(p,12),n),o,a1.b)
-l=A.ak('The "Slot Machine" Pull-to-Refresh',n,n,A.bX().$3$color$fontSize$fontWeight(l,16,B.aV),n)
-j=A.aHr(A.b([k,B.aY,i,B.jA,h,B.aY,g,B.jA,A.ar(n,A.bF(A.b([r,m,B.kT,q,B.kT,o,B.kT,A.SI(s,B.aq,a1.gamo(),A.ak("Simulate intermittent variable rewards",n,n,A.bX().$2$color$fontSize(p,12),n),l,a1.c)],j),B.ai,B.G,B.r),B.j,n,n,new A.au(e,n,f,d,n,n,B.u),n,n,n,B.br,n,n,n)],j),!0,!0,!0)
+l=A.ak('Research Tab "Slot Machine"',n,n,A.bX().$3$color$fontSize$fontWeight(l,16,B.aV),n)
+j=A.aHr(A.b([k,B.aY,i,B.jA,h,B.aY,g,B.jA,A.ar(n,A.bF(A.b([r,m,B.kT,q,B.kT,o,B.kT,A.SI(s,B.aq,a1.gamo(),A.ak("Simulate intermittent variable rewards via pull-to-refresh",n,n,A.bX().$2$color$fontSize(p,12),n),l,a1.c)],j),B.ai,B.G,B.r),B.j,n,n,new A.au(e,n,f,d,n,n,B.u),n,n,n,B.br,n,n,n)],j),!0,!0,!0)
 return new A.t7(j,B.br,B.aF,!1,n,n,B.k8,!1,n,9,B.ap,n,n,B.E,B.aN,n)},
 KZ(a,b,c,d){var s=null,r=A.aF(a,!0,t.EW).a.k(0,d),q=A.ak(c,s,s,A.c3(s,s,r?b.c:b.r,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s),p=b.r,o=A.aP(8),n=r?p:b.e
 return A.azV(b.d,q,new A.avK(r,a,d),r,p,new A.ci(o,new A.bE(n,1,B.J,-1)),!1)}}
