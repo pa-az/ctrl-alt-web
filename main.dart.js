@@ -46839,28 +46839,28 @@ return A.B($async$w9,r)},
 G(a){var s=null,r=A.aF(a,!0,t.A),q=B.B[r.a]
 A.aF(a,!0,t.Ej)
 return A.IO(this.a2F(a,r,q,!0,A.aF(a,!0,t.ud)),new A.as(q.d,s,new A.dj(new A.bF(q.e,1,B.J,-1),B.w,B.w,B.w),B.h7,s,s,B.u),B.dY,s,s,s)},
-a2F(a,a0,a1,a2,a3){var s,r,q,p,o,n,m=null,l="Applies to Research tab only",k=t.wr,j=a1.r,i=A.aj(A.ev(a,B.d1,k).gJk(),m,m,A.fJ().$3$color$fontSize$fontWeight(j,18,B.F),m),h=t.p,g=A.qj(B.bY,A.b([this.L2(a,a1,"English",B.lY),this.L2(a,a1,"Espa\xf1ol",B.x_)],h),B.dL,m,8,8),f=A.aj(A.ev(a,B.d1,k).gJm(),m,m,A.fJ().$3$color$fontSize$fontWeight(j,18,B.F),m),e=A.qj(B.bY,A.abp(7,new A.avV(this,a0,a1,!0),!0,t.J),B.dL,m,8,8),d=a1.b===B.X,c=d?A.X(51,B.m.m()>>>16&255,B.m.m()>>>8&255,B.m.m()&255):A.X(B.c.a4(127.5),B.i.m()>>>16&255,B.i.m()>>>8&255,B.i.m()&255),b=A.aN(24)
-if(d)s=A.X(13,B.i.m()>>>16&255,B.i.m()>>>8&255,B.i.m()&255)
-else{s=a1.e
+a2F(a,b,a0,a1,a2){var s,r,q,p,o,n,m=null,l=t.wr,k=a0.r,j=A.aj(A.ev(a,B.d1,l).gJk(),m,m,A.fJ().$3$color$fontSize$fontWeight(k,18,B.F),m),i=t.p,h=A.qj(B.bY,A.b([this.L2(a,a0,"English",B.lY),this.L2(a,a0,"Espa\xf1ol",B.x_)],i),B.dL,m,8,8),g=A.aj(A.ev(a,B.d1,l).gJm(),m,m,A.fJ().$3$color$fontSize$fontWeight(k,18,B.F),m),f=A.qj(B.bY,A.abp(7,new A.avV(this,b,a0,!0),!0,t.J),B.dL,m,8,8),e=a0.b===B.X,d=e?A.X(51,B.m.m()>>>16&255,B.m.m()>>>8&255,B.m.m()&255):A.X(B.c.a4(127.5),B.i.m()>>>16&255,B.i.m()>>>8&255,B.i.m()&255),c=A.aN(24)
+if(e)s=A.X(13,B.i.m()>>>16&255,B.i.m()>>>8&255,B.i.m()&255)
+else{s=a0.e
 s=A.X(B.c.a4(127.5),s.m()>>>16&255,s.m()>>>8&255,s.m()&255)}s=A.cC(s,1)
-r=a1.f
-b=A.ar(m,A.bD(A.b([A.CU(r,B.al,a0.gamp(),m,A.aj(A.ev(a,B.d1,k).gJj(),m,m,A.bS().$3$color$fontSize$fontWeight(j,16,B.aN),m),a0.b),A.CU(r,B.al,a0.gamx(),m,A.aj(A.ev(a,B.d1,k).gJl(),m,m,A.bS().$3$color$fontSize$fontWeight(j,16,B.aN),m),a0.c)],h),B.ah,B.G,B.r),B.k,m,m,new A.as(c,m,s,b,m,m,B.u),m,m,m,B.br,m,m,m)
-s=A.aj("Simulated Mechanics",m,m,A.fJ().$3$color$fontSize$fontWeight(j,18,B.F),m)
-k=d?A.X(51,B.m.m()>>>16&255,B.m.m()>>>8&255,B.m.m()&255):A.X(B.c.a4(127.5),B.i.m()>>>16&255,B.i.m()>>>8&255,B.i.m()&255)
-c=A.aN(24)
-if(d)d=A.X(13,B.i.m()>>>16&255,B.i.m()>>>8&255,B.i.m()&255)
-else{d=a1.e
-d=A.X(B.c.a4(127.5),d.m()>>>16&255,d.m()>>>8&255,d.m()&255)}d=A.cC(d,1)
-q=A.aj("Ethical Gamification",m,m,A.bS().$3$color$fontSize$fontWeight(j,16,B.aN),m)
-p=a1.w
-q=A.CU(r,B.al,new A.avW(a,a1,a3),A.aj("Simulate reward loops and compulsive engagement",m,m,A.bS().$2$color$fontSize(p,12),m),q,a3.a)
-o=A.aj('The Phantom "Red Dot" Mode',m,m,A.bS().$3$color$fontSize$fontWeight(j,16,B.aN),m)
-o=A.CU(r,B.al,a3.gamt(),A.aj("Simulate notification anxiety",m,m,A.bS().$2$color$fontSize(p,12),m),o,a3.b)
-n=A.aj("Pull to Refresh",m,m,A.bS().$3$color$fontSize$fontWeight(j,16,B.aN),m)
-n=A.CU(r,B.al,a3.gamv(),A.aj(l,m,m,A.bS().$2$color$fontSize(p,12),m),n,a3.c)
-j=A.aj("Infinite Scroll",m,m,A.bS().$3$color$fontSize$fontWeight(j,16,B.aN),m)
-h=A.aHy(A.b([i,B.aQ,g,B.jA,f,B.aQ,e,B.jA,b,B.ez,s,B.aQ,A.ar(m,A.bD(A.b([q,B.kT,o,B.kT,n,B.kT,A.CU(r,B.al,a3.gamr(),A.aj(l,m,m,A.bS().$2$color$fontSize(p,12),m),j,a3.d)],h),B.ah,B.G,B.r),B.k,m,m,new A.as(k,m,d,c,m,m,B.u),m,m,m,B.br,m,m,m)],h),!0,!0,!0)
-return new A.t7(h,B.br,B.aD,!1,m,m,B.k8,!1,m,13,B.aq,m,m,B.E,B.aO,m)},
+r=a0.f
+c=A.ar(m,A.bD(A.b([A.CU(r,B.al,b.gamp(),m,A.aj(A.ev(a,B.d1,l).gJj(),m,m,A.bS().$3$color$fontSize$fontWeight(k,16,B.aN),m),b.b),A.CU(r,B.al,b.gamx(),m,A.aj(A.ev(a,B.d1,l).gJl(),m,m,A.bS().$3$color$fontSize$fontWeight(k,16,B.aN),m),b.c)],i),B.ah,B.G,B.r),B.k,m,m,new A.as(d,m,s,c,m,m,B.u),m,m,m,B.br,m,m,m)
+s=A.aj("Simulated Mechanics",m,m,A.fJ().$3$color$fontSize$fontWeight(k,18,B.F),m)
+l=e?A.X(51,B.m.m()>>>16&255,B.m.m()>>>8&255,B.m.m()&255):A.X(B.c.a4(127.5),B.i.m()>>>16&255,B.i.m()>>>8&255,B.i.m()&255)
+d=A.aN(24)
+if(e)e=A.X(13,B.i.m()>>>16&255,B.i.m()>>>8&255,B.i.m()&255)
+else{e=a0.e
+e=A.X(B.c.a4(127.5),e.m()>>>16&255,e.m()>>>8&255,e.m()&255)}e=A.cC(e,1)
+q=A.aj("Ethical Gamification",m,m,A.bS().$3$color$fontSize$fontWeight(k,16,B.aN),m)
+p=a0.w
+q=A.CU(r,B.al,new A.avW(a,a0,a2),A.aj("Simulate reward loops and compulsive engagement",m,m,A.bS().$2$color$fontSize(p,12),m),q,a2.a)
+o=A.aj("Red Dot",m,m,A.bS().$3$color$fontSize$fontWeight(k,16,B.aN),m)
+o=A.CU(r,B.al,a2.gamt(),A.aj("Simulate notification anxiety (Tactics tab)",m,m,A.bS().$2$color$fontSize(p,12),m),o,a2.b)
+n=A.aj("Pull to Refresh",m,m,A.bS().$3$color$fontSize$fontWeight(k,16,B.aN),m)
+n=A.CU(r,B.al,a2.gamv(),A.aj("Simulate intermittent variable rewards (Research tab)",m,m,A.bS().$2$color$fontSize(p,12),m),n,a2.c)
+k=A.aj("Infinite Scroll",m,m,A.bS().$3$color$fontSize$fontWeight(k,16,B.aN),m)
+i=A.aHy(A.b([j,B.aQ,h,B.jA,g,B.aQ,f,B.jA,c,B.ez,s,B.aQ,A.ar(m,A.bD(A.b([q,B.kT,o,B.kT,n,B.kT,A.CU(r,B.al,a2.gamr(),A.aj("Simulate an endless feed (Research tab)",m,m,A.bS().$2$color$fontSize(p,12),m),k,a2.d)],i),B.ah,B.G,B.r),B.k,m,m,new A.as(l,m,e,d,m,m,B.u),m,m,m,B.br,m,m,m)],i),!0,!0,!0)
+return new A.t7(i,B.br,B.aD,!1,m,m,B.k8,!1,m,13,B.aq,m,m,B.E,B.aO,m)},
 L2(a,b,c,d){var s=null,r=A.aF(a,!0,t.EW).a.k(0,d),q=A.aj(c,s,s,A.c3(s,s,r?b.c:b.r,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s),p=b.r,o=A.aN(8),n=r?p:b.e
 return A.aA0(b.d,q,new A.avQ(r,a,d),r,p,new A.ci(o,new A.bF(n,1,B.J,-1)),!1)}}
 A.avV.prototype={
