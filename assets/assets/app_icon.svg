@@ -18,21 +18,18 @@
   <!-- App icon background -->
   <rect width="200" height="200" rx="45" fill="#060A0F"/>
 
-  <!-- Eye shape — stroke only, no fill so corners stay black -->
-  <path d="M20 100 Q100 38 180 100 Q100 162 20 100Z" fill="none" stroke="#3ABFA0" stroke-width="2.5"/>
-
-  <!-- Iris ring (teal) -->
-  <circle cx="100" cy="100" r="36" fill="#0A1018" stroke="#3ABFA0" stroke-width="3"/>
+  <!-- Eye shape — pill -->
+  <rect x="30" y="55" width="140" height="90" rx="45" fill="none" stroke="#3ABFA0" stroke-width="7"/>
 
   <!-- Gold coin -->
-  <circle cx="100" cy="100" r="26" fill="url(#coingrad)"/>
-  <circle cx="100" cy="100" r="26" fill="none" stroke="#B97B10" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="100" cy="100" r="20" fill="none" stroke="#FFE07A" stroke-width="1" opacity="0.4"/>
-  <circle cx="100" cy="100" r="18" fill="url(#coininner)" opacity="0.6"/>
+  <circle cx="100" cy="100" r="65" fill="url(#coingrad)"/>
+  <circle cx="100" cy="100" r="65" fill="none" stroke="#B97B10" stroke-width="2" opacity="0.6"/>
+  <circle cx="100" cy="100" r="55" fill="none" stroke="#FFE07A" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="100" cy="100" r="50" fill="url(#coininner)" opacity="0.6"/>
 
   <!-- Red dot pupil -->
-  <circle cx="104" cy="96" r="10" fill="url(#dotgrad)"/>
+  <circle cx="100" cy="100" r="25" fill="url(#dotgrad)"/>
   <!-- White specular at 45 degrees top-right -->
-  <circle cx="108" cy="92" r="3" fill="#fff" opacity="0.55"/>
+  <circle cx="110" cy="90" r="6" fill="#fff" opacity="0.55"/>
 
 </svg>
