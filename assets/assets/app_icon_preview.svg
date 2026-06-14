@@ -15,11 +15,14 @@
     </radialGradient>
   </defs>
 
+  <!-- App icon background -->
+  <rect width="200" height="200" rx="45" fill="#060A0F"/>
+
   <!-- Gold coin -->
-  <circle cx="100" cy="100" r="41.5" fill="url(#coingrad)"/>
-  <circle cx="100" cy="100" r="41.5" fill="none" stroke="#B97B10" stroke-width="2" opacity="0.6"/>
-  <circle cx="100" cy="100" r="35" fill="none" stroke="#FFE07A" stroke-width="1.5" opacity="0.4"/>
-  <circle cx="100" cy="100" r="32" fill="url(#coininner)" opacity="0.6"/>
+  <circle cx="100" cy="100" r="45" fill="url(#coingrad)"/>
+  <circle cx="100" cy="100" r="45" fill="none" stroke="#B97B10" stroke-width="2" opacity="0.6"/>
+  <circle cx="100" cy="100" r="38" fill="none" stroke="#FFE07A" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="100" cy="100" r="35" fill="url(#coininner)" opacity="0.6"/>
 
   <!-- Red dot pupil -->
   <circle cx="100" cy="100" r="18" fill="url(#dotgrad)"/>
