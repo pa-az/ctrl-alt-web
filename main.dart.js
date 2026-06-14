@@ -48839,7 +48839,7 @@ q=r.c
 r=r.d
 p=B.d.dv(r*0.08,1,3)
 o=i.a.d
-p=A.ai(j,j,B.i,j,j,B.Lf,j,o-B.d.dv(o*0.08,1,3),j,j,j,j,r-p)
+p=A.ai(j,j,B.i,j,j,B.Lf,j,o-2*B.d.dv(o*0.08,1,3),j,j,j,j,r-2*p)
 o=i.w
 o===$&&A.a()
 o=o.b.a1(o.a.gn())
