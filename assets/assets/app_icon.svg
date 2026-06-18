@@ -23,8 +23,8 @@
 
   <!-- Red dot pupil -->
   <circle cx="100" cy="100" r="18" fill="url(#dotgrad)"/>
-  <!-- White specular at 45 degrees top-right -->
-  <circle cx="107" cy="93" r="4" fill="#fff" opacity="0.55"/>
+  <!-- White specular ring at 45 degrees top-right -->
+  <circle cx="107" cy="93" r="4.5" fill="none" stroke="#fff" stroke-width="2" opacity="0.8"/>
 
   <!-- Eye shape — pill (Front layer) -->
   <rect x="30" y="55" width="140" height="90" rx="45" fill="none" stroke="url(#dotgrad)" stroke-width="7"/>
