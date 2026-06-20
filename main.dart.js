@@ -8448,7 +8448,8 @@ _.a=e},
 G_:function G_(a,b){var _=this
 _.e=_.d=$
 _.r=_.f=0
-_.w=null
+_.w=!1
+_.x=null
 _.bl$=a
 _.O$=b
 _.c=_.a=null},
@@ -49111,9 +49112,9 @@ if(q.c==null)return
 s=$.a8V().a
 if(s===0)return
 q.a6(new A.auC(q,B.d.di(-s/20,-1,1)))
-r=q.w
+r=q.x
 if(r!=null)r.b8()
-q.w=A.cf(B.c8,new A.auD(q))},
+q.x=A.cf(B.c8,new A.auD(q))},
 akt(){var s,r,q,p,o,n,m=this,l=$.a8W().a
 if(l==null||m.c==null)return
 s=m.c.ga5()
@@ -49123,12 +49124,12 @@ q=A.bB(s.bg(null),r)
 p=l.a-q.a
 o=l.b-q.b
 n=Math.sqrt(p*p+o*o)
-r=m.w
+r=m.x
 if(r!=null)r.b8()
 if(n<10){m.a6(new A.auF(m))
 return}m.a6(new A.auG(m,p,n,Math.min(n/200,1),o))
-m.w=A.cf(B.d_,new A.auH(m))},
-j(){var s=this,r=s.w
+m.x=A.cf(B.d_,new A.auH(m))},
+j(){var s=this,r=s.x
 if(r!=null)r.b8()
 $.a8W().G(s.gUr())
 $.a8V().G(s.gUp())
@@ -49147,7 +49148,8 @@ return A.be(r,new A.auI(this,s),null)}}
 A.auC.prototype={
 $0(){var s=this.a
 s.r=this.b
-s.f=0},
+s.f=0
+s.w=!0},
 $S:0}
 A.auD.prototype={
 $0(){var s=this.a
@@ -49155,16 +49157,19 @@ if(s.c!=null)s.a6(new A.auB(s))},
 $S:0}
 A.auB.prototype={
 $0(){var s=this.a
-s.r=s.f=0},
+s.r=s.f=0
+s.w=!1},
 $S:0}
 A.auF.prototype={
 $0(){var s=this.a
-s.r=s.f=0},
+s.r=s.f=0
+s.w=!1},
 $S:0}
 A.auG.prototype={
 $0(){var s=this,r=s.a,q=s.c,p=s.d
 r.f=s.b/q*0.8*p
-r.r=s.e/q*0.8*p},
+r.r=s.e/q*0.8*p
+r.w=!1},
 $S:0}
 A.auH.prototype={
 $0(){var s=this.a
@@ -49172,7 +49177,8 @@ if(s.c!=null)s.a6(new A.auE(s))},
 $S:0}
 A.auE.prototype={
 $0(){var s=this.a
-s.r=s.f=0},
+s.r=s.f=0
+s.w=!1},
 $S:0}
 A.auI.prototype={
 $2(a,b){var s,r,q,p,o,n,m,l,k,j,i=null,h=this.a,g=h.e
@@ -49190,7 +49196,7 @@ n=h.a
 m=n.e
 l=this.b.b===B.at
 k=l?B.iN:B.l
-n=n.f?B.n:B.KU
+n=n.f||h.w?B.n:B.KU
 j=m*0.35
 l=l?B.l.aK(0.8):B.iN.aK(0.8)
 m=A.aOq(new A.e_(p,o),A.ac(i,A.aOq(n,A.ac(i,i,B.f,i,i,new A.ai(i,i,A.cj(l,B.d.di(h.a.e*0.08,1,2)),i,i,i,B.ao),i,j,i,i,i,i,j),B.dW,B.cy),B.f,i,i,new A.ai(k,i,i,i,i,i,B.ao),i,m,i,i,i,i,m),B.dW,B.eO)
