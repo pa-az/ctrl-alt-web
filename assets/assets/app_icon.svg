@@ -1,32 +1,18 @@
-<svg width="1024" height="1024" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="background:#0a0a0e;">
-  <defs>
-    <radialGradient id="coingrad" cx="45%" cy="38%" r="60%">
-      <stop offset="0%"   stop-color="#FFE07A"/>
-      <stop offset="40%"  stop-color="#F0B429"/>
-      <stop offset="100%" stop-color="#B97B10"/>
-    </radialGradient>
-    <radialGradient id="coininner" cx="45%" cy="38%" r="60%">
-      <stop offset="0%"   stop-color="#FFD45E"/>
-      <stop offset="100%" stop-color="#C98A14"/>
-    </radialGradient>
-    <radialGradient id="dotgrad" cx="38%" cy="35%" r="65%">
-      <stop offset="0%"   stop-color="#FF6B6B"/>
-      <stop offset="100%" stop-color="#C0392B"/>
-    </radialGradient>
-  </defs>
+<svg width="1024" height="1024" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="background:#F3F4F6;">
+  <!-- App icon background (White/light grey) -->
+  <rect width="200" height="200" rx="45" fill="#F3F4F6"/>
 
-  <!-- Gold coin -->
-  <circle cx="100" cy="100" r="41.5" fill="url(#coingrad)"/>
-  <circle cx="100" cy="100" r="41.5" fill="none" stroke="#B97B10" stroke-width="2" opacity="0.6"/>
-  <circle cx="100" cy="100" r="35" fill="none" stroke="#FFE07A" stroke-width="1.5" opacity="0.4"/>
-  <circle cx="100" cy="100" r="32" fill="url(#coininner)" opacity="0.6"/>
+  <g transform="translate(100, 100) scale(1.35) translate(-100, -100)">
+    <!-- Eye shape (Red outline) -->
+    <path d="M 35 100 Q 100 20 165 100 Q 100 180 35 100 Z" fill="none" stroke="#FF6B6B" stroke-width="8" stroke-linecap="round"/>
 
-  <!-- Red dot pupil -->
-  <circle cx="100" cy="100" r="18" fill="url(#dotgrad)"/>
-  <!-- White specular ring at 45 degrees top-right -->
-  <circle cx="107" cy="93" r="4.5" fill="none" stroke="#fff" stroke-width="2" opacity="0.8"/>
+    <!-- Gold circle -->
+    <circle cx="100" cy="100" r="30" fill="#F0B429"/>
 
-  <!-- Eye shape — pill (Front layer) -->
-  <rect x="30" y="55" width="140" height="90" rx="45" fill="none" stroke="url(#dotgrad)" stroke-width="7"/>
+    <!-- Pupil -->
+    <circle cx="100" cy="100" r="11" fill="#1A1A1A"/>
 
+    <!-- Reflection -->
+    <circle cx="103" cy="97" r="3.5" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.8"/>
+  </g>
 </svg>
