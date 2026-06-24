@@ -48495,7 +48495,7 @@ r.toString
 s.JV(B.d.bf(r)-1,B.bm,B.bo)}},
 j(){this.d.j()
 this.ah()},
-H(a4){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e=A.az(a4,!0,t.A).gbx(),d=t.p,c=A.b([g.FW("Time used to be the ultimate currency. Today, algorithms strip-mine your focus and sell it to the highest bidder.",e,"Attention is the New Gold"),g.FW("Every notification, infinite scroll, and countdown timer is a weaponized psychological exploit designed to keep you hooked.",e,"The Web is a Trap"),g.FW("Ctrl+Alt is your cognitive defense manual. Learn to spot the dark patterns, break the loops, and reclaim your mind.",e,"Take Back Control")],d),b=A.bB(a4,f,t.l).w.a.a>600,a=B.q.aI(0.6),a0=A.aQ4(10,10),a1=b?800:1/0,a2=b?800:1/0,a3=b?B.Sc:f
+H(a4){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e=A.az(a4,!0,t.A).gbx(),d=t.p,c=A.b([g.FW("Time used to be the ultimate currency. Today, algorithms\nstrip-mine your focus and sell it to the highest bidder.",e,"Attention is the New Gold"),g.FW("Every notification, infinite scroll, and countdown timer is a\nweaponized psychological exploit designed to keep you hooked.",e,"The Web is a Trap"),g.FW("Ctrl+Alt is your cognitive defense manual. Learn to spot the\ndark patterns, break the loops, and reclaim your mind.",e,"Take Back Control")],d),b=A.bB(a4,f,t.l).w.a.a>600,a=B.q.aI(0.6),a0=A.aQ4(10,10),a1=b?800:1/0,a2=b?800:1/0,a3=b?B.Sc:f
 if(b){s=A.as(24)
 r=e.x
 s=new A.ag(e.c,f,A.cj(A.aJ(51,r.D()>>>16&255,r.D()>>>8&255,r.D()&255),1),s,A.b([new A.cs(0,B.az,A.aJ(B.d.bf(127.5),B.q.D()>>>16&255,B.q.D()>>>8&255,B.q.D()&255),B.a9N,32)],t.V),f,B.t)}else s=f
