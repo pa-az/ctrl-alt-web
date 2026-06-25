@@ -44463,7 +44463,7 @@ $1$scheme(a){return this.M(this,A.I("call","$1$scheme",0,[a],["scheme"],0))},
 $4$color$decoration$decorationColor$fontSize(a,b,c,d){return this.M(this,A.I("call","$4$color$decoration$decorationColor$fontSize",0,[a,b,c,d],["color","decoration","decorationColor","fontSize"],0))},
 $7$controlPoint$end$left$right$start$text$top(a,b,c,d,e,f,g){return this.M(this,A.I("call","$7$controlPoint$end$left$right$start$text$top",0,[a,b,c,d,e,f,g],["controlPoint","end","left","right","start","text","top"],0))},
 $6$controlPoint$end$left$start$text$top(a,b,c,d,e,f){return this.M(this,A.I("call","$6$controlPoint$end$left$start$text$top",0,[a,b,c,d,e,f],["controlPoint","end","left","start","text","top"],0))},
-$6$bottom$controlPoint$end$left$start$text(a,b,c,d,e,f){return this.M(this,A.I("call","$6$bottom$controlPoint$end$left$start$text",0,[a,b,c,d,e,f],["bottom","controlPoint","end","left","start","text"],0))},
+$7$bottom$controlPoint$end$left$right$start$text(a,b,c,d,e,f,g){return this.M(this,A.I("call","$7$bottom$controlPoint$end$left$right$start$text",0,[a,b,c,d,e,f,g],["bottom","controlPoint","end","left","right","start","text"],0))},
 $6$controlPoint$end$right$start$text$top(a,b,c,d,e,f){return this.M(this,A.I("call","$6$controlPoint$end$right$start$text$top",0,[a,b,c,d,e,f],["controlPoint","end","right","start","text","top"],0))},
 $5$color$fontSize$fontWeight$height$shadows(a,b,c,d,e){return this.M(this,A.I("call","$5$color$fontSize$fontWeight$height$shadows",0,[a,b,c,d,e],["color","fontSize","fontWeight","height","shadows"],0))},
 $3$color$fontSize$shadows(a,b,c){return this.M(this,A.I("call","$3$color$fontSize$shadows",0,[a,b,c],["color","fontSize","shadows"],0))},
@@ -49351,24 +49351,21 @@ case 1:m=s+40
 return q.$6$controlPoint$end$left$start$text$top(new A.f(m,50),new A.f(s+20,25),24,new A.f(m,90),"Simulate game mechanics like fake levels and points here.",90)
 case 2:m=s+68
 return q.$6$controlPoint$end$left$start$text$top(new A.f(s+80,50),new A.f(m,25),24,new A.f(m,90),"Generate fake notifications to hijack your attention.",90)
-case 3:m=r*0.5
-p=m+20
+case 3:p=r*0.5
 o=n.b
-return q.$6$bottom$controlPoint$end$left$start$text(120,new A.f(p,o-70),new A.f(m,o-30),24,new A.f(p,o-120),"The Tactics tab is where you learn about dark patterns.")
+return q.$7$bottom$controlPoint$end$left$right$start$text(120,new A.f(p+30,o-70),new A.f(p,o-30),Math.max(24,p-200),Math.max(24,m-p-200),new A.f(p+10,o-120),"The Tactics tab is where you learn about dark patterns.")
 case 4:m=s+40
 return q.$6$controlPoint$end$left$start$text$top(new A.f(m,50),new A.f(s+20,25),24,new A.f(m,90),"Toggle the infinite scroll simulation here.",90)
 case 5:m=s+68
 return q.$6$controlPoint$end$left$start$text$top(new A.f(s+80,50),new A.f(m,25),24,new A.f(m,90),"Simulate the slot-machine effect of pulling to refresh.",90)
-case 6:m=r*1.5
-p=m+20
+case 6:p=r*1.5
 o=n.b
-return q.$6$bottom$controlPoint$end$left$start$text(120,new A.f(p,o-70),new A.f(m,o-30),24,new A.f(p,o-120),"Dive into deeper research and articles here.")
+return q.$7$bottom$controlPoint$end$left$right$start$text(120,new A.f(p+30,o-70),new A.f(p,o-30),Math.max(24,p-200),Math.max(24,m-p-200),new A.f(p+10,o-120),"Dive into deeper research and articles here.")
 case 7:m=s+40
 return q.$6$controlPoint$end$left$start$text$top(new A.f(m,50),new A.f(s+20,25),24,new A.f(m,90),"Search the Matrix for specific apps and patterns.",90)
-case 8:m=r*2.5
-p=m-20
+case 8:p=r*2.5
 o=n.b
-return q.$6$bottom$controlPoint$end$left$start$text(120,new A.f(p,o-70),new A.f(m,o-30),24,new A.f(p,o-120),"Explore the Platforms Matrix to see who uses what.")
+return q.$7$bottom$controlPoint$end$left$right$start$text(120,new A.f(p+30,o-70),new A.f(p,o-30),Math.max(24,p-200),Math.max(24,m-p-200),new A.f(p+10,o-120),"Explore the Platforms Matrix to see who uses what.")
 case 9:m-=s
 p=m-40
 return q.$6$controlPoint$end$right$start$text$top(new A.f(p,50),new A.f(m-20,25),24,new A.f(p,90),"Access settings or trigger the fake paywall mechanic here. You're ready!",90)
@@ -49381,7 +49378,7 @@ l.push(A.dd(r,r,r,r,r,r,r,r,r,A.aNt().$5$color$fontSize$fontWeight$height$shadow
 return new A.bu(B.aq,r,B.N,B.A,A.b([p,A.d0(a,A.aO(A.a9(r,A.bi(A.b([A.DJ(r,r,r,B.bW,r,r,!0,r,A.dd(l,r,r,r,r,r,r,r,r,r,r),B.aY,r,r,B.au,B.at),B.aU,A.a1("Tap anywhere to continue",r,r,r,r,A.aNt().$3$color$fontSize$shadows(q.w,18,A.b([new A.hF(j.aC(0.8),B.h,10)],i)),r,r)],k),B.n,r,B.w,B.an),B.f,r,B.LD,new A.ag(n,r,r,m,r,r,B.t),r,r,r,B.bN,r,r,r),r,r),r,r,d,e,h,r)],k),r)},
 $7$controlPoint$end$left$right$start$text$top(a,b,c,d,e,f,g){return this.$8$bottom$controlPoint$end$left$right$start$text$top(null,a,b,c,d,e,f,g)},
 $6$controlPoint$end$left$start$text$top(a,b,c,d,e,f){return this.$8$bottom$controlPoint$end$left$right$start$text$top(null,a,b,c,null,d,e,f)},
-$6$bottom$controlPoint$end$left$start$text(a,b,c,d,e,f){return this.$8$bottom$controlPoint$end$left$right$start$text$top(a,b,c,d,null,e,f,null)},
+$7$bottom$controlPoint$end$left$right$start$text(a,b,c,d,e,f,g){return this.$8$bottom$controlPoint$end$left$right$start$text$top(a,b,c,d,e,f,g,null)},
 $6$controlPoint$end$right$start$text$top(a,b,c,d,e,f){return this.$8$bottom$controlPoint$end$left$right$start$text$top(null,a,b,null,c,d,e,f)},
 $S:489}
 A.M1.prototype={
