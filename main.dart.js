@@ -49346,26 +49346,26 @@ else s=m>1000?(m-1000)/2+32:32
 r=m/4
 q=new A.a9U(this)
 switch(b){case 0:m/=2
-return q.$7$controlPoint$end$left$right$start$text$top(new A.f(m+20,80),new A.f(m,60),24,24,new A.f(m,100),"Eye Buddy!\n(busy distracting you...)",100)
+return q.$7$controlPoint$end$left$right$start$text$top(new A.f(m+30,75),new A.f(m,60),24,24,new A.f(m,90),"Eye Buddy!\n(busy distracting you...)",100)
 case 1:m=s+40
 return q.$6$controlPoint$end$left$start$text$top(new A.f(m,50),new A.f(s+20,35),24,new A.f(m,90),"Try Simulated mechanics: Gamification!",90)
 case 2:m=s+68
 return q.$6$controlPoint$end$left$start$text$top(new A.f(s+80,50),new A.f(m,35),24,new A.f(m,90),"Generate fake notifications to hijack your attention.",90)
 case 3:p=r*0.5
 o=n.b
-return q.$7$bottom$controlPoint$end$left$right$start$text(120,new A.f(p+30,o-70),new A.f(p,o-30),Math.max(24,p-200),Math.max(24,m-p-200),new A.f(p+10,o-120),"The Tactics tab is where you learn about dark patterns.")
+return q.$7$bottom$controlPoint$end$left$right$start$text(120,new A.f(p+30,o-90),new A.f(p,o-65),Math.max(24,p-200),Math.max(24,m-p-200),new A.f(p+10,o-120),"The Tactics tab is where you learn about dark patterns.")
 case 4:m=s+40
 return q.$6$controlPoint$end$left$start$text$top(new A.f(m,50),new A.f(s+20,35),24,new A.f(m,90),"Toggle the infinite scroll simulation here.",90)
 case 5:m=s+68
 return q.$6$controlPoint$end$left$start$text$top(new A.f(s+80,50),new A.f(m,35),24,new A.f(m,90),"Simulate the slot-machine effect of pulling to refresh.",90)
 case 6:p=r*1.5
 o=n.b
-return q.$7$bottom$controlPoint$end$left$right$start$text(120,new A.f(p+30,o-70),new A.f(p,o-30),Math.max(24,p-200),Math.max(24,m-p-200),new A.f(p+10,o-120),"Dive into deeper research and articles here.")
+return q.$7$bottom$controlPoint$end$left$right$start$text(120,new A.f(p+30,o-90),new A.f(p,o-65),Math.max(24,p-200),Math.max(24,m-p-200),new A.f(p+10,o-120),"Dive into deeper research and articles here.")
 case 7:m=s+40
 return q.$6$controlPoint$end$left$start$text$top(new A.f(m,50),new A.f(s+20,35),24,new A.f(m,90),"Search the Matrix for specific apps and patterns.",90)
 case 8:p=r*2.5
 o=n.b
-return q.$7$bottom$controlPoint$end$left$right$start$text(120,new A.f(p+30,o-70),new A.f(p,o-30),Math.max(24,p-200),Math.max(24,m-p-200),new A.f(p+10,o-120),"Explore the Platforms Matrix to see who uses what.")
+return q.$7$bottom$controlPoint$end$left$right$start$text(120,new A.f(p+30,o-90),new A.f(p,o-65),Math.max(24,p-200),Math.max(24,m-p-200),new A.f(p+10,o-120),"Explore the Platforms Matrix to see who uses what.")
 case 9:m-=s
 p=m-40
 return q.$6$controlPoint$end$right$start$text$top(new A.f(p,50),new A.f(m-20,35),24,new A.f(p,90),"Access settings or trigger the fake paywall mechanic here. You're ready!",90)
