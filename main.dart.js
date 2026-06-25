@@ -49425,10 +49425,10 @@ return q.$7$bottom$controlPoint$end$left$right$start$text(120,new A.f(p+30,o-90)
 case 5:m=s+40
 return q.$6$controlPoint$end$left$start$text$top(new A.f(m,50),new A.f(s+20,35),24,new A.f(m,90),"Try Simulated mechanics: Infinite Scroll!",90)
 case 6:m=s+68
-return q.$6$controlPoint$end$left$start$text$top(new A.f(s+80,50),new A.f(m,35),24,new A.f(m,90),"Simulate slot-machine effects with pull-to-refresh mechanics.",90)
+return q.$6$controlPoint$end$left$start$text$top(new A.f(s+80,50),new A.f(m,35),24,new A.f(m,90),"Pull to Refresh Mechanic",90)
 case 7:p=r*2.5
 o=n.b
-return q.$7$bottom$controlPoint$end$left$right$start$text(120,new A.f(p+30,o-90),new A.f(p,o-65),Math.max(24,p-200),Math.max(24,m-p-200),new A.f(p+10,o-120),"Explore Platforms to discover which applications utilize specific tactics.")
+return q.$7$bottom$controlPoint$end$left$right$start$text(120,new A.f(p+40,o-90),new A.f(p+25,o-65),Math.max(24,p-200),Math.max(24,m-p-200),new A.f(p+30,o-120),"Discover Application Specific tactics")
 case 8:m=s+40
 return q.$6$controlPoint$end$left$start$text$top(new A.f(m,50),new A.f(s+20,35),24,new A.f(m,90),"Search the Matrix to find specific apps and their associated patterns.",90)
 case 9:return this.QS("Explore Settings to access all simulated mechanics, including the Unlock & Support page.")
