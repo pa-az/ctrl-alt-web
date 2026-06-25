@@ -44479,8 +44479,8 @@ $2$withDrive(a,b){return this.M(this,A.I("call","$2$withDrive",0,[a,b],["withDri
 $1$scheme(a){return this.M(this,A.I("call","$1$scheme",0,[a],["scheme"],0))},
 $4$color$decoration$decorationColor$fontSize(a,b,c,d){return this.M(this,A.I("call","$4$color$decoration$decorationColor$fontSize",0,[a,b,c,d],["color","decoration","decorationColor","fontSize"],0))},
 $7$controlPoint$end$left$right$start$text$top(a,b,c,d,e,f,g){return this.M(this,A.I("call","$7$controlPoint$end$left$right$start$text$top",0,[a,b,c,d,e,f,g],["controlPoint","end","left","right","start","text","top"],0))},
-$6$controlPoint$end$left$start$text$top(a,b,c,d,e,f){return this.M(this,A.I("call","$6$controlPoint$end$left$start$text$top",0,[a,b,c,d,e,f],["controlPoint","end","left","start","text","top"],0))},
 $7$bottom$controlPoint$end$left$right$start$text(a,b,c,d,e,f,g){return this.M(this,A.I("call","$7$bottom$controlPoint$end$left$right$start$text",0,[a,b,c,d,e,f,g],["bottom","controlPoint","end","left","right","start","text"],0))},
+$6$controlPoint$end$left$start$text$top(a,b,c,d,e,f){return this.M(this,A.I("call","$6$controlPoint$end$left$start$text$top",0,[a,b,c,d,e,f],["controlPoint","end","left","start","text","top"],0))},
 $5$color$fontSize$fontWeight$height$shadows(a,b,c,d,e){return this.M(this,A.I("call","$5$color$fontSize$fontWeight$height$shadows",0,[a,b,c,d,e],["color","fontSize","fontWeight","height","shadows"],0))},
 $2$defaultColor(a,b){return this.M(this,A.I("call","$2$defaultColor",0,[a,b],["defaultColor"],0))},
 $2$child$context(a,b){return this.M(this,A.I("call","$2$child$context",0,[a,b],["child","context"],0))},
@@ -48443,7 +48443,7 @@ $0(){var s=this.a,r=s.e
 r===$&&A.a()
 r=s.e=r+1
 if(r===4)s.r=1
-else if(r===6)s.r=2
+else if(r===7)s.r=2
 else if(r===9)s.w=!0
 if(r>9){s.e=-1
 s.r=0}},
@@ -49414,24 +49414,24 @@ r=m/4
 q=new A.a9V(this)
 switch(b){case 0:m/=2
 return q.$7$controlPoint$end$left$right$start$text$top(new A.f(m+20,65),new A.f(m,45),24,24,new A.f(m,80),"Eye Buddy!\n(busy distracting you...)",80)
-case 1:m=s+40
-return q.$6$controlPoint$end$left$start$text$top(new A.f(m,50),new A.f(s+24,35),24,new A.f(m,90),"Try Simulated mechanics: Gamification!",90)
-case 2:return q.$6$controlPoint$end$left$start$text$top(new A.f(s+80,50),new A.f(s+72,35),24,new A.f(s+68,90),"Generate fake notifications to hijack your attention.",90)
-case 3:p=r*0.5
+case 1:p=r*0.5
 o=n.b
 return q.$7$bottom$controlPoint$end$left$right$start$text(120,new A.f(p+30,o-90),new A.f(p,o-65),Math.max(24,p-200),Math.max(24,m-p-200),new A.f(p+10,o-120),"Explore Tactics to learn about dark patterns and manipulation techniques.")
-case 4:m=s+40
-return q.$6$controlPoint$end$left$start$text$top(new A.f(m,50),new A.f(s+20,35),24,new A.f(m,90),"Try Simulated mechanics: Infinite Scroll!",90)
-case 5:m=s+68
-return q.$6$controlPoint$end$left$start$text$top(new A.f(s+80,50),new A.f(m,35),24,new A.f(m,90),"Simulate slot-machine effects with pull-to-refresh mechanics.",90)
-case 6:p=r*1.5
+case 2:m=s+40
+return q.$6$controlPoint$end$left$start$text$top(new A.f(m,50),new A.f(s+24,35),24,new A.f(m,90),"Try Simulated mechanics: Gamification!",90)
+case 3:return q.$6$controlPoint$end$left$start$text$top(new A.f(s+80,50),new A.f(s+72,35),24,new A.f(s+68,90),"Generate fake notifications to hijack your attention.",90)
+case 4:p=r*1.5
 o=n.b
 return q.$7$bottom$controlPoint$end$left$right$start$text(120,new A.f(p+30,o-90),new A.f(p,o-65),Math.max(24,p-200),Math.max(24,m-p-200),new A.f(p+10,o-120),"Dive into Research to read deeper articles and behavioral studies.")
-case 7:m=s+40
-return q.$6$controlPoint$end$left$start$text$top(new A.f(m,50),new A.f(s+20,35),24,new A.f(m,90),"Search the Matrix to find specific apps and their associated patterns.",90)
-case 8:p=r*2.5
+case 5:m=s+40
+return q.$6$controlPoint$end$left$start$text$top(new A.f(m,50),new A.f(s+20,35),24,new A.f(m,90),"Try Simulated mechanics: Infinite Scroll!",90)
+case 6:m=s+68
+return q.$6$controlPoint$end$left$start$text$top(new A.f(s+80,50),new A.f(m,35),24,new A.f(m,90),"Simulate slot-machine effects with pull-to-refresh mechanics.",90)
+case 7:p=r*2.5
 o=n.b
 return q.$7$bottom$controlPoint$end$left$right$start$text(120,new A.f(p+30,o-90),new A.f(p,o-65),Math.max(24,p-200),Math.max(24,m-p-200),new A.f(p+10,o-120),"Explore Platforms to discover which applications utilize specific tactics.")
+case 8:m=s+40
+return q.$6$controlPoint$end$left$start$text$top(new A.f(m,50),new A.f(s+20,35),24,new A.f(m,90),"Search the Matrix to find specific apps and their associated patterns.",90)
 case 9:return this.QS("Explore Settings to access all simulated mechanics, including the Fake Paywall.")
 default:return B.aB}},
 QS(a){var s,r=null,q=A.b(a.split("\n"),t.s),p=this.e,o=A.as(16),n=q[0],m=p.r,l=p.c,k=t.kO
@@ -49442,8 +49442,8 @@ A.a9V.prototype={
 $8$bottom$controlPoint$end$left$right$start$text$top(a,b,c,d,e,f,g,h){var s=null,r=this.a
 return new A.bu(B.aq,s,B.N,B.A,A.b([A.lW(0,A.h6(A.fu(s,s,s,new A.M3(r.e.f,f,c,b,s),B.O),!0,s)),A.d0(a,r.QS(g),s,s,d,e,h,s)],t.p),s)},
 $7$controlPoint$end$left$right$start$text$top(a,b,c,d,e,f,g){return this.$8$bottom$controlPoint$end$left$right$start$text$top(null,a,b,c,d,e,f,g)},
-$6$controlPoint$end$left$start$text$top(a,b,c,d,e,f){return this.$8$bottom$controlPoint$end$left$right$start$text$top(null,a,b,c,null,d,e,f)},
 $7$bottom$controlPoint$end$left$right$start$text(a,b,c,d,e,f,g){return this.$8$bottom$controlPoint$end$left$right$start$text$top(a,b,c,d,e,f,g,null)},
+$6$controlPoint$end$left$start$text$top(a,b,c,d,e,f){return this.$8$bottom$controlPoint$end$left$right$start$text$top(null,a,b,c,null,d,e,f)},
 $S:489}
 A.M3.prototype={
 aV(a,b){var s,r,q,p,o,n,m,l=this,k=$.a_(),j=A.aY()
