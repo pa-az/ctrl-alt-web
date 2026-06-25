@@ -48868,7 +48868,7 @@ h=j?B.p.aA(0.2):B.l.aA(0.5)
 g=A.as(24)
 f=A.cj(j?B.l.aA(0.05):c.e.aA(0.5),1)
 e=c.w
-g=A.b([o,B.aV,m,B.dK,l,B.aV,k,B.dK,q,B.dK,i,B.aV,A.a8(r,A.bh(A.b([A.v2(!1,B.a9,r,r,!0,r,r,r,!0,r,r,r,r,r,r,new A.aFf(s,a0),!1,r,r,r,r,r,A.a0("Gamification (Levels & Points)",r,r,r,r,A.bf().$2$color$fontWeight(p,B.aH),r,r),A.aC(B.hx,r,r,e,r,r,r,r,r,r,r,16,r,r),r),B.ho,A.v2(!1,B.a9,r,r,!0,r,r,r,!0,r,r,r,r,r,r,new A.aFg(s,a0),!1,r,r,r,r,r,A.a0("Fake Notifications (Red Dot)",r,r,r,r,A.bf().$2$color$fontWeight(p,B.aH),r,r),A.aC(B.hx,r,r,e,r,r,r,r,r,r,r,16,r,r),r),B.ho,A.v2(!1,B.a9,r,r,!0,r,r,r,!0,r,r,r,r,r,r,new A.aFh(s,a0),!1,r,r,r,r,r,A.a0("Infinite Scroll",r,r,r,r,A.bf().$2$color$fontWeight(p,B.aH),r,r),A.aC(B.hx,r,r,e,r,r,r,r,r,r,r,16,r,r),r),B.ho,A.v2(!1,B.a9,r,r,!0,r,r,r,!0,r,r,r,r,r,r,new A.aFi(s,a0),!1,r,r,r,r,r,A.a0("Pull-to-Refresh",r,r,r,r,A.bf().$2$color$fontWeight(p,B.aH),r,r),A.aC(B.hx,r,r,e,r,r,r,r,r,r,r,16,r,r),r),B.ho,A.v2(!1,B.a9,r,r,!0,r,r,r,!0,r,r,r,r,r,r,new A.aFj(a0,a),!1,r,r,r,r,r,A.a0("Fake Paywall",r,r,r,r,A.bf().$2$color$fontWeight(p,B.aH),r,r),A.aC(B.hx,r,r,e,r,r,r,r,r,r,r,16,r,r),r)],n),B.n,r,B.w,B.q),B.f,r,r,new A.ag(h,r,f,g,r,r,B.r),r,r,r,B.bN,r,r,r)],n)
+g=A.b([o,B.aV,m,B.dK,l,B.aV,k,B.dK,q,B.dK,i,B.aV,A.a8(r,A.bh(A.b([A.v2(!1,B.a9,r,r,!0,r,r,r,!0,r,r,r,r,r,r,new A.aFf(s,a0),!1,r,r,r,r,r,A.a0("Gamification (Levels & Points)",r,r,r,r,A.bf().$2$color$fontWeight(p,B.aH),r,r),A.aC(B.hx,r,r,e,r,r,r,r,r,r,r,16,r,r),r),B.ho,A.v2(!1,B.a9,r,r,!0,r,r,r,!0,r,r,r,r,r,r,new A.aFg(s,a0),!1,r,r,r,r,r,A.a0("Fake Notifications (Red Dot)",r,r,r,r,A.bf().$2$color$fontWeight(p,B.aH),r,r),A.aC(B.hx,r,r,e,r,r,r,r,r,r,r,16,r,r),r),B.ho,A.v2(!1,B.a9,r,r,!0,r,r,r,!0,r,r,r,r,r,r,new A.aFh(s,a0),!1,r,r,r,r,r,A.a0("Infinite Scroll",r,r,r,r,A.bf().$2$color$fontWeight(p,B.aH),r,r),A.aC(B.hx,r,r,e,r,r,r,r,r,r,r,16,r,r),r),B.ho,A.v2(!1,B.a9,r,r,!0,r,r,r,!0,r,r,r,r,r,r,new A.aFi(s,a0),!1,r,r,r,r,r,A.a0("Pull-to-Refresh",r,r,r,r,A.bf().$2$color$fontWeight(p,B.aH),r,r),A.aC(B.hx,r,r,e,r,r,r,r,r,r,r,16,r,r),r),B.ho,A.v2(!1,B.a9,r,r,!0,r,r,r,!0,r,r,r,r,r,r,new A.aFj(a0,a),!1,r,r,r,r,r,A.a0("Unlock & Support Page",r,r,r,r,A.bf().$2$color$fontWeight(p,B.aH),r,r),A.aC(B.hx,r,r,e,r,r,r,r,r,r,r,16,r,r),r)],n),B.n,r,B.w,B.q),B.f,r,r,new A.ag(h,r,f,g,r,r,B.r),r,r,r,B.bN,r,r,r)],n)
 q=s.r
 if(q!=null)B.b.T(g,A.b([B.dK,A.aO(A.a0("v"+q.c+" ("+q.d+")",r,r,r,r,A.bf().$2$color$fontSize(e.aA(0.5),12),r,r),r,r)],n))
 return A.aQM(g,s.d,B.bN)},
@@ -49432,7 +49432,7 @@ o=n.b
 return q.$7$bottom$controlPoint$end$left$right$start$text(120,new A.f(p+30,o-90),new A.f(p,o-65),Math.max(24,p-200),Math.max(24,m-p-200),new A.f(p+10,o-120),"Explore Platforms to discover which applications utilize specific tactics.")
 case 8:m=s+40
 return q.$6$controlPoint$end$left$start$text$top(new A.f(m,50),new A.f(s+20,35),24,new A.f(m,90),"Search the Matrix to find specific apps and their associated patterns.",90)
-case 9:return this.QS("Explore Settings to access all simulated mechanics, including the Fake Paywall.")
+case 9:return this.QS("Explore Settings to access all simulated mechanics, including the Unlock & Support page.")
 default:return B.aB}},
 QS(a){var s,r=null,q=A.b(a.split("\n"),t.s),p=this.e,o=A.as(16),n=q[0],m=p.r,l=p.c,k=t.kO
 n=A.b([A.dd(r,r,r,r,r,r,r,r,r,A.aVB().$5$color$fontSize$fontWeight$height$shadows(m,26,B.aH,1.2,A.b([new A.ia(l.aA(0.8),B.h,10)],k)),n)],t.VO)
