@@ -61,5 +61,26 @@
     "statistic": "5%",
     "sourceName": "Close et al., Addictive Behaviors",
     "citationUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0306460321000368"
+  },
+  {
+    "id": "stat_10",
+    "headline": "Average time adults spend focusing on any single digital screen before switching to another task or app.",
+    "statistic": "47 Seconds",
+    "sourceName": "Dr. Gloria Mark, UC Irvine (2023)",
+    "citationUrl": "https://gloriamark.com/attention-span/"
+  },
+  {
+    "id": "stat_11",
+    "headline": "The reduction in overall productivity caused by \"switch costs\"—the cognitive load required when shifting back and forth between multiple tasks.",
+    "statistic": "Up to 40%",
+    "sourceName": "American Psychological Association (APA)",
+    "citationUrl": "https://www.apa.org/topics/research/multitasking"
+  },
+  {
+    "id": "stat_12",
+    "headline": "Contrary to popular belief, heavy media multitaskers are actually significantly worse at filtering out irrelevant distractions than light multitaskers.",
+    "statistic": "Reduced Focus",
+    "sourceName": "Ophir et al., PNAS (2009)",
+    "citationUrl": "https://www.pnas.org/doi/10.1073/pnas.0903620106"
   }
 ]
