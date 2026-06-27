@@ -50259,8 +50259,8 @@ j=A.am(12)
 i=t.p
 return A.jz(A.e2(g,A.MN(A.bg(A.b([p,B.c7,A.cw(A.bc(A.b([A.bg(A.b([m,A.a1(g,A.Y(""+l.d+" tactics",g,g,g,g,A.aT().$3$color$fontSize$fontWeight(k.w,12,B.aK),g,g),B.f,g,g,new A.a9(k.e,g,g,j,g,g,B.r),g,g,g,B.rt,g,g,g),B.ch,A.aH(B.Up,g,g,h.a.e.w,g,g,g,g,g,g,g,24,g,g)],i),B.o,B.u,B.q,0),B.id,A.Y(f.b,g,g,g,g,A.aT().$3$color$fontSize$height(h.a.e.w,14,1.4),g,g)],i),B.ak,g,B.u,B.a4),1,g)],i),B.o,B.u,B.q,0),g,B.R,new A.a9(s,g,o,q,n,g,B.r),B.V,g,g,B.dt,B.bG,g),B.P,!1,g,g,g,g,g,g,g,g,g,g,g,g,g,g,r,g,g,g,g,g,g),B.fJ,g,new A.axN(h),new A.axO(h),g)},
 abC(a,b,c){var s,r,q,p=null,o=15e5,n=2e6,m=A.aH(a,p,p,b,p,p,p,p,p,p,p,32,p,p)
-switch(c.a){case 0:return new A.bo(B.m,p,B.K,B.x,A.b([A.NJ(m,B.aJ,new A.a2g(p)),A.aN_(A.jg(A.n6(m,B.x,new A.a0_(p)),new A.axz()),0,B.av,A.cl(6e5,0,0),1)],t.p),p)
-case 1:return new A.bo(B.m,p,B.K,B.x,A.b([A.aN_(A.jg(A.a1(p,p,B.f,p,p,new A.a9(b,p,p,A.am(4),p,p,B.r),p,16,p,p,p,p,16),new A.axA()),0,B.av,A.cl(6e5,0,0),1),m],t.p),p)
+switch(c.a){case 0:return new A.bo(B.m,p,B.K,B.x,A.b([A.NJ(m,B.aJ,new A.a2g(p)),A.aN_(A.jg(A.n6(m,B.x,new A.a0_(p)),new A.axz()),0,B.av,A.cl(12e5,0,0),1)],t.p),p)
+case 1:return new A.bo(B.m,p,B.K,B.x,A.b([A.aN_(A.jg(A.a1(p,p,B.f,p,p,new A.a9(b,p,p,A.am(4),p,p,B.r),p,16,p,p,p,p,16),new A.axA()),0,B.av,A.cl(12e5,0,0),1),m],t.p),p)
 case 2:s=A.jg(m,new A.axB())
 r=b.av(0.5)
 q=A.cl(o,0,0)
@@ -50345,13 +50345,13 @@ qE(a){return a.b!==this.b||a.c!==this.c}}
 A.a2g.prototype={
 qq(a){var s=A.c2($.a_().r),r=a.a,q=a.b
 s.az(new A.fs(new A.z(0,0,0+r,0+q)))
-s.az(new A.fs(new A.z(r*0.42,q*0.35,r*0.58,q*0.82)))
+s.az(new A.fs(new A.z(r*0.42,q*0.35,r*0.58,q*0.77)))
 s.sx3(B.F_)
 return s},
 qE(a){return!1}}
 A.a0_.prototype={
 qq(a){var s=a.a,r=a.b
-return new A.z(s*0.42,r*0.35,s*0.58,r*0.82)},
+return new A.z(s*0.42,r*0.35,s*0.58,r*0.77)},
 qE(a){return!1}}
 A.QJ.prototype={
 H(a){var s,r=this
