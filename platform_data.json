@@ -1,0 +1,282 @@
+[
+  {
+    "id": "tiktok",
+    "name": "TikTok",
+    "manipulationPercentage": "98%",
+    "tacticIds": [
+      "infinite_scroll",
+      "shorts_slot_machine",
+      "asymmetric_friction",
+      "status_anxiety"
+    ],
+    "customExamples": {
+      "infinite_scroll": "TikTok's For You Page eliminates any stopping cues, continually loading new videos so you never reach a natural endpoint to your scrolling session.",
+      "shorts_slot_machine": "Swiping up for the next video delivers highly unpredictable rewards. Sometimes you get an incredibly engaging video, and other times you get bored. This unpredictability keeps you swiping just like pulling a slot machine lever.",
+      "asymmetric_friction": "TikTok makes it effortless to keep watching (just a swipe) but makes it comparatively cumbersome to manage your data, delete your account, or limit your usage.",
+      "status_anxiety": "The visible view and like counts on every video drive a constant pursuit of virality and validation among creators and users alike."
+    }
+  },
+  {
+    "id": "instagram",
+    "name": "Instagram",
+    "manipulationPercentage": "90%",
+    "tacticIds": [
+      "halo_effect",
+      "artificial_social_proof",
+      "status_anxiety",
+      "red_dot",
+      "privacy_zuckering",
+      "reciprocity_triggers",
+      "parasocial_relationships"
+    ],
+    "customExamples": {
+      "halo_effect": "In Instagram, seeing highly produced influencer content makes ordinary ads feel more trustworthy, as the glossy aesthetic transfers to the sponsored products seamlessly.",
+      "artificial_social_proof": "Instagram shows \"Liked by [Friend] and 1,234 others\". Highlighting names of people you know leverages your personal trust to validate the content.",
+      "status_anxiety": "Follower counts and engagement metrics on your profile create a constant pressure to perform and curate an idealized life to maintain social standing.",
+      "red_dot": "Bright red notification bubbles for likes and messages hijack your attention, compelling you to open the app even when you weren't planning to.",
+      "privacy_zuckering": "The platform makes it extremely difficult to opt out of targeted advertising and data sharing, burying these controls deep in the settings menu.",
+      "reciprocity_triggers": "When someone follows you or likes your post, the platform notifies you, creating a strong social obligation to follow back or return the engagement.",
+      "parasocial_relationships": "Influencers use Stories to share seemingly intimate, unpolished moments, building a one-sided sense of friendship that they later monetize with sponsored posts."
+    }
+  },
+  {
+    "id": "facebook",
+    "name": "Facebook",
+    "manipulationPercentage": "88%",
+    "tacticIds": [
+      "context_collapse",
+      "outrage_amplification",
+      "red_dot",
+      "privacy_zuckering",
+      "reciprocity_triggers",
+      "parasocial_relationships"
+    ],
+    "customExamples": {
+      "context_collapse": "Facebook blends friends, family, coworkers, and acquaintances into a single feed, forcing you to constantly navigate conflicting social norms and expectations.",
+      "outrage_amplification": "The algorithm prioritizes content that sparks angry reactions and heated debates in the comments, as this drives the highest levels of engagement.",
+      "red_dot": "Facebook's persistent red notification badges for groups, events, and memories create a false sense of urgency, pulling you back into the app repeatedly.",
+      "privacy_zuckering": "Facebook frequently changes its privacy settings and defaults, intentionally confusing users into sharing more personal data than they realize.",
+      "reciprocity_triggers": "Birthday notifications and event invitations leverage social obligations, making you feel compelled to log in and interact to avoid seeming rude.",
+      "parasocial_relationships": "Public figures and politicians use Facebook Live and intimate posts to cultivate a sense of direct connection with their followers, driving fierce loyalty."
+    }
+  },
+  {
+    "id": "youtube",
+    "name": "YouTube",
+    "manipulationPercentage": "92%",
+    "tacticIds": [
+      "frictionless_autoplay",
+      "rabbit_hole_recommendations",
+      "shorts_slot_machine",
+      "native_ads"
+    ],
+    "customExamples": {
+      "frictionless_autoplay": "YouTube automatically starts playing the next suggested video within seconds, removing the conscious choice to continue watching and leading to binge sessions.",
+      "rabbit_hole_recommendations": "The sidebar recommendations gradually steer you toward increasingly extreme, sensationalized, or niche content to maximize your viewing time.",
+      "shorts_slot_machine": "YouTube Shorts employs the same intermittent variable rewards as TikTok, where every swipe is a gamble for a dopamine hit.",
+      "native_ads": "Sponsored segments are seamlessly integrated directly into the creator's video script, blurring the line between entertainment and advertisement."
+    }
+  },
+  {
+    "id": "netflix",
+    "name": "Netflix",
+    "manipulationPercentage": "High Risk",
+    "tacticIds": [
+      "frictionless_autoplay",
+      "cliffhanger_engineering",
+      "watch_time_optimisation",
+      "skip_intro_buttons"
+    ],
+    "customExamples": {
+      "frictionless_autoplay": "Episodes auto-play the instant the previous one ends, often skipping the credits entirely, removing any natural break to turn off the TV.",
+      "cliffhanger_engineering": "Netflix Originals are explicitly structured to end episodes on massive unresolved tensions, exploiting our psychological need for closure.",
+      "watch_time_optimisation": "Everything on the platform is designed purely to maximize your watch time. This includes generating personalized thumbnails and auto-playing trailers the moment you open the app.",
+      "skip_intro_buttons": "While seemingly convenient, \"Skip Intro\" accelerates the transition into the narrative, making it even harder to break the binge-watching trance."
+    }
+  },
+  {
+    "id": "roblox",
+    "name": "Roblox",
+    "manipulationPercentage": "Severe Risk",
+    "tacticIds": [
+      "loot_boxes",
+      "kid_targeted_variable_rewards",
+      "premium_currency_confusion",
+      "age_ambiguity"
+    ],
+    "customExamples": {
+      "loot_boxes": "Games feature \"eggs\" or \"crates\" that players buy with real money for a random chance at rare items, essentially introducing gambling mechanics to children.",
+      "kid_targeted_variable_rewards": "Bright colors, flashy animations, and rare \"legendary\" pets exploit the developing brains of young players who are highly susceptible to intermittent reinforcement.",
+      "premium_currency_confusion": "Robux abstract the real-world cost of items. Players (especially kids) lose track of how much actual money they are spending on digital cosmetics.",
+      "age_ambiguity": "The platform blends games meant for young children with experiences containing mature themes and aggressive monetization, making parental oversight extremely difficult."
+    }
+  },
+  {
+    "id": "twitter",
+    "name": "X",
+    "manipulationPercentage": "85%",
+    "tacticIds": [
+      "outrage_amplification",
+      "doomscrolling",
+      "red_dot"
+    ],
+    "customExamples": {
+      "outrage_amplification": "The \"For You\" timeline heavily surfaces controversial takes and viral dunks, as anger is the most effective emotion for driving replies and quote tweets.",
+      "doomscrolling": "The endless feed of breaking news, hot takes, and global crises keeps users scrolling in a state of high anxiety, constantly searching for the next update.",
+      "red_dot": "Push notifications for irrelevant events (like \"Someone you follow tweeted for the first time in a while\") are used to falsely trigger a sense of urgency."
+    }
+  },
+  {
+    "id": "linkedin",
+    "name": "LinkedIn",
+    "manipulationPercentage": "82%",
+    "tacticIds": [
+      "status_anxiety",
+      "artificial_social_proof",
+      "confirmshaming",
+      "red_dot"
+    ],
+    "customExamples": {
+      "status_anxiety": "Constant updates about peers' promotions and \"humbled and honored\" posts create immense professional insecurity and a fear of falling behind.",
+      "artificial_social_proof": "Endorsements and skill badges are often traded reciprocally rather than earned, creating an inflated sense of professional authority.",
+      "confirmshaming": "Prompts to upgrade to Premium often use manipulative copy like \"No thanks, I don't want to see who viewed my profile,\" playing on professional FOMO.",
+      "red_dot": "LinkedIn aggressively uses notifications for minor network updates (e.g., work anniversaries) to maintain daily active usage among professionals."
+    }
+  },
+  {
+    "id": "snapchat",
+    "name": "Snapchat",
+    "manipulationPercentage": "89%",
+    "tacticIds": [
+      "streaks",
+      "status_anxiety",
+      "phantom_vibration",
+      "halo_effect"
+    ],
+    "customExamples": {
+      "streaks": "Snapstreaks attach a numerical score and a fire emoji to daily communication, transforming friendship into a daily obligation that users are terrified to lose.",
+      "status_anxiety": "Features like Snap Maps and visible read receipts generate constant anxiety about social exclusion. They ensure you always know exactly when your friends are hanging out without you.",
+      "phantom_vibration": "The expectation of fleeting, disappearing messages conditions users to constantly check their phones for updates before they vanish.",
+      "halo_effect": "Heavy use of augmented reality beauty filters distorts self-image, making the unfiltered reality feel inadequate by comparison."
+    }
+  },
+  {
+    "id": "reddit",
+    "name": "Reddit",
+    "manipulationPercentage": "78%",
+    "tacticIds": [
+      "infinite_scroll",
+      "outrage_amplification",
+      "doomscrolling",
+      "rabbit_hole_recommendations"
+    ],
+    "customExamples": {
+      "infinite_scroll": "The mobile app and redesigned website use endless scrolling to keep users browsing through subreddits for hours without a natural stopping point.",
+      "outrage_amplification": "The upvote/downvote system inherently pushes the most polarizing, echo-chamber-validating, and emotionally charged opinions to the top of popular threads.",
+      "doomscrolling": "News and political subreddits create a vortex of negative information that users compulsively read to feel informed, despite the toll on mental health.",
+      "rabbit_hole_recommendations": "Reddit's algorithm suggests increasingly niche or extreme communities based on your browsing history, gradually pulling you deeper into echo chambers."
+    }
+  },
+  {
+    "id": "pinterest",
+    "name": "Pinterest",
+    "manipulationPercentage": "75%",
+    "tacticIds": [
+      "infinite_scroll",
+      "rabbit_hole_recommendations",
+      "halo_effect",
+      "native_ads"
+    ],
+    "customExamples": {
+      "infinite_scroll": "The masonry grid layout eliminates whitespace and stopping cues, encouraging users to endlessly scroll through aesthetically pleasing images.",
+      "rabbit_hole_recommendations": "Clicking on one pin immediately populates a feed of visually similar items, creating an endless loop of aspiration and discovery.",
+      "halo_effect": "The highly curated, idealized aesthetics of home decor and lifestyle pins make the subtly integrated sponsored products seem more premium and desirable.",
+      "native_ads": "Promoted pins are visually indistinguishable from organic content, tricking users into saving and sharing advertisements as personal inspiration."
+    }
+  },
+  {
+    "id": "temu",
+    "name": "Temu",
+    "manipulationPercentage": "95%",
+    "tacticIds": [
+      "false_scarcity",
+      "decoy_pricing",
+      "variable_rewards",
+      "artificial_social_proof"
+    ],
+    "customExamples": {
+      "false_scarcity": "Constant countdown timers (\"Sale ends in 14:02\") and low-stock warnings (\"Only 2 left!\") create intense, manufactured urgency to force impulse purchases.",
+      "decoy_pricing": "Items are shown with massive, fabricated discount percentages (e.g., \"$3.99, marked down from $49.99\") to make the deal feel too good to pass up.",
+      "variable_rewards": "The app uses literal roulette wheels and randomized coupon drops to trigger dopamine rushes, gamifying the shopping experience.",
+      "artificial_social_proof": "Pop-ups constantly declare \"Someone in Texas just bought this!\" to fabricate a sense of high demand and crowd validation."
+    }
+  },
+  {
+    "id": "duolingo",
+    "name": "Duolingo",
+    "manipulationPercentage": "High Risk",
+    "tacticIds": [
+      "streaks",
+      "nagging_prompts",
+      "competitive_leaderboards",
+      "daily_login_rewards",
+      "appointment_mechanics"
+    ],
+    "customExamples": {
+      "streaks": "The flame icon and streak counter turn language learning into a high-stakes daily requirement; losing a long streak feels devastating.",
+      "nagging_prompts": "The passive-aggressive push notifications (e.g., \"These reminders don't seem to be working. We'll stop sending them for now.\") guilt users into returning.",
+      "competitive_leaderboards": "The Diamond League pits users against each other, incentivizing mindless grinding for XP rather than actual language retention.",
+      "daily_login_rewards": "Early Bird and Night Owl chests force users to open the app at specific times of the day to claim XP boosts, dictating their daily schedule.",
+      "appointment_mechanics": "Users must return before their streak freeze expires or their league ends, creating artificial deadlines for engagement."
+    }
+  },
+  {
+    "id": "twitch",
+    "name": "Twitch",
+    "manipulationPercentage": "High Risk",
+    "tacticIds": [
+      "parasocial_relationships",
+      "daily_login_rewards",
+      "artificial_social_proof",
+      "status_anxiety"
+    ],
+    "customExamples": {
+      "parasocial_relationships": "Viewers develop deep, one-sided emotional attachments to streamers, leading them to spend hundreds of dollars on subscriptions and donations to be noticed.",
+      "daily_login_rewards": "Channel points reward viewers simply for leaving the stream open, artificially inflating viewer counts and incentivizing constant background usage.",
+      "artificial_social_proof": "The Hype Train mechanic uses on-screen progress bars and chat notifications to pressure viewers into spending money simply because others are doing it.",
+      "status_anxiety": "Subscriber badges that upgrade based on consecutive months subscribed create immense pressure to never cancel a subscription, for fear of losing status in chat."
+    }
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "manipulationPercentage": "Moderate Risk",
+    "tacticIds": [
+      "hallucinated_authority",
+      "synthetic_companionship",
+      "labor_illusion"
+    ],
+    "customExamples": {
+      "hallucinated_authority": "The AI delivers confidently incorrect information in an authoritative, structured tone, making it dangerously easy to trust without verification.",
+      "synthetic_companionship": "The conversational interface and \"helpful assistant\" persona can lead vulnerable users to project empathy and consciousness onto a language model.",
+      "labor_illusion": "The slow, streaming generation of text gives the false impression that the AI is \"thinking\" deeply about your prompt, increasing the perceived value of the answer."
+    }
+  },
+  {
+    "id": "discord",
+    "name": "Discord",
+    "manipulationPercentage": "Moderate Risk",
+    "tacticIds": [
+      "red_dot",
+      "nagging_prompts",
+      "reciprocity_triggers",
+      "context_collapse"
+    ],
+    "customExamples": {
+      "red_dot": "Countless servers generating unread badges create overwhelming notification anxiety, forcing users to constantly check the app to clear the clutter.",
+      "nagging_prompts": "Constant upsells for Nitro subscriptions interrupt the user experience, especially when trying to use basic features like higher quality screen sharing.",
+      "reciprocity_triggers": "Seeing friends active in voice channels or playing games creates strong social pressure to drop what you're doing and join them.",
+      "context_collapse": "Managing professional servers, gaming groups, and personal friend groups in the same UI leads to high cognitive load and blurred social boundaries."
+    }
+  }
+]
