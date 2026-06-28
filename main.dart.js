@@ -49192,7 +49192,7 @@ r.toString
 s.Kj(B.d.bg(r)-1,B.ar,B.b9)}},
 j(){this.d.j()
 this.ac()},
-H(a9){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e=A.au(a9,!0,t.A).gbu(),d=A.bz(a9,f,t.l).w.a.a>600,c=d?e.r:B.k,b=d?e.w:B.aa,a=d?e.r:B.k,a0=d?e.c:B.p,a1=d?e.w:B.aa,a2=t.p,a3=A.b([g.Gk("Time used to be the ultimate currency. Today, algorithms\nstrip-mine your focus and sell it to the highest bidder.",b,c,"Attention is the New Gold"),g.Gk("Every notification, infinite scroll, and countdown timer is a\nweaponized psychological exploit designed to keep you hooked.",b,c,"The Web is a Trap"),g.Gk("Ctrl+Alt is your cognitive defense manual. Learn to spot the\ndark patterns, break the loops, and reclaim your mind.",b,c,"Take Back Control")],a2),a4=B.p.aw(0.6),a5=A.aSo(10,10),a6=d?800:1/0,a7=d?800:1/0,a8=d?B.Sw:f
+H(a9){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e=A.au(a9,!0,t.A).gbu(),d=A.bz(a9,f,t.l).w.a.a>600,c=d?e.r:B.k,b=d?e.w:B.aa,a=d?e.r:B.k,a0=d?e.c:B.p,a1=d?e.w:B.aa,a2=t.p,a3=A.b([g.Gk("Time used to be the ultimate currency. Today, algorithms\nstrip-mine your focus and sell it to the highest bidder.",b,c,"Attention is the New Gold"),g.Gk("Every notification, infinite scroll, and countdown timer is a\nweaponized psychological exploit designed to keep you hooked.",b,c,"The Web is a Trap"),g.Gk("Ctrl+Alt is your cognitive defense manual. Learn to spot the\ndark patterns, break the loops, and reclaim your mind.",b,c,"Take Back Control")],a2),a4=B.p.aw(0.6),a5=A.aSo(10,10),a6=d?600:1/0,a7=d?520:1/0,a8=d?B.Sw:f
 if(d){s=A.am(24)
 r=e.x
 s=new A.a6(e.c,f,A.c5(A.aJ(51,r.D()>>>16&255,r.D()>>>8&255,r.D()&255),1),s,A.b([new A.cn(0,B.ax,A.aJ(B.d.bg(127.5),B.p.D()>>>16&255,B.p.D()>>>8&255,B.p.D()&255),B.a8L,32)],t.V),f,B.r)}else s=f
