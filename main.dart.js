@@ -48793,7 +48793,7 @@ s.a2(new A.ayT(s,this.b))},
 $S:0}
 A.ayT.prototype={
 $0(){var s,r=this.a,q=this.b
-if(r.x!==q||r.y){s=$.a9Z()
+if(r.x===q&&!r.y){if(q===0)r.as="All"}else{s=$.a9Z()
 s.sm(s.a+1)}r.x=q
 r.y=!1
 if(q!==2)r.vH()},
