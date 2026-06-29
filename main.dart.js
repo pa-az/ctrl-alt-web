@@ -53890,7 +53890,7 @@ r=A.ch(A.b([s,A.ch(k,k,k,k,k,k,k,k,k,k,r)],t.VO),k,k,k,k,k,k,k,k,k,k)
 s=l.c
 s.toString
 s=A.bq(s,B.cJ,t.l).w.a.a>600?18:15
-B.b.V(h,A.b([A.Yw(r,A.aX().$3$color$fontSize$height(a.w,s,1.5),k),B.aU],i))}s=a.f
+B.b.V(h,A.b([A.Yw(r,A.aX().$3$color$fontSize$height(a.w,s,1.25),k),B.aU],i))}s=a.f
 r=t.VO
 q=A.ch(A.b([A.ch(k,k,k,k,k,k,k,k,k,A.aX().$2$color$fontWeight(s,B.y),"The Fix: "),A.ch(k,k,k,k,k,k,k,k,k,k,l.a.c.e)],r),k,k,k,k,k,k,k,k,k,k)
 p=l.c
@@ -53898,7 +53898,7 @@ p.toString
 o=t.l
 p=A.bq(p,B.cJ,o).w.a.a>600?18:15
 n=a.r
-h.push(A.Yw(q,A.aX().$3$color$fontSize$height(n,p,1.6),k))
+h.push(A.Yw(q,A.aX().$3$color$fontSize$height(n,p,1.25),k))
 h.push(B.aU)
 h.push(B.fL)
 q=l.c
