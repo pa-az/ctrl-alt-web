@@ -53847,17 +53847,17 @@ h.push(B.aU)
 h.push(B.fL)
 q=l.c
 q.toString
-p=A.co(k,k,k,k,k,k,k,k,k,A.aW().$3$color$fontSize$fontWeight(n,A.bq(q,B.cK,o).w.a.a>600?18:15,B.y),"Origin: ")
+p=A.co(k,k,k,k,k,k,k,k,k,A.aW().$3$color$fontSize$fontWeight(n,A.bq(q,B.cK,o).w.a.a>600?16:13,B.y),"Origin: ")
 n=l.a.c
 m=a.w
 r=A.co(A.b([p,A.co(k,k,k,k,k,k,k,k,k,A.aW().$2$color$fontStyle(m.aw(0.7),B.ch),n.d)],r),k,k,k,k,k,k,k,k,k,k)
 q=l.c
 q.toString
-h.push(A.avJ(r,A.aW().$3$color$fontSize$height(m,A.bq(q,B.cK,o).w.a.a>600?16:14,1.5),k))
+h.push(A.avJ(r,A.aW().$3$color$fontSize$height(m,A.bq(q,B.cK,o).w.a.a>600?14:12,1.5),k))
 r=l.a.c.x
 if(r.length!==0){q=l.c
 q.toString
-q=A.bq(q,B.cK,o).w.a.a>600?16:14
+q=A.bq(q,B.cK,o).w.a.a>600?14:12
 h.push(A.Z(r,k,k,k,k,A.aW().$4$color$fontSize$fontStyle$height(m.aw(0.7),q,B.ch,1.4),k,k))}if(l.a.d)h.push(B.ca)
 h=A.b([new A.FG(B.SC,new A.XV(A.bi(h,B.an,B.w,B.r,B.C),!1,k),k)],i)
 j=A.b([A.bi(A.b([A.cS(A.aQe(new A.QQ(h,B.aN,!1,j,k,k,k,!1,k,0,k,k,B.im,B.K,k,k,B.u,B.aH,k),j,!0),1,k)],i),B.an,B.w,B.r,B.C)],i)
