@@ -51535,8 +51535,8 @@ return A.a_(s,new A.b7(B.m,s,B.G,B.u,q,s),B.f,s,s,B.LX,s,48,s,s,s,s,48)},
 acS(a,b){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g=J.ly(i.a.d,new A.ayK(a)).gK(0),f=a.a,e=$.b24().i(0,f)
 if(e==null)e=B.NI
 s=i.a.e.f
-r=A.cz(B.by,A.Y(f.c.toUpperCase(),h,h,h,h,A.fd().$4$color$fontSize$fontWeight$letterSpacing(s,b?18:14,B.y,1.2),h,h),B.a6)
-q=b?12:10
+r=A.cz(B.by,A.Y(f.c.toUpperCase(),h,h,h,h,A.fd().$4$color$fontSize$fontWeight$letterSpacing(s,b?20:16,B.y,1.2),h,h),B.a6)
+q=b?14:12
 p=t.p
 o=A.bi(A.b([r,B.ik,A.cz(B.by,A.Y(a.c,h,h,h,h,A.aZ().$3$color$fontSize$height(i.a.e.w,q,1.4),h,h),B.a6)],p),B.al,B.w,B.Z,B.C)
 if(b){r=i.a.e.e.av(0.5)
@@ -51545,7 +51545,7 @@ n=A.a_(h,A.be(A.b([A.Y(""+g+" tactics",h,h,h,h,A.aZ().$3$color$fontSize$fontWeig
 r=i.a.e.f.av(0.1)
 q=i.a.e
 m=A.c_(q.f,1)
-l=A.a_(h,A.aM(new A.Oi(e.a,s,f,!0,q,h),h,h),B.f,h,h,new A.a4(r,h,m,h,h,h,B.ab),h,56,B.SH,h,h,h,56)
+l=A.a_(h,A.aM(new A.Oi(e.a,s,f,!0,q,h),h,h),B.f,h,h,new A.a4(r,h,m,h,h,h,B.ab),h,44,B.SH,h,h,h,44)
 f=b?320:250
 q=q.d.av(0.95)
 r=A.an(20)
