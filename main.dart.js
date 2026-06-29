@@ -53896,7 +53896,7 @@ q=A.ch(A.b([A.ch(k,k,k,k,k,k,k,k,k,A.aX().$2$color$fontWeight(s,B.y),"The Fix: "
 p=l.c
 p.toString
 o=t.l
-p=A.bq(p,B.cJ,o).w.a.a>600?18:15
+p=A.bq(p,B.cJ,o).w.a.a>600?16:13
 n=a.r
 h.push(A.Yw(q,A.aX().$3$color$fontSize$height(n,p,1.25),k))
 h.push(B.aU)
