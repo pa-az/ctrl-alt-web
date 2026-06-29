@@ -51433,7 +51433,7 @@ n=q+80
 return l.$7$controlPoint$end$left$right$start$text$top(new A.f(j+20,q+65),new A.f(j,q+45),24,24,new A.f(j,n),"Eye Buddy!\n(busy distracting you...)",n)
 case 1:j/=2
 n=k.b-p
-return l.$7$bottom$controlPoint$end$left$right$start$text(p+120,new A.f(j+40,n-220),new A.f(j,n-260),24,24,new A.f(j,n-180),"Explore the new interactive Brain Map to see how dark patterns affect your mind!")
+return l.$7$bottom$controlPoint$end$left$right$start$text(p+120,new A.f(j+40,n-220),new A.f(j,n-260),24,24,new A.f(j,n-180),"Explore patterns based on affected brain regions")
 case 2:n=o*0.5
 m=k.b-p
 return l.$7$bottom$controlPoint$end$left$right$start$text(p+120,new A.f(n+30,m-90),new A.f(n,m-65),Math.max(24,n-200),Math.max(24,j-n-200),new A.f(n+10,m-120),"Explore Tactics to learn about dark patterns and manipulation techniques.")
@@ -51457,9 +51457,9 @@ return l.$7$bottom$controlPoint$end$left$right$start$text(p+120,new A.f(n+40,m-9
 default:return B.az}}}
 A.ac1.prototype={
 $9$alignment$bottom$controlPoint$end$left$right$start$text$top(a,b,c,d,e,f,g,h,i){var s,r=null,q=this.a.e,p=A.ok(0,A.hB(A.fz(r,r,r,new A.Nl(q.f,g,d,c,r),B.S),!0,r)),o=a==null?B.m:a,n=A.b(h.split("\n"),t.s),m=A.an(16),l=n[0],k=q.c
-l=A.b([A.d9(r,r,r,r,r,r,r,r,r,A.aZN().$4$color$fontSize$fontWeight$height(k,26,B.aN,1.2),l)],t.VO)
+l=A.b([A.d9(r,r,r,r,r,r,r,r,r,A.aZN().$4$color$fontSize$fontWeight$height(k,22,B.aN,1.2),l)],t.VO)
 if(n.length>1){s=B.b.bW(B.b.fF(n,1),"\n")
-l.push(A.d9(r,r,r,r,r,r,r,r,r,A.aZN().$4$color$fontSize$fontWeight$height(k.av(0.8),20,B.ae,1.2),"\n"+s))}k=t.p
+l.push(A.d9(r,r,r,r,r,r,r,r,r,A.aZN().$4$color$fontSize$fontWeight$height(k.av(0.8),16,B.ae,1.2),"\n"+s))}k=t.p
 return new A.b7(B.ar,r,B.G,B.u,A.b([p,A.cw(b,new A.cH(o,r,r,A.a_(r,A.bi(A.b([A.rP(r,r,r,B.bB,r,r,!0,r,A.d9(l,r,r,r,r,r,r,r,r,r,r),B.b0,r,r,B.aq,B.as)],k),B.o,B.v,B.Z,B.C),B.f,r,B.LV,new A.a4(q.r,r,r,m,r,r,B.q),r,r,r,B.dv,r,r,r),r),r,r,e,f,i,r)],k),r)},
 $7$controlPoint$end$left$right$start$text$top(a,b,c,d,e,f,g){return this.$9$alignment$bottom$controlPoint$end$left$right$start$text$top(null,null,a,b,c,d,e,f,g)},
 $7$bottom$controlPoint$end$left$right$start$text(a,b,c,d,e,f,g){return this.$9$alignment$bottom$controlPoint$end$left$right$start$text$top(null,a,b,c,d,e,f,g,null)},
