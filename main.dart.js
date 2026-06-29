@@ -51519,7 +51519,7 @@ r=A.Y(f.c.toUpperCase(),h,h,h,h,A.fd().$4$color$fontSize$fontWeight$letterSpacin
 q=B.c.oq(a.c," (","\n(")
 p=b?12:10
 o=t.p
-n=A.bi(A.b([r,B.ik,A.Y(q,h,h,h,h,A.aZ().$3$color$fontSize$height(i.a.e.x,p,1.4),h,h)],o),B.al,B.v,B.Z,B.C)
+n=A.bi(A.b([r,B.ik,A.Y(q,h,h,h,h,A.aZ().$3$color$fontSize$height(i.a.e.w,p,1.4),h,h)],o),B.al,B.v,B.Z,B.C)
 if(b){r=i.a.e.e.av(0.5)
 q=A.an(8)
 m=A.a0(h,A.be(A.b([A.Y(""+g+" tactics",h,h,h,h,A.aZ().$3$color$fontSize$fontWeight(i.a.e.r,10,B.aN),h,h),B.p7,A.aE(B.Ty,h,h,i.a.e.r,h,h,h,h,h,h,h,10,h,h)],o),B.o,B.v,B.Z,0),B.f,h,h,new A.a4(r,h,h,q,h,h,B.q),h,h,h,B.rJ,h,h,h)}else m=h
