@@ -50186,8 +50186,9 @@ $0(){var s=this.a
 s.a3(new A.aAU(s))},
 $S:0}
 A.aAU.prototype={
-$0(){var s=this.a
-return s.id=!s.id},
+$0(){var s=this.a,r=!s.id
+if(r)s.as="All"
+s.id=r},
 $S:0}
 A.aBg.prototype={
 $0(){var s,r,q,p=A.b(["All"],t.s),o=this.a,n=o.as
