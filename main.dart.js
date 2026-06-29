@@ -51486,18 +51486,18 @@ f=d.b-p
 return e.$7$bottom$controlPoint$end$left$right$start$text(p+120,new A.f(n+30,f-90),new A.f(n,f-65),Math.max(24,n-200),Math.max(24,c-n-200),new A.f(n+10,f-120),"Explore Tactics to learn about dark patterns and manipulation techniques.")
 case 3:c=s+40
 n=q+90
-return e.$8$alignment$controlPoint$end$left$right$start$text$top(B.by,new A.f(c,q+50),new A.f(s+24,q+25),24,24,new A.f(c,n),"Try Simulated mechanics: Gamification!",n)
+return e.$8$alignment$controlPoint$end$left$right$start$text$top(B.by,new A.f(c,q+50),new A.f(s+24,q+25),Math.max(24,s-24),24,new A.f(c,n),"Try Simulated mechanics: Gamification!",n)
 case 4:c=q+90
-return e.$8$alignment$controlPoint$end$left$right$start$text$top(B.by,new A.f(s+80,q+50),new A.f(s+72,q+25),24,24,new A.f(s+68,c),"Generate fake notifications to hijack your attention.",c)
+return e.$8$alignment$controlPoint$end$left$right$start$text$top(B.by,new A.f(s+80,q+50),new A.f(s+72,q+25),Math.max(24,s-24),24,new A.f(s+68,c),"Generate fake notifications to hijack your attention.",c)
 case 5:n=o*1.5
 f=d.b-p
 return e.$7$bottom$controlPoint$end$left$right$start$text(p+120,new A.f(n+30,f-90),new A.f(n,f-65),Math.max(24,n-200),Math.max(24,c-n-200),new A.f(n+10,f-120),"Dive into Research to read deeper articles and behavioral studies.")
 case 6:c=s+40
 n=q+90
-return e.$8$alignment$controlPoint$end$left$right$start$text$top(B.by,new A.f(c,q+50),new A.f(s+20,q+25),24,24,new A.f(c,n),"Try Simulated mechanics: Infinite Scroll!",n)
+return e.$8$alignment$controlPoint$end$left$right$start$text$top(B.by,new A.f(c,q+50),new A.f(s+20,q+25),Math.max(24,s-24),24,new A.f(c,n),"Try Simulated mechanics: Infinite Scroll!",n)
 case 7:c=s+68
 n=q+90
-return e.$8$alignment$controlPoint$end$left$right$start$text$top(B.by,new A.f(s+80,q+50),new A.f(c,q+25),24,24,new A.f(c,n),"Pull to Refresh Mechanic",n)
+return e.$8$alignment$controlPoint$end$left$right$start$text$top(B.by,new A.f(s+80,q+50),new A.f(c,q+25),Math.max(24,s-24),24,new A.f(c,n),"Pull to Refresh Mechanic",n)
 case 8:n=o*2.5
 f=d.b-p
 return e.$7$bottom$controlPoint$end$left$right$start$text(p+120,new A.f(n+40,f-90),new A.f(n+25,f-65),Math.max(24,n-200),Math.max(24,c-n-200),new A.f(n+30,f-120),"Discover Application Specific tactics")
