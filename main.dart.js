@@ -51502,9 +51502,11 @@ r.a3(new A.az_(r))}},
 G(a){return A.vN(new A.ayY(this))},
 acm(a,b,c,d){var s=null
 return A.jL(A.dv(s,this.acy(b,d),B.K,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.ayN(this,b,a),s,s,s,s,s,s),B.eB,s,s,s,s)},
-acw(a,b,c){var s=null,r=A.as5(A.Bo(A.iD(A.dv(s,this.ach(a,b),B.K,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.ayP(this,a),s,s,s,s,s,s),s),s,s,A.c7(2e5,0,0),s),B.a9R,B.hn,A.c7(3e5,0,0),B.oq),q=a.b.b<0,p=q?c*0.85:c*0.15
-if(q)return A.cw(c-p+24,A.aM(r,s,s),s,s,0,0,s,s)
-else return A.cw(s,A.aM(r,s,s),s,s,0,0,p+24,s)},
+acw(a,b,c){var s,r=this,q=null,p=A.as5(A.Bo(A.iD(A.dv(q,r.ach(a,b),B.K,!1,q,q,q,q,q,q,q,q,q,q,q,q,q,q,new A.ayP(r,a),q,q,q,q,q,q),q),q,q,A.c7(2e5,0,0),q),B.a9R,B.hn,A.c7(3e5,0,0),B.oq),o=a.b.b<0
+if(o)s=c*(r.e?0.8:0.7)
+else s=c*(r.e?0.2:0.3)
+if(o)return A.cw(c-s+24,A.aM(p,q,q),q,q,0,0,q,q)
+else return A.cw(q,A.aM(p,q,q),q,q,0,0,s+24,q)},
 acy(a,b){var s=null,r=this.a.e.f,q=A.b([A.a_(s,s,B.f,s,s,new A.a3(r,s,s,s,A.b([new A.ci(2,B.at,r.aq(0.5),B.h,8)],t.V),s,B.ab),s,14,s,s,s,s,14)],t.p)
 if(!a&&!b)q.push(A.Bo(A.as5(A.iD(A.a_(s,s,B.f,s,s,new A.a3(s,s,A.bX(r,2),s,s,s,B.ab),s,32,s,s,s,s,32),new A.ayQ()),B.aaf,B.cs,A.c7(2e6,0,0),B.aa_),1,B.cs,A.c7(2e6,0,0),0))
 if(a)q.push(A.a_(s,s,B.f,s,s,new A.a3(s,s,A.bX(r,3),s,s,s,B.ab),s,24,s,s,s,s,24))
@@ -51548,20 +51550,22 @@ r=1
 q=0
 p=0
 if(h.a.f!=="All"){s=null
-try{s=B.b.Du(B.o2,new A.ayS(h))}catch(o){}if(s!=null){n=s.b
+try{s=B.b.Du(B.o2,new A.ayS(h))}catch(o){}if(s!=null){n=h.e
+r=n?1.7:1.4
 m=s.b
-l=s.b.b<0?0.85:0.15
-q=f/2-1.35*((n.a+1)/2*f)
-p=f*l-1.35*((m.b+1)/2*f)
-r=1.35}}k=new A.b3(new Float64Array(16))
-k.dH()
-if(h.a.f!=="All"){k=A.mg(q,p,0)
-k.kY(r,r,r,1)}n=t.p
+l=s.b
+if(s.b.b<0)k=n?0.8:0.7
+else k=n?0.2:0.3
+q=f/2-r*((m.a+1)/2*f)
+p=f*k-r*((l.b+1)/2*f)}}j=new A.b3(new Float64Array(16))
+j.dH()
+if(h.a.f!=="All"){j=A.mg(q,p,0)
+j.kY(r,r,r,1)}n=t.p
 m=A.b([A.aM(new A.vy(A.b7Y(i,i,new A.zJ("assets/brain.png",i,i)),B.Le,B.M0,i),i,i)],n)
-j=t.zI
-B.b.V(m,new A.ag(B.o2,new A.ayT(h,g),j))
-n=A.b([A.aQr(new A.ayU(),new A.b7(B.ar,i,B.G,B.f,m,i),B.Rh,B.cu,new A.ayV(h),new A.o6(i,k),t.xV)],n)
-if(!h.d)B.b.V(n,new A.ag(B.o2,new A.ayW(h,g,f),j))
+l=t.zI
+B.b.V(m,new A.ag(B.o2,new A.ayT(h,g),l))
+n=A.b([A.aQr(new A.ayU(),new A.b7(B.ar,i,B.G,B.f,m,i),B.Rh,B.cu,new A.ayV(h),new A.o6(i,j),t.xV)],n)
+if(!h.d)B.b.V(n,new A.ag(B.o2,new A.ayW(h,g,f),l))
 return A.dv(B.cz,A.a_(i,new A.cH(B.c1,i,i,A.bl(new A.b7(B.ar,i,B.G,B.f,n,i),f,f),i),B.f,i,i,i,i,i,i,B.SB,i,i,1/0),B.K,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,new A.ayX(h),i,i,i,i,i,i)},
 $S:404}
 A.ayS.prototype={
