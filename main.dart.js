@@ -51551,11 +51551,11 @@ q=0
 p=0
 if(h.a.f!=="All"){s=null
 try{s=B.b.Du(B.o1,new A.ayS(h))}catch(o){}if(s!=null){n=h.e
-r=n?1.7:1.4
+r=n?2.2:2
 m=s.b
 l=s.b
-if(s.b.b<0)k=n?0.8:0.7
-else k=n?0.2:0.3
+if(s.b.b<0)k=n?0.85:0.8
+else k=n?0.15:0.2
 q=f/2-r*((m.a+1)/2*f)
 p=f*k-r*((l.b+1)/2*f)}}j=new A.b3(new Float64Array(16))
 j.dH()
