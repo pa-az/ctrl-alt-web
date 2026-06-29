@@ -51458,47 +51458,49 @@ this.bs()}}
 A.NB.prototype={
 G(a){var s=null
 return A.dA(B.aH,new A.b7(B.ar,s,B.G,B.u,A.b([A.om(0,A.a0(s,s,B.f,B.v,s,s,s,s,s,s,s,s,s)),this.acH(a,this.c)],t.p),s),B.K,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,this.d,s,s,s,s,s,s)},
-acH(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=t.l,e=A.bq(a,null,f).w.a,d=e.a
-if(d<600)s=16
-else s=d>1000?(d-1000)/2+32:32
-r=A.bq(a,null,f).w.r
+acH(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=t.l,d=A.bq(a,null,e).w.a,c=d.a
+if(c<600)s=16
+else s=c>1000?(c-1000)/2+32:32
+r=A.bq(a,null,e).w.r
 q=r.b
 p=r.d
-o=d/4
-f=new A.ac9(this)
-switch(b){case 0:d/=2
+o=c/4
+e=new A.ac9(this)
+switch(b){case 0:c/=2
 n=q+80
-return f.$7$controlPoint$end$left$right$start$text$top(new A.f(d+20,q+65),new A.f(d,q+45),24,24,new A.f(d,n),"Eye Buddy!\n(busy distracting you...)",n)
-case 1:n=Math.min(d,1000)
-m=n>800?600:n*0.9
-l=q+90+m
-k=l+20
-j=e.b-p-160
-if(k>j)k=j
-i=k-10
-h=l-60
-d/=2
-return f.$7$controlPoint$end$left$right$start$text$top(new A.f(d+40,(i+h)/2),new A.f(d,h),24,24,new A.f(d,i),"Explore patterns based on affected brain regions",k)
+return e.$7$controlPoint$end$left$right$start$text$top(new A.f(c+20,q+65),new A.f(c,q+45),24,24,new A.f(c,n),"Eye Buddy!\n(busy distracting you...)",n)
+case 1:n=Math.min(c,1000)
+m=n>800
+l=m?600:n*0.9
+n=m?0.75:0.85
+k=q+90+l*n
+j=k+20
+i=d.b-p-160
+if(j>i)j=i
+h=j-10
+g=k-60
+c/=2
+return e.$7$controlPoint$end$left$right$start$text$top(new A.f(c+40,(h+g)/2),new A.f(c,g),24,24,new A.f(c,h),"Explore patterns based on affected brain regions",j)
 case 2:n=o*0.5
-g=e.b-p
-return f.$7$bottom$controlPoint$end$left$right$start$text(p+120,new A.f(n+30,g-90),new A.f(n,g-65),Math.max(24,n-200),Math.max(24,d-n-200),new A.f(n+10,g-120),"Explore Tactics to learn about dark patterns and manipulation techniques.")
-case 3:d=s+40
+f=d.b-p
+return e.$7$bottom$controlPoint$end$left$right$start$text(p+120,new A.f(n+30,f-90),new A.f(n,f-65),Math.max(24,n-200),Math.max(24,c-n-200),new A.f(n+10,f-120),"Explore Tactics to learn about dark patterns and manipulation techniques.")
+case 3:c=s+40
 n=q+90
-return f.$8$alignment$controlPoint$end$left$right$start$text$top(B.by,new A.f(d,q+50),new A.f(s+24,q+25),24,24,new A.f(d,n),"Try Simulated mechanics: Gamification!",n)
-case 4:d=q+90
-return f.$8$alignment$controlPoint$end$left$right$start$text$top(B.by,new A.f(s+80,q+50),new A.f(s+72,q+25),24,24,new A.f(s+68,d),"Generate fake notifications to hijack your attention.",d)
+return e.$8$alignment$controlPoint$end$left$right$start$text$top(B.by,new A.f(c,q+50),new A.f(s+24,q+25),24,24,new A.f(c,n),"Try Simulated mechanics: Gamification!",n)
+case 4:c=q+90
+return e.$8$alignment$controlPoint$end$left$right$start$text$top(B.by,new A.f(s+80,q+50),new A.f(s+72,q+25),24,24,new A.f(s+68,c),"Generate fake notifications to hijack your attention.",c)
 case 5:n=o*1.5
-g=e.b-p
-return f.$7$bottom$controlPoint$end$left$right$start$text(p+120,new A.f(n+30,g-90),new A.f(n,g-65),Math.max(24,n-200),Math.max(24,d-n-200),new A.f(n+10,g-120),"Dive into Research to read deeper articles and behavioral studies.")
-case 6:d=s+40
+f=d.b-p
+return e.$7$bottom$controlPoint$end$left$right$start$text(p+120,new A.f(n+30,f-90),new A.f(n,f-65),Math.max(24,n-200),Math.max(24,c-n-200),new A.f(n+10,f-120),"Dive into Research to read deeper articles and behavioral studies.")
+case 6:c=s+40
 n=q+90
-return f.$8$alignment$controlPoint$end$left$right$start$text$top(B.by,new A.f(d,q+50),new A.f(s+20,q+25),24,24,new A.f(d,n),"Try Simulated mechanics: Infinite Scroll!",n)
-case 7:d=s+68
+return e.$8$alignment$controlPoint$end$left$right$start$text$top(B.by,new A.f(c,q+50),new A.f(s+20,q+25),24,24,new A.f(c,n),"Try Simulated mechanics: Infinite Scroll!",n)
+case 7:c=s+68
 n=q+90
-return f.$8$alignment$controlPoint$end$left$right$start$text$top(B.by,new A.f(s+80,q+50),new A.f(d,q+25),24,24,new A.f(d,n),"Pull to Refresh Mechanic",n)
+return e.$8$alignment$controlPoint$end$left$right$start$text$top(B.by,new A.f(s+80,q+50),new A.f(c,q+25),24,24,new A.f(c,n),"Pull to Refresh Mechanic",n)
 case 8:n=o*2.5
-g=e.b-p
-return f.$7$bottom$controlPoint$end$left$right$start$text(p+120,new A.f(n+40,g-90),new A.f(n+25,g-65),Math.max(24,n-200),Math.max(24,d-n-200),new A.f(n+30,g-120),"Discover Application Specific tactics")
+f=d.b-p
+return e.$7$bottom$controlPoint$end$left$right$start$text(p+120,new A.f(n+40,f-90),new A.f(n+25,f-65),Math.max(24,n-200),Math.max(24,c-n-200),new A.f(n+30,f-120),"Discover Application Specific tactics")
 default:return B.aA}}}
 A.ac9.prototype={
 $9$alignment$bottom$controlPoint$end$left$right$start$text$top(a,b,c,d,e,f,g,h,i){var s,r=null,q=this.a.e,p=A.om(0,A.hB(A.fz(r,r,r,new A.Nl(q.f,g,d,c,r),B.S),!0,r)),o=a==null?B.m:a,n=A.b(h.split("\n"),t.s),m=A.an(16),l=n[0],k=q.c
