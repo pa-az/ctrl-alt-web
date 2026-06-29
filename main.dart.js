@@ -51497,15 +51497,15 @@ A.a0T.prototype={
 bd(a){var s,r=this
 r.bn(a)
 s=r.a.f
-if(s!==a.f){r.e=!1
-if(s!=="All")r.a3(new A.ayZ(r))
-else r.a3(new A.az_(r))}},
+if(s!==a.f)if(s!=="All"){r.e=!0
+r.a3(new A.ayZ(r))}else{r.e=!1
+r.a3(new A.az_(r))}},
 G(a){return A.vN(new A.ayY(this))},
 acm(a,b,c,d){var s=null
 return A.jL(A.dv(s,this.acy(b,d),B.K,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.ayN(this,b,a),s,s,s,s,s,s),B.eB,s,s,s,s)},
-acw(a,b,c){var s=null,r=A.as4(A.Bo(A.iD(A.dv(s,this.ach(a,b),B.K,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.ayP(this,a),s,s,s,s,s,s),s),s,s,A.c7(2e5,0,0),s),B.a9Q,B.hn,A.c7(3e5,0,0),B.oq),q=c/2
-if(a.b.b<0)return A.cw(c-q+24,A.aM(r,s,s),s,s,0,0,s,s)
-else return A.cw(s,A.aM(r,s,s),s,s,0,0,q+24,s)},
+acw(a,b,c){var s=null,r=A.as4(A.Bo(A.iD(A.dv(s,this.ach(a,b),B.K,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.ayP(this,a),s,s,s,s,s,s),s),s,s,A.c7(2e5,0,0),s),B.a9Q,B.hn,A.c7(3e5,0,0),B.oq),q=a.b.b<0,p=q?c*0.85:c*0.15
+if(q)return A.cw(c-p+24,A.aM(r,s,s),s,s,0,0,s,s)
+else return A.cw(s,A.aM(r,s,s),s,s,0,0,p+24,s)},
 acy(a,b){var s=null,r=this.a.e.f,q=A.b([A.a0(s,s,B.f,s,s,new A.a5(r,s,s,s,A.b([new A.ci(2,B.at,r.aq(0.5),B.h,8)],t.V),s,B.ab),s,14,s,s,s,s,14)],t.p)
 if(!a&&!b)q.push(A.Bo(A.as4(A.iD(A.a0(s,s,B.f,s,s,new A.a5(s,s,A.c_(r,2),s,s,s,B.ab),s,32,s,s,s,s,32),new A.ayQ()),B.aae,B.cr,A.c7(2e6,0,0),B.a9Z),1,B.cr,A.c7(2e6,0,0),0))
 if(a)q.push(A.a0(s,s,B.f,s,s,new A.a5(s,s,A.c_(r,3),s,s,s,B.ab),s,24,s,s,s,s,24))
@@ -51543,25 +51543,27 @@ A.az_.prototype={
 $0(){this.a.d=!1},
 $S:0}
 A.ayY.prototype={
-$2(a,b){var s,r,q,p,o,n,m,l,k,j=null,i=b.b,h=i>800,g=h?600:i*0.9
-i=this.a
+$2(a,b){var s,r,q,p,o,n,m,l,k,j,i=null,h=b.b,g=h>800,f=g?600:h*0.9
+h=this.a
 r=1
 q=0
 p=0
-if(i.a.f!=="All"){s=null
-try{s=B.b.Du(B.o2,new A.ayS(i))}catch(o){}if(s!=null){n=g/2
-q=n-1.35*((s.b.a+1)/2*g)
-p=n-1.35*((s.b.b+1)/2*g)
-r=1.35}}m=new A.b3(new Float64Array(16))
-m.dH()
-if(i.a.f!=="All"){m=A.mg(q,p,0)
-m.kY(r,r,r,1)}n=t.p
-l=A.b([A.aM(new A.vy(A.b7Y(j,j,new A.zJ("assets/brain.png",j,j)),B.Le,B.M0,j),j,j)],n)
-k=t.zI
-B.b.V(l,new A.ag(B.o2,new A.ayT(i,h),k))
-n=A.b([A.aQr(new A.ayU(),new A.b7(B.ar,j,B.G,B.f,l,j),B.Rh,B.ct,new A.ayV(i),new A.o6(j,m),t.xV)],n)
-if(!i.d)B.b.V(n,new A.ag(B.o2,new A.ayW(i,h,g),k))
-return A.dv(B.cy,A.a0(j,new A.cH(B.c1,j,j,A.bl(new A.b7(B.ar,j,B.G,B.f,n,j),g,g),j),B.f,j,j,j,j,j,j,B.SB,j,j,1/0),B.K,!1,j,j,j,j,j,j,j,j,j,j,j,j,j,j,new A.ayX(i),j,j,j,j,j,j)},
+if(h.a.f!=="All"){s=null
+try{s=B.b.Du(B.o2,new A.ayS(h))}catch(o){}if(s!=null){n=s.b
+m=s.b
+l=s.b.b<0?0.85:0.15
+q=f/2-1.35*((n.a+1)/2*f)
+p=f*l-1.35*((m.b+1)/2*f)
+r=1.35}}k=new A.b3(new Float64Array(16))
+k.dH()
+if(h.a.f!=="All"){k=A.mg(q,p,0)
+k.kY(r,r,r,1)}n=t.p
+m=A.b([A.aM(new A.vy(A.b7Y(i,i,new A.zJ("assets/brain.png",i,i)),B.Le,B.M0,i),i,i)],n)
+j=t.zI
+B.b.V(m,new A.ag(B.o2,new A.ayT(h,g),j))
+n=A.b([A.aQr(new A.ayU(),new A.b7(B.ar,i,B.G,B.f,m,i),B.Rh,B.ct,new A.ayV(h),new A.o6(i,k),t.xV)],n)
+if(!h.d)B.b.V(n,new A.ag(B.o2,new A.ayW(h,g,f),j))
+return A.dv(B.cy,A.a0(i,new A.cH(B.c1,i,i,A.bl(new A.b7(B.ar,i,B.G,B.f,n,i),f,f),i),B.f,i,i,i,i,i,i,B.SB,i,i,1/0),B.K,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,new A.ayX(h),i,i,i,i,i,i)},
 $S:404}
 A.ayS.prototype={
 $1(a){return a.a.c===this.a.a.f},
