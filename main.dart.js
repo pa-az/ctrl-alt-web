@@ -49718,8 +49718,9 @@ if(m==="Teal"||m==="Synth")m=b.d
 else m=b.b===B.a2?B.k.ac(0.03):B.r.ac(0.06)
 l=A.ae(24)
 k=A.bo(b.e.ac(0.5),1)
-j=r?17:16
-j=A.V(c,e,e,e,e,A.dF().$3$color$fontSize$fontWeight(b.w,j,B.au),e,e)
+if(q)j=14
+else j=r?17:16
+j=A.V(c,e,e,e,e,A.dF().$4$color$fontSize$fontWeight$height(b.w,j,B.au,1.15),e,e)
 i=b.f
 h=i.ac(0.12)
 g=A.ae(10)
