@@ -980,7 +980,7 @@
     "category": "variableRewards",
     "psychologicalLoop": "Exploits variable-ratio reinforcement, the most habit-forming reward schedule known: because you cannot predict which action will pay off, you keep repeating it far longer than a guaranteed reward would sustain.",
     "icon": {
-      "codePoint": 58173,
+      "codePoint": 59569,
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
