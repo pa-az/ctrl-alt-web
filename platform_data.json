@@ -398,14 +398,16 @@
       "false_scarcity",
       "artificial_social_proof",
       "decoy_pricing",
-      "forced_continuity"
+      "forced_continuity",
+      "variable_rewards"
     ],
     "customExamples": {
       "status_anxiety": "Match counts and an invisible desirability ranking turn dating into a scoreboard, driving a constant hunt for validation.",
       "false_scarcity": "Running out of likes and teasers like \"Someone likes you!\" dangle scarcity to push you toward a paid upgrade.",
       "artificial_social_proof": "Blurred previews of people who supposedly already liked you imply high demand to pressure you into subscribing.",
       "decoy_pricing": "Plus, Gold, and Platinum tiers are structured so the top plan looks like the obvious value, steering you to the priciest option.",
-      "forced_continuity": "Subscriptions renew automatically, and the option to downgrade or cancel is buried well out of the way."
+      "forced_continuity": "Subscriptions renew automatically, and the option to downgrade or cancel is buried well out of the way.",
+      "variable_rewards": "Every swipe is a gamble on whether the next profile, or a sudden match, delivers a hit of validation. The unpredictable payoff is what turns swiping into a compulsive loop."
     }
   },
   {

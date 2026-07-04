@@ -970,5 +970,23 @@
     "stat": "Uber's research team discovered that users with nearly dead phone batteries are willing to accept massive surge pricing up to 9.9x normal rates. The company maintains that they do not use battery levels to determine prices.",
     "isPremium": false,
     "hasTutorial": false
+  },
+  {
+    "id": "variable_rewards",
+    "title": "Variable Rewards",
+    "explanation": "Spin-the-wheel prizes, mystery discounts, surprise match reveals, and randomized drops all pay out on an unpredictable schedule. It is the uncertainty of the reward, not its size, that keeps you pulling the lever.",
+    "origin": "B.F. Skinner / operant conditioning (1950s)",
+    "fix": "Notice when an app turns a simple tap into a gamble, and set a hard limit on spins, swipes, or opens before you start.",
+    "category": "variableRewards",
+    "psychologicalLoop": "Exploits variable-ratio reinforcement, the most habit-forming reward schedule known: because you cannot predict which action will pay off, you keep repeating it far longer than a guaranteed reward would sustain.",
+    "icon": {
+      "codePoint": 58173,
+      "fontFamily": "MaterialIcons",
+      "fontPackage": null
+    },
+    "citation": "",
+    "stat": null,
+    "isPremium": false,
+    "hasTutorial": false
   }
 ]
