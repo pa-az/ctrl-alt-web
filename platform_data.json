@@ -201,13 +201,13 @@
     "tacticIds": [
       "false_scarcity",
       "decoy_pricing",
-      "variable_rewards",
+      "loot_boxes",
       "artificial_social_proof"
     ],
     "customExamples": {
       "false_scarcity": "Constant countdown timers (\"Sale ends in 14:02\") and low-stock warnings (\"Only 2 left!\") create intense, manufactured urgency to force impulse purchases.",
       "decoy_pricing": "Items are shown with massive, fabricated discount percentages (e.g., \"$3.99, marked down from $49.99\") to make the deal feel too good to pass up.",
-      "variable_rewards": "The app uses literal roulette wheels and randomized coupon drops to trigger dopamine rushes, gamifying the shopping experience.",
+      "loot_boxes": "The app uses literal roulette wheels and randomized coupon drops to trigger dopamine rushes, gamifying the shopping experience.",
       "artificial_social_proof": "Pop-ups constantly declare \"Someone in Texas just bought this!\" to fabricate a sense of high demand and crowd validation."
     }
   },
@@ -277,6 +277,154 @@
       "nagging_prompts": "Constant upsells for Nitro subscriptions interrupt the user experience, especially when trying to use basic features like higher quality screen sharing.",
       "reciprocity_triggers": "Seeing friends active in voice channels or playing games creates strong social pressure to drop what you're doing and join them.",
       "context_collapse": "Managing professional servers, gaming groups, and personal friend groups in the same UI leads to high cognitive load and blurred social boundaries."
+    }
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "manipulationPercentage": "93%",
+    "tacticIds": [
+      "false_scarcity",
+      "decoy_pricing",
+      "dynamic_pricing",
+      "forced_continuity",
+      "roach_motel",
+      "native_ads"
+    ],
+    "customExamples": {
+      "false_scarcity": "\"Only 3 left in stock\" labels and Lightning Deal countdown timers manufacture urgency to short-circuit careful comparison and trigger impulse buys.",
+      "decoy_pricing": "A struck-through \"List Price\" sits beside the current price to inflate the perceived discount, even when the item rarely sold at that higher number.",
+      "dynamic_pricing": "Prices quietly shift based on demand, browsing history, and time of day, so the number you see may not be the number your neighbour sees.",
+      "forced_continuity": "Prime free trials convert to paid membership automatically, and the renewal is easy to forget until the charge appears.",
+      "roach_motel": "Signing up for Prime takes one click, but cancelling routes you through several screens engineered to talk you out of leaving.",
+      "native_ads": "\"Sponsored\" listings are woven into search results and styled almost identically to organic products, blurring ads and recommendations."
+    }
+  },
+  {
+    "id": "booking",
+    "name": "Booking.com",
+    "manipulationPercentage": "96%",
+    "tacticIds": [
+      "false_scarcity",
+      "scarcity_timers",
+      "artificial_social_proof",
+      "confirmshaming",
+      "decoy_pricing"
+    ],
+    "customExamples": {
+      "false_scarcity": "\"Only 1 room left on our site!\" warnings pressure you to book instantly, even when plenty of availability exists elsewhere.",
+      "scarcity_timers": "\"Deal ends soon\" countdowns and \"Prices may rise\" banners create a ticking clock that discourages you from shopping around.",
+      "artificial_social_proof": "\"18 people are looking right now\" and \"Booked 5 times in the last hour\" fabricate a sense of a crowd competing for the same room.",
+      "confirmshaming": "Declining a pricier flexible rate is framed with guilt-laden copy like \"No, I'll risk paying more later.\"",
+      "decoy_pricing": "Crossed-out rates and prominent \"You saved X%\" tags make the offered price feel like a rescue from a much worse deal."
+    }
+  },
+  {
+    "id": "spotify",
+    "name": "Spotify",
+    "manipulationPercentage": "80%",
+    "tacticIds": [
+      "frictionless_autoplay",
+      "rabbit_hole_recommendations",
+      "forced_continuity",
+      "native_ads"
+    ],
+    "customExamples": {
+      "frictionless_autoplay": "When your playlist or album ends, Spotify silently keeps playing algorithmic picks, so the listening session never has a natural stopping point.",
+      "rabbit_hole_recommendations": "Daily Mixes, autoplay radio, and endless personalized recommendations keep steering you toward more of what the algorithm predicts will retain you.",
+      "forced_continuity": "Premium trials roll into paid subscriptions automatically, and the path to downgrade back to free is deliberately understated.",
+      "native_ads": "Sponsored playlists and host-read podcast ads are blended into the listening experience so seamlessly they rarely register as advertising."
+    }
+  },
+  {
+    "id": "uber",
+    "name": "Uber",
+    "manipulationPercentage": "84%",
+    "tacticIds": [
+      "dynamic_pricing",
+      "false_scarcity",
+      "confirmshaming",
+      "decoy_pricing"
+    ],
+    "customExamples": {
+      "dynamic_pricing": "Surge pricing multiplies fares the moment demand rises, exploiting the fact that riders in a hurry have little time to weigh alternatives.",
+      "false_scarcity": "\"Prices are higher due to increased demand, book now before they rise\" nudges you to commit before you can reconsider.",
+      "confirmshaming": "Upsell prompts frame the cheaper ride option as the inferior choice, subtly shaming you toward the pricier tier.",
+      "decoy_pricing": "Ride tiers and the Uber One membership are arranged so the middle option looks like the sensible bargain, steering spend upward."
+    }
+  },
+  {
+    "id": "whatsapp",
+    "name": "WhatsApp",
+    "manipulationPercentage": "76%",
+    "tacticIds": [
+      "read_receipts",
+      "typing_indicator",
+      "phantom_vibration",
+      "red_dot"
+    ],
+    "customExamples": {
+      "read_receipts": "Blue ticks tell the sender exactly when you have seen a message, manufacturing social pressure to reply right away.",
+      "typing_indicator": "The \"typing...\" status keeps you staring at the screen in anticipation, extending the time you spend waiting inside the app.",
+      "phantom_vibration": "The constant expectation of new messages trains you to feel buzzes that never happened and to check the phone compulsively.",
+      "red_dot": "Unread badges stacking up across busy group chats pull you back in just to clear the clutter."
+    }
+  },
+  {
+    "id": "candy_crush",
+    "name": "Candy Crush",
+    "manipulationPercentage": "Severe Risk",
+    "tacticIds": [
+      "appointment_mechanics",
+      "premium_currency_confusion",
+      "false_scarcity",
+      "loot_boxes",
+      "nagging_prompts"
+    ],
+    "customExamples": {
+      "appointment_mechanics": "The five-lives system forces you to either wait for lives to refill or pay to continue, dictating when and how often you return.",
+      "premium_currency_confusion": "Gold bars abstract away the real-money cost of boosters and extra moves, making it hard to track what you are actually spending.",
+      "false_scarcity": "Limited-time offers pop up precisely when you fail a hard level, exploiting the frustration of the moment to sell a rescue.",
+      "loot_boxes": "Randomized booster wheels and mystery chests deliver unpredictable rewards, layering gambling mechanics onto a casual puzzle game.",
+      "nagging_prompts": "Push notifications like \"Your lives are full!\" are timed to lure you back into another session."
+    }
+  },
+  {
+    "id": "tinder",
+    "name": "Tinder",
+    "manipulationPercentage": "87%",
+    "tacticIds": [
+      "status_anxiety",
+      "false_scarcity",
+      "artificial_social_proof",
+      "decoy_pricing",
+      "forced_continuity"
+    ],
+    "customExamples": {
+      "status_anxiety": "Match counts and an invisible desirability ranking turn dating into a scoreboard, driving a constant hunt for validation.",
+      "false_scarcity": "Running out of likes and teasers like \"Someone likes you!\" dangle scarcity to push you toward a paid upgrade.",
+      "artificial_social_proof": "Blurred previews of people who supposedly already liked you imply high demand to pressure you into subscribing.",
+      "decoy_pricing": "Plus, Gold, and Platinum tiers are structured so the top plan looks like the obvious value, steering you to the priciest option.",
+      "forced_continuity": "Subscriptions renew automatically, and the option to downgrade or cancel is buried well out of the way."
+    }
+  },
+  {
+    "id": "fortnite",
+    "name": "Fortnite",
+    "manipulationPercentage": "Severe Risk",
+    "tacticIds": [
+      "premium_currency_confusion",
+      "scarcity_timers",
+      "kid_targeted_variable_rewards",
+      "appointment_mechanics",
+      "daily_login_rewards"
+    ],
+    "customExamples": {
+      "premium_currency_confusion": "V-Bucks sit between your wallet and your purchases, disconnecting the flashy cosmetics from their real dollar cost, especially for kids.",
+      "scarcity_timers": "The Item Shop rotates daily with countdown timers, so a skin you want may vanish in hours unless you buy it now.",
+      "kid_targeted_variable_rewards": "Rare skins, emotes, and effects are engineered to dazzle young players who are highly susceptible to chasing the next unlock.",
+      "appointment_mechanics": "Battle Pass tiers and time-limited live events require you to keep logging in or lose progress you have paid for.",
+      "daily_login_rewards": "Daily and weekly challenges hand out rewards for simply showing up, cementing a habit of returning every day."
     }
   }
 ]
