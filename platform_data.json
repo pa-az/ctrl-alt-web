@@ -428,5 +428,92 @@
       "appointment_mechanics": "Battle Pass tiers and time-limited live events require you to keep logging in or lose progress you have paid for.",
       "daily_login_rewards": "Daily and weekly challenges hand out rewards for simply showing up, cementing a habit of returning every day."
     }
+  },
+  {
+    "id": "shein",
+    "name": "Shein",
+    "manipulationPercentage": "96%",
+    "tacticIds": [
+      "false_scarcity",
+      "scarcity_timers",
+      "variable_rewards",
+      "daily_login_rewards",
+      "decoy_pricing"
+    ],
+    "customExamples": {
+      "false_scarcity": "Nearly every product page carries 'almost sold out' and 'selling fast' labels, manufacturing urgency across a catalog of millions of items.",
+      "scarcity_timers": "Flash sale countdowns restart constantly, so there is always a deal about to expire and never a good moment to close the app.",
+      "variable_rewards": "Spin-the-wheel discounts and randomized coupon drops turn opening the app into a slot machine pull before you have even shopped.",
+      "daily_login_rewards": "Daily check-in points and streak bonuses reward you for showing up every day, building a shopping habit independent of any need to buy.",
+      "decoy_pricing": "Endless strikethrough prices and stacked-coupon math make every purchase feel like a win, obscuring what the item is actually worth."
+    }
+  },
+  {
+    "id": "robinhood",
+    "name": "Robinhood",
+    "manipulationPercentage": "Severe Risk",
+    "tacticIds": [
+      "variable_rewards",
+      "loot_boxes",
+      "nagging_prompts",
+      "asymmetric_friction"
+    ],
+    "customExamples": {
+      "variable_rewards": "Every trade resolves like a scratch card, and the app celebrated wins with confetti until regulators pushed back. The unpredictable payoff loop is the product.",
+      "loot_boxes": "The 'free stock' signup and referral reward is a literal lottery ticket: you scratch to reveal a random share, gambling mechanics before your first trade.",
+      "nagging_prompts": "Price-movement push notifications are tuned to pull you back in at volatile moments, exactly when you are most likely to trade emotionally.",
+      "asymmetric_friction": "Placing a trade takes two taps; moving your money back out takes days and multiple screens."
+    }
+  },
+  {
+    "id": "doordash",
+    "name": "DoorDash",
+    "manipulationPercentage": "84%",
+    "tacticIds": [
+      "dynamic_pricing",
+      "decoy_pricing",
+      "forced_continuity",
+      "confirmshaming"
+    ],
+    "customExamples": {
+      "dynamic_pricing": "Delivery and service fees shift with demand, weather, and your location, so the real cost of an order is never predictable up front.",
+      "decoy_pricing": "Inflated menu prices, separate service fees, and DashPass 'savings' banners are arranged so the subscription looks like the only rational choice.",
+      "forced_continuity": "DashPass free trials convert to a recurring charge automatically, and the cancellation flow is buried several screens deep.",
+      "confirmshaming": "Tip prompts and checkout upsells use guilt-loaded framing, making the cheaper or tip-free option feel like a moral failing."
+    }
+  },
+  {
+    "id": "steam",
+    "name": "Steam",
+    "manipulationPercentage": "High Risk",
+    "tacticIds": [
+      "loot_boxes",
+      "scarcity_timers",
+      "decoy_pricing",
+      "premium_currency_confusion"
+    ],
+    "customExamples": {
+      "loot_boxes": "Case openings in CS2 and other games are full gambling loops, complete with rarity colors, near-miss animations, and a real-money marketplace.",
+      "scarcity_timers": "Seasonal sales run on countdown clocks and daily rotating deals, training players to check back and buy before the timer hits zero.",
+      "decoy_pricing": "Bundles are priced so the game you wanted looks cheap next to an anchor package, and deep historical discounts make 'full price' feel irrational.",
+      "premium_currency_confusion": "The Steam Wallet holds money you have already spent, making marketplace and in-game purchases feel free while locking funds inside the platform."
+    }
+  },
+  {
+    "id": "prime_video",
+    "name": "Prime Video",
+    "manipulationPercentage": "High Risk",
+    "tacticIds": [
+      "frictionless_autoplay",
+      "cliffhanger_engineering",
+      "skip_intro_buttons",
+      "watch_time_optimisation"
+    ],
+    "customExamples": {
+      "frictionless_autoplay": "The next episode starts on its own and trailers auto-play the moment you pause on a title, removing every natural stopping point.",
+      "cliffhanger_engineering": "Prime originals are structured around end-of-episode hooks designed to make 'just one more' the default decision.",
+      "skip_intro_buttons": "One-tap skip buttons compress the gap between episodes to seconds, keeping you inside the binge loop.",
+      "watch_time_optimisation": "Rows, thumbnails, and autoplaying previews are all tuned to maximize hours streamed, which also protects the Prime subscription bundle."
+    }
   }
 ]

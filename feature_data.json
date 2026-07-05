@@ -48,7 +48,7 @@
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
-    "citation": "",
+    "citation": "The Guardian, 'Our minds can be hijacked' (2017)",
     "stat": null,
     "isPremium": false,
     "hasTutorial": false
@@ -102,7 +102,7 @@
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
-    "citation": "",
+    "citation": "UK Competition & Markets Authority, hotel booking sites investigation (2019)",
     "stat": null,
     "isPremium": false,
     "hasTutorial": false
@@ -120,7 +120,7 @@
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
-    "citation": "",
+    "citation": "Soroka et al., PNAS: cross-national evidence of negativity bias (2019)",
     "stat": null,
     "isPremium": false,
     "hasTutorial": false
@@ -138,8 +138,8 @@
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
-    "citation": "",
-    "stat": null,
+    "citation": "Royal Society for Public Health, #StatusOfMind report (2017)",
+    "stat": "The RSPH #StatusOfMind survey rated Instagram the worst of five major platforms for young people's mental wellbeing.",
     "isPremium": false,
     "hasTutorial": true
   },
@@ -210,7 +210,7 @@
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
-    "citation": "",
+    "citation": "Cialdini, Influence: The Psychology of Persuasion (1984)",
     "stat": null,
     "isPremium": false,
     "hasTutorial": false
@@ -246,7 +246,7 @@
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
-    "citation": "",
+    "citation": "Marwick & boyd, 'I tweet honestly, I tweet passionately' (2011)",
     "stat": null,
     "isPremium": false,
     "hasTutorial": false
@@ -300,8 +300,8 @@
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
-    "citation": "",
-    "stat": null,
+    "citation": "Mozilla Foundation, 'YouTube Regrets' report (2021)",
+    "stat": "In Mozilla's crowdsourced study, 71% of videos volunteers regretted watching were recommended to them by YouTube's algorithm.",
     "isPremium": false,
     "hasTutorial": false
   },
@@ -336,7 +336,7 @@
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
-    "citation": "",
+    "citation": "Flayelle et al., binge-watching research review (2020)",
     "stat": null,
     "isPremium": false,
     "hasTutorial": true
@@ -624,8 +624,8 @@
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
-    "citation": "",
-    "stat": null,
+    "citation": "Belgium Gaming Commission ruling (2018); UK House of Lords gambling report (2020)",
+    "stat": "Belgium declared paid loot boxes illegal gambling in 2018, forcing games to remove them for Belgian players.",
     "isPremium": false,
     "hasTutorial": false
   },
@@ -642,7 +642,7 @@
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
-    "citation": "",
+    "citation": "Eli Pariser, The Filter Bubble (2011)",
     "stat": null,
     "isPremium": false,
     "hasTutorial": false
@@ -660,7 +660,7 @@
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
-    "citation": "",
+    "citation": "Horton & Wohl, 'Mass Communication and Para-Social Interaction' (1956)",
     "stat": null,
     "isPremium": false,
     "hasTutorial": false
@@ -678,7 +678,7 @@
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
-    "citation": "",
+    "citation": "Cialdini, Influence: The Psychology of Persuasion (1984)",
     "stat": null,
     "isPremium": false,
     "hasTutorial": false
@@ -696,7 +696,7 @@
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
-    "citation": "",
+    "citation": "Norwegian Consumer Council, 'Deceived by Design' (2018)",
     "stat": null,
     "isPremium": false,
     "hasTutorial": true
@@ -714,7 +714,7 @@
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
-    "citation": "",
+    "citation": "Flayelle et al., binge-watching research review (2020)",
     "stat": null,
     "isPremium": false,
     "hasTutorial": false
@@ -732,7 +732,7 @@
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
-    "citation": "",
+    "citation": "Flayelle et al., binge-watching research review (2020)",
     "stat": null,
     "isPremium": false,
     "hasTutorial": true
@@ -750,7 +750,7 @@
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
-    "citation": "",
+    "citation": "YouTube official blog: switch to watch-time ranking (2012)",
     "stat": null,
     "isPremium": false,
     "hasTutorial": false
@@ -768,7 +768,7 @@
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
-    "citation": "",
+    "citation": "UK ICO Age Appropriate Design Code (2021)",
     "stat": null,
     "isPremium": false,
     "hasTutorial": false
@@ -786,7 +786,7 @@
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
-    "citation": "",
+    "citation": "UK ICO Age Appropriate Design Code (2021)",
     "stat": null,
     "isPremium": false,
     "hasTutorial": false
@@ -804,8 +804,8 @@
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
-    "citation": "",
-    "stat": null,
+    "citation": "FTC v. Epic Games settlement, $520M (2022)",
+    "stat": "Epic Games paid a record $520M FTC settlement in 2022, partly over dark patterns that made unintended Fortnite purchases easy.",
     "isPremium": false,
     "hasTutorial": false
   },
@@ -984,7 +984,7 @@
       "fontFamily": "MaterialIcons",
       "fontPackage": null
     },
-    "citation": "",
+    "citation": "B.F. Skinner, Schedules of Reinforcement (1957)",
     "stat": null,
     "isPremium": false,
     "hasTutorial": false
