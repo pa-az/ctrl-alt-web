@@ -55,6 +55,9 @@ def eye(d, cx, cy, w):
     d.ellipse([cx-r2, cy-r2, cx+r2, cy+r2], fill=BG)
 
 for p in platforms:
+    # Respectful "white hat" platforms are not part of the threat share set.
+    if p.get("respectful"):
+        continue
     score, color, label = threat(p["manipulationPercentage"])
     img = Image.new("RGB", (1200, 630), BG)
     d = ImageDraw.Draw(img)

@@ -40,6 +40,9 @@ TEMPLATE = """<!DOCTYPE html>
 """
 
 for p in platforms:
+    # Respectful "white hat" platforms are not part of the threat share set.
+    if p.get("respectful"):
+        continue
     tactics = [features.get(t, t) for t in p["tacticIds"]]
     desc = html.escape(
         f"{p['name']} uses {len(tactics)} documented manipulation tactics: "
