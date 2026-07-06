@@ -15,7 +15,8 @@
   "citation": "Dscout, 'Mobile Touches' study (2016)",
   "stat": "Dscout researchers counted an average of 2,617 phone touches per user per day.",
   "isPremium": false,
-  "hasTutorial": true
+  "hasTutorial": true,
+  "citationUrl": "https://pages.dscout.com/hubfs/downloads/dscout_mobile_touches_study_2016.pdf"
  },
  {
   "id": "typing_indicator",
@@ -70,7 +71,8 @@
   "citation": "Aza Raskin, BBC interview (2018)",
   "stat": "Inventor Aza Raskin now campaigns against his own design, estimating that infinite scroll collectively wastes the equivalent of 200,000 human lifetimes per day.",
   "isPremium": true,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://www.bbc.com/news/technology-44640959"
  },
  {
   "id": "dynamic_retargeting",
@@ -218,7 +220,8 @@
   "citation": "Cialdini, Influence: The Psychology of Persuasion (1984)",
   "stat": null,
   "isPremium": false,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://www.influenceatwork.com/7-principles-of-persuasion/"
  },
  {
   "id": "decoy_pricing",
@@ -236,7 +239,8 @@
   "citation": "Huber, Payne & Puto, Journal of Consumer Research (1982)",
   "stat": null,
   "isPremium": false,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1086/208899"
  },
  {
   "id": "context_collapse",
@@ -254,7 +258,8 @@
   "citation": "Marwick & boyd, 'I tweet honestly, I tweet passionately' (2011)",
   "stat": null,
   "isPremium": false,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1177/1461444810365313"
  },
  {
   "id": "synthetic_companionship",
@@ -272,7 +277,8 @@
   "citation": "Common Sense Media, 'Talk, Trust, and Trade-Offs' (2025)",
   "stat": "72% of US teens have used an AI companion, and 13% chat with one daily, according to a 2025 national survey.",
   "isPremium": true,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://www.commonsensemedia.org/research/talk-trust-and-trade-offs-how-and-why-teens-use-ai-companions"
  },
  {
   "id": "hallucinated_authority",
@@ -345,7 +351,8 @@
   "citation": "Flayelle et al., binge-watching research review (2020)",
   "stat": null,
   "isPremium": false,
-  "hasTutorial": true
+  "hasTutorial": true,
+  "citationUrl": "https://doi.org/10.1007/s40429-020-00299-8"
  },
  {
   "id": "phantom_vibration",
@@ -400,7 +407,8 @@
   "citation": "Mathur et al., 'Dark Patterns at Scale' (2019)",
   "stat": "Princeton's crawl of 11,000 shopping sites found dark patterns on more than 11% of them, with confirmshaming documented across dozens of major retailers.",
   "isPremium": false,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://arxiv.org/abs/1907.07032"
  },
  {
   "id": "roach_motel",
@@ -418,7 +426,8 @@
   "citation": "FTC Negative Option Rule proceedings (2023–2025)",
   "stat": "Cancellation traps are widespread enough that the US FTC drafted a 'click-to-cancel' rule requiring exits to be as easy as sign-ups.",
   "isPremium": false,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://www.ftc.gov/news-events/news/press-releases/2024/10/federal-trade-commission-announces-final-click-cancel-rule-making-it-easier-consumers-end-recurring"
  },
  {
   "id": "zeigarnik_effect",
@@ -436,7 +445,8 @@
   "citation": "Zeigarnik, Psychologische Forschung (1927)",
   "stat": "Zeigarnik's original experiments found people recalled interrupted tasks about twice as well as completed ones.",
   "isPremium": false,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://en.wikipedia.org/wiki/Zeigarnik_effect"
  },
  {
   "id": "rewarded_ads",
@@ -544,7 +554,8 @@
   "citation": "Wojdynski & Evans, Journal of Advertising (2016)",
   "stat": "Only 17–27% of users correctly identify native ads as advertising, even when disclosure labels are present.",
   "isPremium": true,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1080/00913367.2015.1115380"
  },
  {
   "id": "subliminal_priming",
@@ -635,7 +646,8 @@
   "citation": "Belgium Gaming Commission ruling (2018); UK House of Lords gambling report (2020)",
   "stat": "Belgium declared paid loot boxes illegal gambling in 2018, forcing games to remove them for Belgian players.",
   "isPremium": false,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://publications.parliament.uk/pa/ld5801/ldselect/ldgamb/79/7902.htm"
  },
  {
   "id": "filter_bubble",
@@ -653,7 +665,8 @@
   "citation": "Eli Pariser, The Filter Bubble (2011)",
   "stat": null,
   "isPremium": false,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles"
  },
  {
   "id": "parasocial_relationships",
@@ -690,7 +703,8 @@
   "citation": "Cialdini, Influence: The Psychology of Persuasion (1984)",
   "stat": null,
   "isPremium": false,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://www.influenceatwork.com/7-principles-of-persuasion/"
  },
  {
   "id": "privacy_zuckering",
@@ -727,7 +741,8 @@
   "citation": "Flayelle et al., binge-watching research review (2020)",
   "stat": null,
   "isPremium": false,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1007/s40429-020-00299-8"
  },
  {
   "id": "frictionless_autoplay",
@@ -745,7 +760,8 @@
   "citation": "Flayelle et al., binge-watching research review (2020)",
   "stat": null,
   "isPremium": false,
-  "hasTutorial": true
+  "hasTutorial": true,
+  "citationUrl": "https://doi.org/10.1007/s40429-020-00299-8"
  },
  {
   "id": "watch_time_optimisation",
@@ -763,7 +779,8 @@
   "citation": "YouTube official blog: switch to watch-time ranking (2012)",
   "stat": null,
   "isPremium": false,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://blog.youtube/news-and-events/youtube-now-why-we-focus-on-watch-time/"
  },
  {
   "id": "age_ambiguity",
@@ -781,7 +798,8 @@
   "citation": "UK ICO Age Appropriate Design Code (2021)",
   "stat": null,
   "isPremium": false,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/"
  },
  {
   "id": "kid_targeted_variable_rewards",
@@ -799,7 +817,8 @@
   "citation": "UK ICO Age Appropriate Design Code (2021)",
   "stat": null,
   "isPremium": false,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/"
  },
  {
   "id": "premium_currency_confusion",
@@ -854,7 +873,8 @@
   "citation": "FTC Negative Option Rule proceedings (2023–2025)",
   "stat": "Hard-to-cancel subscriptions drew enough complaints that the US FTC moved to require cancellation to be as easy as enrollment.",
   "isPremium": true,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://www.ftc.gov/news-events/news/press-releases/2024/10/federal-trade-commission-announces-final-click-cancel-rule-making-it-easier-consumers-end-recurring"
  },
  {
   "id": "prechecked_consent",
@@ -891,7 +911,8 @@
   "citation": "Gray et al., 'The Dark (Patterns) Side of UX Design' (2018)",
   "stat": "Dark-pattern taxonomies classify nagging as its own category because repeated prompts measurably erode autonomous choice.",
   "isPremium": false,
-  "hasTutorial": true
+  "hasTutorial": true,
+  "citationUrl": "https://doi.org/10.1145/3173574.3174108"
  },
  {
   "id": "appointment_mechanics",
@@ -909,7 +930,8 @@
   "citation": "Zagal et al., 'Dark Patterns in the Design of Games' (2013)",
   "stat": "Studies of game dark patterns identify time-gated events and regenerating timers as central 'appointment' mechanics that keep players tied to their devices.",
   "isPremium": true,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "http://www.fdg2013.org/program/papers/paper06_zagal_etal.pdf"
  },
  {
   "id": "competitive_leaderboards",
@@ -982,7 +1004,8 @@
   "citation": "Keith Chen, NPR interview (2016)",
   "stat": "Uber's research team discovered that users with nearly dead phone batteries are willing to accept massive surge pricing up to 9.9x normal rates. The company maintains that they do not use battery levels to determine prices.",
   "isPremium": false,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://www.npr.org/2016/05/17/478266839/this-is-your-brain-on-uber"
  },
  {
   "id": "variable_rewards",
