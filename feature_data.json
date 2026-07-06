@@ -51,7 +51,8 @@
     "citation": "The Guardian, 'Our minds can be hijacked' (2017)",
     "stat": null,
     "isPremium": false,
-    "hasTutorial": false
+    "hasTutorial": false,
+    "citationUrl": "https://www.theguardian.com/technology/2017/oct/05/smartphone-addiction-silicon-valley-dystopia"
   },
   {
     "id": "infinite_scroll",
@@ -105,7 +106,8 @@
     "citation": "UK Competition & Markets Authority, hotel booking sites investigation (2019)",
     "stat": null,
     "isPremium": false,
-    "hasTutorial": false
+    "hasTutorial": false,
+    "citationUrl": "https://www.gov.uk/government/news/hotel-booking-sites-to-make-major-changes-after-cma-probe"
   },
   {
     "id": "doomscrolling",
@@ -123,7 +125,8 @@
     "citation": "Soroka et al., PNAS: cross-national evidence of negativity bias (2019)",
     "stat": null,
     "isPremium": false,
-    "hasTutorial": false
+    "hasTutorial": false,
+    "citationUrl": "https://doi.org/10.1073/pnas.1908369116"
   },
   {
     "id": "status_anxiety",
@@ -141,7 +144,8 @@
     "citation": "Royal Society for Public Health, #StatusOfMind report (2017)",
     "stat": "The RSPH #StatusOfMind survey rated Instagram the worst of five major platforms for young people's mental wellbeing.",
     "isPremium": false,
-    "hasTutorial": true
+    "hasTutorial": true,
+    "citationUrl": "https://www.rsph.org.uk/our-work/campaigns/status-of-mind.html"
   },
   {
     "id": "asymmetric_friction",
@@ -177,7 +181,8 @@
     "citation": "Brady et al., PNAS (2017)",
     "stat": "A study of over 500,000 posts found each additional moral-emotional word in a message increased its share rate by roughly 20%.",
     "isPremium": false,
-    "hasTutorial": false
+    "hasTutorial": false,
+    "citationUrl": "https://doi.org/10.1073/pnas.1618923114"
   },
   {
     "id": "read_receipts",
@@ -303,7 +308,8 @@
     "citation": "Mozilla Foundation, 'YouTube Regrets' report (2021)",
     "stat": "In Mozilla's crowdsourced study, 71% of videos volunteers regretted watching were recommended to them by YouTube's algorithm.",
     "isPremium": false,
-    "hasTutorial": false
+    "hasTutorial": false,
+    "citationUrl": "https://foundation.mozilla.org/en/youtube/findings/"
   },
   {
     "id": "shorts_slot_machine",
@@ -357,7 +363,8 @@
     "citation": "Drouin et al., Computers in Human Behavior (2012)",
     "stat": "Up to 89% of undergraduates report experiencing phantom vibrations, on average about once every two weeks.",
     "isPremium": false,
-    "hasTutorial": false
+    "hasTutorial": false,
+    "citationUrl": "https://doi.org/10.1016/j.chb.2012.03.020"
   },
   {
     "id": "streaks",
@@ -609,7 +616,8 @@
     "citation": "Justin Rosenstein, The Guardian interview (2017)",
     "stat": "Justin Rosenstein, the button's co-creator, later described likes as 'bright dings of pseudo-pleasure' and restricted his own social media use.",
     "isPremium": false,
-    "hasTutorial": false
+    "hasTutorial": false,
+    "citationUrl": "https://www.theguardian.com/technology/2017/oct/05/smartphone-addiction-silicon-valley-dystopia"
   },
   {
     "id": "loot_boxes",
@@ -663,7 +671,8 @@
     "citation": "Horton & Wohl, 'Mass Communication and Para-Social Interaction' (1956)",
     "stat": null,
     "isPremium": false,
-    "hasTutorial": false
+    "hasTutorial": false,
+    "citationUrl": "https://doi.org/10.1080/00332747.1956.11023049"
   },
   {
     "id": "reciprocity_triggers",
@@ -699,7 +708,8 @@
     "citation": "Norwegian Consumer Council, 'Deceived by Design' (2018)",
     "stat": null,
     "isPremium": false,
-    "hasTutorial": true
+    "hasTutorial": true,
+    "citationUrl": "https://www.forbrukerradet.no/side/facebook-and-google-manipulate-users-into-sharing-personal-data/"
   },
   {
     "id": "cliffhanger_engineering",
@@ -807,7 +817,8 @@
     "citation": "FTC v. Epic Games settlement, $520M (2022)",
     "stat": "Epic Games paid a record $520M FTC settlement in 2022, partly over dark patterns that made unintended Fortnite purchases easy.",
     "isPremium": false,
-    "hasTutorial": false
+    "hasTutorial": false,
+    "citationUrl": "https://www.ftc.gov/news-events/news/press-releases/2022/12/fortnite-video-game-maker-epic-games-pay-more-half-billion-dollars-over-ftc-allegations"
   },
   {
     "id": "daily_login_rewards",
@@ -861,7 +872,8 @@
     "citation": "GDPR guidance and consent-banner audits",
     "stat": "EU regulators have ruled that pre-ticked boxes are not valid consent, yet audits keep finding them in live cookie banners.",
     "isPremium": false,
-    "hasTutorial": false
+    "hasTutorial": false,
+    "citationUrl": "https://curia.europa.eu/juris/liste.jsf?num=C-673/17"
   },
   {
     "id": "nagging_prompts",
@@ -951,7 +963,8 @@
     "citation": "Buell & Norton, 'The Labor Illusion', Management Science (2011)",
     "stat": "Buell and Norton found users prefer sites that show visible 'work' during a wait over instant results, and rate those results as more valuable.",
     "isPremium": false,
-    "hasTutorial": false
+    "hasTutorial": false,
+    "citationUrl": "https://doi.org/10.1287/mnsc.1110.1376"
   },
   {
     "id": "dynamic_pricing",
@@ -987,6 +1000,7 @@
     "citation": "B.F. Skinner, Schedules of Reinforcement (1957)",
     "stat": null,
     "isPremium": false,
-    "hasTutorial": false
+    "hasTutorial": false,
+    "citationUrl": "https://en.wikipedia.org/wiki/Reinforcement#Intermittent_reinforcement_schedules"
   }
 ]
