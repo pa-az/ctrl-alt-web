@@ -31,10 +31,11 @@
    "fontFamily": "MaterialIcons",
    "fontPackage": null
   },
-  "citation": "",
+  "citation": "Bennett, 'Texting Anxiety Caused by Little Bubbles', The New York Times (2014)",
   "stat": null,
   "isPremium": false,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://www.nytimes.com/2014/08/31/fashion/texting-anxiety-caused-by-little-bubbles.html"
  },
  {
   "id": "pull_to_refresh",
@@ -87,10 +88,11 @@
    "fontFamily": "MaterialIcons",
    "fontPackage": null
   },
-  "citation": "",
+  "citation": "Lambrecht & Tucker, 'When Does Retargeting Work?', Journal of Marketing Research (2013)",
   "stat": null,
   "isPremium": false,
-  "hasTutorial": true
+  "hasTutorial": true,
+  "citationUrl": "https://doi.org/10.1509/jmr.11.0503"
  },
  {
   "id": "false_scarcity",
@@ -162,10 +164,11 @@
    "fontFamily": "MaterialIcons",
    "fontPackage": null
   },
-  "citation": "",
+  "citation": "Mathur et al., 'Dark Patterns at Scale', Princeton study of 11K shopping sites (2019)",
   "stat": null,
   "isPremium": false,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://arxiv.org/abs/1907.07032"
  },
  {
   "id": "outrage_amplification",
@@ -199,10 +202,11 @@
    "fontFamily": "MaterialIcons",
    "fontPackage": null
   },
-  "citation": "",
+  "citation": "Hoyle et al., 'Was My Message Read? Privacy and Signaling on Facebook Messenger', CHI (2017)",
   "stat": null,
   "isPremium": false,
-  "hasTutorial": true
+  "hasTutorial": true,
+  "citationUrl": "https://doi.org/10.1145/3025453.3025925"
  },
  {
   "id": "artificial_social_proof",
@@ -293,10 +297,11 @@
    "fontFamily": "MaterialIcons",
    "fontPackage": null
   },
-  "citation": "Exploding Topics survey (2025)",
+  "citation": "Exploding Topics, AI adoption and trust statistics (2025)",
   "stat": "A 2025 analysis found that 92% of people do not verify the answers AI gives them, despite knowing these tools can hallucinate.",
   "isPremium": true,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://explodingtopics.com/blog/ai-statistics"
  },
  {
   "id": "rabbit_hole_recommendations",
@@ -330,10 +335,11 @@
    "fontFamily": "MaterialIcons",
    "fontPackage": null
   },
-  "citation": "TikTok screen-time analyses (2025)",
+  "citation": "TikTok internal documents unsealed in Kentucky AG lawsuit, NPR (2024)",
   "stat": "US teens average 87–113 minutes of short-form video watch time per day, the highest of any content format.",
   "isPremium": false,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://www.npr.org/2024/10/11/g-s1-27676/tiktok-redacted-documents-in-teen-safety-lawsuit-revealed"
  },
  {
   "id": "skip_intro_buttons",
@@ -386,10 +392,11 @@
    "fontFamily": "MaterialIcons",
    "fontPackage": null
   },
-  "citation": "Qualitative studies of teen Snapchat use",
+  "citation": "Kuss & Griffiths, 'Social Networking Sites and Addiction: Ten Lessons Learned', IJERPH (2017)",
   "stat": "Researchers have documented teens sharing their login credentials with friends before vacations just to keep streaks alive.",
   "isPremium": false,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.3390/ijerph14030311"
  },
  {
   "id": "confirmshaming",
@@ -461,10 +468,11 @@
    "fontFamily": "MaterialIcons",
    "fontPackage": null
   },
-  "citation": "Academic reviews of advertising in children's apps",
+  "citation": "Meyer et al., 'Advertising in Young Children's Apps', J. Developmental & Behavioral Pediatrics (2019)",
   "stat": "Reviews of ad monetization in children's apps find kids focus on the immediate reward and often fail to recognize the persuasive intent.",
   "isPremium": true,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1097/DBP.0000000000000622"
  },
  {
   "id": "advergames",
@@ -479,10 +487,11 @@
    "fontFamily": "MaterialIcons",
    "fontPackage": null
   },
-  "citation": "Research on children and advergames",
+  "citation": "Radesky et al., 'Digital Advertising to Children', AAP Policy Statement, Pediatrics (2020)",
   "stat": "Children who enjoy a snack-brand advergame show measurably higher purchase intentions afterward.",
   "isPremium": true,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1542/peds.2020-1681"
  },
  {
   "id": "in_game_placement",
@@ -497,10 +506,11 @@
    "fontFamily": "MaterialIcons",
    "fontPackage": null
   },
-  "citation": "Experiments comparing in-game ads and advergames",
+  "citation": "Radesky et al., 'Digital Advertising to Children', AAP Policy Statement, Pediatrics (2020)",
   "stat": "Experiments show in-game brand placements raise purchase intentions by blending seamlessly into enjoyable play.",
   "isPremium": true,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1542/peds.2020-1681"
  },
  {
   "id": "brand_mascots",
@@ -515,10 +525,11 @@
    "fontFamily": "MaterialIcons",
    "fontPackage": null
   },
-  "citation": "Studies on brand anthropomorphism",
+  "citation": "Aggarwal & McGill, 'Is That Car Smiling at Me?', Journal of Consumer Research (2007)",
   "stat": "Studies show giving brands human-like traits measurably increases perceived warmth, trust, and positive evaluations.",
   "isPremium": true,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1086/518544"
  },
  {
   "id": "scarcity_timers",
@@ -533,10 +544,11 @@
    "fontFamily": "MaterialIcons",
    "fontPackage": null
   },
-  "citation": "Behavioral psychology of scarcity",
+  "citation": "Worchel, Lee & Adewole, cookie-jar scarcity experiment, JPSP (1975)",
   "stat": "Behavioral studies find scarcity cues increase urgency and willingness to pay, especially in impulsive buyers.",
   "isPremium": true,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1037/h0076838"
  },
  {
   "id": "native_ads",
@@ -570,10 +582,11 @@
    "fontFamily": "MaterialIcons",
    "fontPackage": null
   },
-  "citation": "Neuroimaging studies of dynamic food advertising",
+  "citation": "Karremans et al., 'Beyond Vicary's fantasies: subliminal priming and brand choice', JESP (2006)",
   "stat": "Neuroimaging shows dynamic food ads activate brain reward regions more strongly than static images, below conscious filtering.",
   "isPremium": true,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1016/j.jesp.2005.12.002"
  },
  {
   "id": "halo_effect",
@@ -588,10 +601,11 @@
    "fontFamily": "MaterialIcons",
    "fontPackage": null
   },
-  "citation": "Marketing research on brand ecosystems",
+  "citation": "Thorndike, 'A Constant Error in Psychological Ratings' (1920)",
   "stat": "Marketing research shows a strong flagship product lifts loyalty and evaluations across a brand's whole lineup.",
   "isPremium": true,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1037/h0071663"
  },
  {
   "id": "neuromarketing",
@@ -606,10 +620,11 @@
    "fontFamily": "MaterialIcons",
    "fontPackage": null
   },
-  "citation": "Reviews of fMRI-based ad optimization",
+  "citation": "Ariely & Berns, 'Neuromarketing: hope and hype of neuroimaging in business', Nature Reviews Neuroscience (2010)",
   "stat": "Emotionally rich ads reliably activate the amygdala and insula in fMRI studies, correlating with increased purchasing.",
   "isPremium": true,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1038/nrn2795"
  },
  {
   "id": "like_button",
@@ -852,10 +867,11 @@
    "fontFamily": "MaterialIcons",
    "fontPackage": null
   },
-  "citation": "Analyses of retention mechanics in live-service games",
+  "citation": "Zagal et al., 'Dark Patterns in the Design of Games', FDG (2013)",
   "stat": "Industry analyses show that daily rewards and streak systems are the strongest tools for player retention. Users end up logging in simply to protect their streak rather than actually wanting to play the game.",
   "isPremium": false,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "http://www.fdg2013.org/program/papers/paper06_zagal_etal.pdf"
  },
  {
   "id": "forced_continuity",
@@ -946,10 +962,11 @@
    "fontFamily": "MaterialIcons",
    "fontPackage": null
   },
-  "citation": "Studies of leaderboard gamification in fitness apps",
+  "citation": "Hamari, Koivisto & Sarsa, 'Does Gamification Work?', HICSS (2014)",
   "stat": "Studies find leaderboards increase activity and app-checking, while a meaningful minority of users report stress, guilt, or burnout from constant ranking.",
   "isPremium": true,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1109/HICSS.2014.377"
  },
  {
   "id": "household_ip_tracking",
@@ -964,10 +981,11 @@
    "fontFamily": "MaterialIcons",
    "fontPackage": null
   },
-  "citation": "Ad-tech industry documentation of household graphing",
+  "citation": "FTC Staff Report, 'Cross-Device Tracking' (2017)",
   "stat": "Data brokers bundle devices into 'household identity graphs', letting one person's search activity target everyone at the same address.",
   "isPremium": false,
-  "hasTutorial": false
+  "hasTutorial": false,
+  "citationUrl": "https://www.ftc.gov/reports/cross-device-tracking-federal-trade-commission-staff-report-january-2017"
  },
  {
   "id": "labor_illusion",
