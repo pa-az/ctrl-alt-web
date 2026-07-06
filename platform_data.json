@@ -14,7 +14,12 @@
       "shorts_slot_machine": "Swiping up for the next video delivers highly unpredictable rewards. Sometimes you get an incredibly engaging video, and other times you get bored. This unpredictability keeps you swiping just like pulling a slot machine lever.",
       "asymmetric_friction": "TikTok makes it effortless to keep watching (just a swipe) but makes it comparatively cumbersome to manage your data, delete your account, or limit your usage.",
       "status_anxiety": "The visible view and like counts on every video drive a constant pursuit of virality and validation among creators and users alike."
-    }
+    },
+    "defuse": [
+      "Settings and privacy > Screen time: set a daily limit and turn on screen time break reminders.",
+      "Settings > Notifications: turn off pushes for LIVE, suggested videos, and 'from your contacts'.",
+      "Long-press any For You video and tap Not interested to retrain the feed toward calmer content."
+    ]
   },
   {
     "id": "instagram",
@@ -37,7 +42,12 @@
       "privacy_zuckering": "The platform makes it extremely difficult to opt out of targeted advertising and data sharing, burying these controls deep in the settings menu.",
       "reciprocity_triggers": "When someone follows you or likes your post, the platform notifies you, creating a strong social obligation to follow back or return the engagement.",
       "parasocial_relationships": "Influencers use Stories to share seemingly intimate, unpolished moments, building a one-sided sense of friendship that they later monetize with sponsored posts."
-    }
+    },
+    "defuse": [
+      "Tap the Instagram logo (top-left) and switch to Following for a finite, chronological feed.",
+      "Settings > Notifications: pause all, or at least mute likes and follows.",
+      "Settings > Your activity > Time spent: set a daily limit and enable Quiet mode."
+    ]
   },
   {
     "id": "facebook",
@@ -58,7 +68,12 @@
       "privacy_zuckering": "Facebook frequently changes its privacy settings and defaults, intentionally confusing users into sharing more personal data than they realize.",
       "reciprocity_triggers": "Birthday notifications and event invitations leverage social obligations, making you feel compelled to log in and interact to avoid seeming rude.",
       "parasocial_relationships": "Public figures and politicians use Facebook Live and intimate posts to cultivate a sense of direct connection with their followers, driving fierce loyalty."
-    }
+    },
+    "defuse": [
+      "Use the Feeds tab > Friends for a chronological feed without suggested posts.",
+      "Settings > Notifications: turn off badges and every non-essential push (groups, memories, events).",
+      "Snooze or unfollow the sources that reliably make you angry; the algorithm feeds on those reactions."
+    ]
   },
   {
     "id": "youtube",
@@ -75,7 +90,12 @@
       "rabbit_hole_recommendations": "The sidebar recommendations gradually steer you toward increasingly extreme, sensationalized, or niche content to maximize your viewing time.",
       "shorts_slot_machine": "YouTube Shorts employs the same intermittent variable rewards as TikTok, where every swipe is a gamble for a dopamine hit.",
       "native_ads": "Sponsored segments are seamlessly integrated directly into the creator's video script, blurring the line between entertainment and advertisement."
-    }
+    },
+    "defuse": [
+      "Settings > Autoplay: turn off 'Autoplay next video'.",
+      "Settings > General: enable 'Remind me to take a break' and bedtime reminders.",
+      "Pause watch history (myactivity.google.com) to blunt recommendation targeting."
+    ]
   },
   {
     "id": "netflix",
@@ -92,7 +112,11 @@
       "cliffhanger_engineering": "Netflix Originals are explicitly structured to end episodes on massive unresolved tensions, exploiting our psychological need for closure.",
       "watch_time_optimisation": "Everything on the platform is designed purely to maximize your watch time. This includes generating personalized thumbnails and auto-playing trailers the moment you open the app.",
       "skip_intro_buttons": "While seemingly convenient, \"Skip Intro\" accelerates the transition into the narrative, making it even harder to break the binge-watching trance."
-    }
+    },
+    "defuse": [
+      "Account > Profile > Playback settings: uncheck 'Autoplay next episode in a series'.",
+      "Also uncheck 'Autoplay previews while browsing' so trailers stop launching themselves."
+    ]
   },
   {
     "id": "roblox",
@@ -124,7 +148,12 @@
       "outrage_amplification": "The \"For You\" timeline heavily surfaces controversial takes and viral dunks, as anger is the most effective emotion for driving replies and quote tweets.",
       "doomscrolling": "The endless feed of breaking news, hot takes, and global crises keeps users scrolling in a state of high anxiety, constantly searching for the next update.",
       "red_dot": "Push notifications for irrelevant events (like \"Someone you follow tweeted for the first time in a while\") are used to falsely trigger a sense of urgency."
-    }
+    },
+    "defuse": [
+      "On the timeline, switch the top tab to Following for a chronological feed instead of For You.",
+      "Settings > Notifications > Preferences: turn off Topics, 'For you' recommendations, and login-bait pushes.",
+      "Mute words and phrases that reliably bait you (Settings > Privacy and safety > Mute and block)."
+    ]
   },
   {
     "id": "linkedin",
@@ -158,7 +187,12 @@
       "status_anxiety": "Features like Snap Maps and visible read receipts generate constant anxiety about social exclusion. They ensure you always know exactly when your friends are hanging out without you.",
       "phantom_vibration": "The expectation of fleeting, disappearing messages conditions users to constantly check their phones for updates before they vanish.",
       "halo_effect": "Heavy use of augmented reality beauty filters distorts self-image, making the unfiltered reality feel inadequate by comparison."
-    }
+    },
+    "defuse": [
+      "Snapstreaks can't be disabled; agree with friends to deliberately let them go once.",
+      "Settings > Notifications: turn off Stories and friend-suggestion pushes.",
+      "Enable Ghost Mode on Snap Map: Settings > See My Location > Ghost Mode."
+    ]
   },
   {
     "id": "reddit",
@@ -175,7 +209,12 @@
       "outrage_amplification": "The upvote/downvote system inherently pushes the most polarizing, echo-chamber-validating, and emotionally charged opinions to the top of popular threads.",
       "doomscrolling": "News and political subreddits create a vortex of negative information that users compulsively read to feel informed, despite the toll on mental health.",
       "rabbit_hole_recommendations": "Reddit's algorithm suggests increasingly niche or extreme communities based on your browsing history, gradually pulling you deeper into echo chambers."
-    }
+    },
+    "defuse": [
+      "Settings > Feed options: sort by Latest and disable community recommendations where available.",
+      "Turn off Trending and recommendation pushes: Settings > Notifications.",
+      "Prefer the old.reddit.com layout on web; it has no infinite feed of suggested communities."
+    ]
   },
   {
     "id": "pinterest",
@@ -228,7 +267,12 @@
       "competitive_leaderboards": "The Diamond League pits users against each other, incentivizing mindless grinding for XP rather than actual language retention.",
       "daily_login_rewards": "Early Bird and Night Owl chests force users to open the app at specific times of the day to claim XP boosts, dictating their daily schedule.",
       "appointment_mechanics": "Users must return before their streak freeze expires or their league ends, creating artificial deadlines for engagement."
-    }
+    },
+    "defuse": [
+      "Settings > Notifications: turn off streak reminders and 'practice' nudges; keep only what you asked for.",
+      "Equip a Streak Freeze deliberately, then decide your schedule by calendar, not by the flame icon.",
+      "Mute the leaderboard: Profile > Settings > turn off leaderboards to stop XP-grinding against strangers."
+    ]
   },
   {
     "id": "twitch",
@@ -368,7 +412,12 @@
       "typing_indicator": "The \"typing...\" status keeps you staring at the screen in anticipation, extending the time you spend waiting inside the app.",
       "phantom_vibration": "The constant expectation of new messages trains you to feel buzzes that never happened and to check the phone compulsively.",
       "red_dot": "Unread badges stacking up across busy group chats pull you back in just to clear the clutter."
-    }
+    },
+    "defuse": [
+      "Settings > Privacy > Read receipts: turn them off (this disables them both ways).",
+      "Mute busy groups: open the chat > tap the name > Mute notifications > Always.",
+      "Settings > Notifications: disable message previews so the lock screen stops baiting you in."
+    ]
   },
   {
     "id": "candy_crush",
