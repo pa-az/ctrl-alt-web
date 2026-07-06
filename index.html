@@ -18,36 +18,91 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ctrl+Alt teaches you how apps manipulate you: 55 documented dark patterns and manipulation tactics, threat ratings for 29 platforms, and the brain science behind each one.">
+  <meta name="theme-color" content="#141414">
+
+  <!-- Social / link previews -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Ctrl+Alt">
+  <meta property="og:title" content="Ctrl+Alt: See How Apps Manipulate You">
+  <meta property="og:description" content="55 documented manipulation tactics, threat ratings for 29 platforms, and the brain science behind each one. Learn to catch yourself falling for them.">
+  <meta property="og:url" content="https://ctrl-alt.app/">
+  <meta property="og:image" content="https://ctrl-alt.app/icons/Icon-512.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ctrl+Alt: See How Apps Manipulate You">
+  <meta name="twitter:description" content="55 documented manipulation tactics, threat ratings for 29 platforms, and the brain science behind each one.">
+  <meta name="twitter:image" content="https://ctrl-alt.app/icons/Icon-512.png">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="ctrl_alt">
+  <meta name="apple-mobile-web-app-title" content="Ctrl+Alt">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>ctrl_alt</title>
+  <title>Ctrl+Alt: See How Apps Manipulate You</title>
   <link rel="manifest" href="manifest.json">
   <style>
     body, html {
       overscroll-behavior-y: none;
       overscroll-behavior-x: none;
       touch-action: none;
+      margin: 0;
+      background: #141414;
+    }
+    /* Branded splash shown while the Flutter bundle loads. */
+    #splash {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      background: #141414;
+      z-index: 9999;
+      transition: opacity 0.35s ease;
+    }
+    #splash svg { animation: splash-pulse 1.6s ease-in-out infinite; }
+    #splash p {
+      color: #8a8a8a;
+      font: 500 13px/1 system-ui, -apple-system, sans-serif;
+      letter-spacing: 2px;
+      margin: 0;
+    }
+    @keyframes splash-pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(0.92); opacity: 0.75; }
     }
   </style>
 </head>
 <body>
-  <!--
-    You can customize the "flutter_bootstrap.js" script.
-    This is useful to provide a custom configuration to the Flutter loader
-    or to give the user feedback during the initialization process.
-
-    For more details:
-    * https://docs.flutter.dev/platform-integration/web/initialization
-  -->
+  <div id="splash">
+    <svg width="96" height="60" viewBox="0 0 130 80" xmlns="http://www.w3.org/2000/svg">
+      <path d="M2 40 Q65 -14 128 40 Q65 94 2 40 Z" fill="none" stroke="#FF6B6B" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="65" cy="40" r="17" fill="#F0B429"/>
+      <circle cx="65" cy="40" r="7" fill="#141414"/>
+    </svg>
+    <p>CTRL+ALT</p>
+  </div>
+  <script>
+    // Remove the splash once Flutter paints, and nudge the engine with a
+    // resize: the first frame occasionally renders at a stale canvas size
+    // until a relayout (long-standing engine quirk).
+    window.addEventListener('flutter-first-frame', function () {
+      setTimeout(function () {
+        window.dispatchEvent(new Event('resize'));
+        var s = document.getElementById('splash');
+        if (s) {
+          s.style.opacity = '0';
+          setTimeout(function () { s.remove(); }, 400);
+        }
+      }, 60);
+    });
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 
   <!-- Privacy-respecting analytics: GoatCounter is cookieless and open
