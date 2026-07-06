@@ -23,10 +23,13 @@ TEMPLATE = """<!DOCTYPE html>
   <meta property="og:title" content="{name}: Manipulation Level {level}">
   <meta property="og:description" content="{desc}">
   <meta property="og:url" content="https://ctrl-alt.app/share/{pid}">
-  <meta property="og:image" content="https://ctrl-alt.app/icons/Icon-512.png">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://ctrl-alt.app/share/cards/{pid}.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{name}: Manipulation Level {level}">
   <meta name="twitter:description" content="{desc}">
+  <meta name="twitter:image" content="https://ctrl-alt.app/share/cards/{pid}.png">
   <meta http-equiv="refresh" content="0; url=/?platform={pid}">
   <script>location.replace('/?platform={pid}');</script>
 </head>
