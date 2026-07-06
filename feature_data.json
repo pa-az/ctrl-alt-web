@@ -1,1006 +1,1120 @@
 [
-  {
-    "id": "red_dot",
-    "title": "The Red Dot",
-    "explanation": "Notification badges are colored to stand out against any background, creating a visual tension that you feel compelled to clear by opening the app.",
-    "origin": "Apple & Facebook Growth Teams (2009)",
-    "fix": "Turn off badge notifications for all non-essential apps.",
-    "category": "attentionTraps",
-    "psychologicalLoop": "Exploits alarm response: red is an evolutionary warning color, and the small spike of tension it creates is only relieved by clearing the badge.",
-    "icon": {
-      "codePoint": 57699,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Dscout, 'Mobile Touches' study (2016)",
-    "stat": "Dscout researchers counted an average of 2,617 phone touches per user per day.",
-    "isPremium": false,
-    "hasTutorial": true
+ {
+  "id": "red_dot",
+  "title": "The Red Dot",
+  "explanation": "Notification badges are colored to stand out against any background, creating a visual tension that you feel compelled to clear by opening the app.",
+  "origin": "Apple & Facebook Growth Teams (2009)",
+  "fix": "Turn off badge notifications for all non-essential apps.",
+  "category": "attentionTraps",
+  "psychologicalLoop": "Exploits alarm response: red is an evolutionary warning color, and the small spike of tension it creates is only relieved by clearing the badge.",
+  "icon": {
+   "codePoint": 57699,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "typing_indicator",
-    "title": "Typing Indicators",
-    "explanation": "The 'someone is typing' indicator creates an open loop: you know a reply is coming, so you keep waiting on the screen instead of closing the app.",
-    "origin": "Early Instant Messaging (1997)",
-    "fix": "Disable typing indicators where your app allows it, or put the phone down after sending a message.",
-    "category": "attentionTraps",
-    "psychologicalLoop": "Exploits social anticipation: an unresolved 'reply incoming' signal holds your attention on an otherwise empty screen.",
-    "icon": {
-      "codePoint": 57685,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": false
+  "citation": "Dscout, 'Mobile Touches' study (2016)",
+  "stat": "Dscout researchers counted an average of 2,617 phone touches per user per day.",
+  "isPremium": false,
+  "hasTutorial": true
+ },
+ {
+  "id": "typing_indicator",
+  "title": "Typing Indicators",
+  "explanation": "The 'someone is typing' indicator creates an open loop: you know a reply is coming, so you keep waiting on the screen instead of closing the app.",
+  "origin": "Early Instant Messaging (1997)",
+  "fix": "Disable typing indicators where your app allows it, or put the phone down after sending a message.",
+  "category": "attentionTraps",
+  "psychologicalLoop": "Exploits social anticipation: an unresolved 'reply incoming' signal holds your attention on an otherwise empty screen.",
+  "icon": {
+   "codePoint": 57685,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "pull_to_refresh",
-    "title": "Pull-to-Refresh",
-    "explanation": "Pulling down and waiting to see what new content appears works like a slot machine lever: the reward is unpredictable, which is what makes the gesture habit-forming.",
-    "origin": "Loren Brichter / Tweetie (2009)",
-    "fix": "Check content at scheduled times instead of refreshing repeatedly for new updates.",
-    "category": "variableRewards",
-    "psychologicalLoop": "Exploits variable ratio reinforcement: rewards that arrive unpredictably create stronger habits than rewards that arrive every time.",
-    "icon": {
-      "codePoint": 984440,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "The Guardian, 'Our minds can be hijacked' (2017)",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": false,
-    "citationUrl": "https://www.theguardian.com/technology/2017/oct/05/smartphone-addiction-silicon-valley-dystopia"
+  "citation": "",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": false
+ },
+ {
+  "id": "pull_to_refresh",
+  "title": "Pull-to-Refresh",
+  "explanation": "Pulling down and waiting to see what new content appears works like a slot machine lever: the reward is unpredictable, which is what makes the gesture habit-forming.",
+  "origin": "Loren Brichter / Tweetie (2009)",
+  "fix": "Check content at scheduled times instead of refreshing repeatedly for new updates.",
+  "category": "variableRewards",
+  "psychologicalLoop": "Exploits variable ratio reinforcement: rewards that arrive unpredictably create stronger habits than rewards that arrive every time.",
+  "icon": {
+   "codePoint": 984440,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "infinite_scroll",
-    "title": "The Bottomless Well",
-    "explanation": "Because new content loads automatically as you scroll, the feed has no end point. Without a natural stopping place, it is much harder to decide you are done.",
-    "origin": "Aza Raskin (2006)",
-    "fix": "Set a timer before you start scrolling, or use apps that impose session limits.",
-    "category": "variableRewards",
-    "psychologicalLoop": "Exploits missing stopping cues: the brain relies on end points to register that a task is finished, and the feed deliberately never provides one.",
-    "icon": {
-      "codePoint": 57470,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Aza Raskin, BBC interview (2018)",
-    "stat": "Inventor Aza Raskin now campaigns against his own design, estimating that infinite scroll collectively wastes the equivalent of 200,000 human lifetimes per day.",
-    "isPremium": true,
-    "hasTutorial": false
+  "citation": "The Guardian, 'Our minds can be hijacked' (2017)",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": false,
+  "citationUrl": "https://www.theguardian.com/technology/2017/oct/05/smartphone-addiction-silicon-valley-dystopia"
+ },
+ {
+  "id": "infinite_scroll",
+  "title": "The Bottomless Well",
+  "explanation": "Because new content loads automatically as you scroll, the feed has no end point. Without a natural stopping place, it is much harder to decide you are done.",
+  "origin": "Aza Raskin (2006)",
+  "fix": "Set a timer before you start scrolling, or use apps that impose session limits.",
+  "category": "variableRewards",
+  "psychologicalLoop": "Exploits missing stopping cues: the brain relies on end points to register that a task is finished, and the feed deliberately never provides one.",
+  "icon": {
+   "codePoint": 57470,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "dynamic_retargeting",
-    "title": "Dynamic Retargeting",
-    "explanation": "Trackers record your browsing, then show you the same product across different sites and apps. Repeated exposure gradually wears down your initial decision not to buy.",
-    "origin": "Ad-Tech Industry (2010s)",
-    "fix": "Use a privacy-focused browser, clear cookies regularly, and install a tracker blocker.",
-    "category": "intentHijacking",
-    "psychologicalLoop": "Exploits the mere exposure effect: simply seeing something repeatedly makes it feel more familiar and more desirable.",
-    "icon": {
-      "codePoint": 58995,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": true
+  "citation": "Aza Raskin, BBC interview (2018)",
+  "stat": "Inventor Aza Raskin now campaigns against his own design, estimating that infinite scroll collectively wastes the equivalent of 200,000 human lifetimes per day.",
+  "isPremium": true,
+  "hasTutorial": false
+ },
+ {
+  "id": "dynamic_retargeting",
+  "title": "Dynamic Retargeting",
+  "explanation": "Trackers record your browsing, then show you the same product across different sites and apps. Repeated exposure gradually wears down your initial decision not to buy.",
+  "origin": "Ad-Tech Industry (2010s)",
+  "fix": "Use a privacy-focused browser, clear cookies regularly, and install a tracker blocker.",
+  "category": "intentHijacking",
+  "psychologicalLoop": "Exploits the mere exposure effect: simply seeing something repeatedly makes it feel more familiar and more desirable.",
+  "icon": {
+   "codePoint": 58995,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "false_scarcity",
-    "title": "Artificial Urgency",
-    "explanation": "Invented deadlines and 'only 2 left in stock' warnings are designed to make you decide quickly, before you have time to compare options or reconsider.",
-    "origin": "E-Commerce Growth Teams (2010s)",
-    "fix": "Apply a 24-hour waiting rule to any non-essential purchase made under time pressure.",
-    "category": "intentHijacking",
-    "psychologicalLoop": "Exploits loss aversion: people are roughly twice as motivated to avoid losing a deal as to gain the same item, so urgency triggers impulse buys.",
-    "icon": {
-      "codePoint": 58149,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "UK Competition & Markets Authority, hotel booking sites investigation (2019)",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": false,
-    "citationUrl": "https://www.gov.uk/government/news/hotel-booking-sites-to-make-major-changes-after-cma-probe"
+  "citation": "",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": true
+ },
+ {
+  "id": "false_scarcity",
+  "title": "Artificial Urgency",
+  "explanation": "Invented deadlines and 'only 2 left in stock' warnings are designed to make you decide quickly, before you have time to compare options or reconsider.",
+  "origin": "E-Commerce Growth Teams (2010s)",
+  "fix": "Apply a 24-hour waiting rule to any non-essential purchase made under time pressure.",
+  "category": "intentHijacking",
+  "psychologicalLoop": "Exploits loss aversion: people are roughly twice as motivated to avoid losing a deal as to gain the same item, so urgency triggers impulse buys.",
+  "icon": {
+   "codePoint": 58149,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "doomscrolling",
-    "title": "Negativity Bias",
-    "explanation": "Feeds surface alarming and upsetting news more often than positive news, because threatening information reliably holds human attention longer.",
-    "origin": "Algorithmic News Feeds (2010s)",
-    "fix": "Curate your feed deliberately and mute keywords that keep you in a stress loop.",
-    "category": "cognitiveExploits",
-    "psychologicalLoop": "Exploits negativity bias: the brain treats bad news as a potential threat and keeps scanning for more information, which keeps you scrolling.",
-    "icon": {
-      "codePoint": 983712,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Soroka et al., PNAS: cross-national evidence of negativity bias (2019)",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": false,
-    "citationUrl": "https://doi.org/10.1073/pnas.1908369116"
+  "citation": "UK Competition & Markets Authority, hotel booking sites investigation (2019)",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": false,
+  "citationUrl": "https://www.gov.uk/government/news/hotel-booking-sites-to-make-major-changes-after-cma-probe"
+ },
+ {
+  "id": "doomscrolling",
+  "title": "Negativity Bias",
+  "explanation": "Feeds surface alarming and upsetting news more often than positive news, because threatening information reliably holds human attention longer.",
+  "origin": "Algorithmic News Feeds (2010s)",
+  "fix": "Curate your feed deliberately and mute keywords that keep you in a stress loop.",
+  "category": "cognitiveExploits",
+  "psychologicalLoop": "Exploits negativity bias: the brain treats bad news as a potential threat and keeps scanning for more information, which keeps you scrolling.",
+  "icon": {
+   "codePoint": 983712,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "status_anxiety",
-    "title": "Status Anxiety",
-    "explanation": "Likes and follower counts turn social connection into a visible score. Constant comparison against those numbers creates a steady background of anxiety.",
-    "origin": "Leon Festinger's Social Comparison Theory (1954)",
-    "fix": "Hide like counts where the platform allows it, or switch to chronological, algorithm-free feeds.",
-    "category": "socialPressure",
-    "psychologicalLoop": "Exploits social comparison: a feed full of curated, above-average lives reads to the brain as a drop in your own social standing.",
-    "icon": {
-      "codePoint": 59005,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Royal Society for Public Health, #StatusOfMind report (2017)",
-    "stat": "The RSPH #StatusOfMind survey rated Instagram the worst of five major platforms for young people's mental wellbeing.",
-    "isPremium": false,
-    "hasTutorial": true,
-    "citationUrl": "https://www.rsph.org.uk/our-work/campaigns/status-of-mind.html"
+  "citation": "Soroka et al., PNAS: cross-national evidence of negativity bias (2019)",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1073/pnas.1908369116"
+ },
+ {
+  "id": "status_anxiety",
+  "title": "Status Anxiety",
+  "explanation": "Likes and follower counts turn social connection into a visible score. Constant comparison against those numbers creates a steady background of anxiety.",
+  "origin": "Leon Festinger's Social Comparison Theory (1954)",
+  "fix": "Hide like counts where the platform allows it, or switch to chronological, algorithm-free feeds.",
+  "category": "socialPressure",
+  "psychologicalLoop": "Exploits social comparison: a feed full of curated, above-average lives reads to the brain as a drop in your own social standing.",
+  "icon": {
+   "codePoint": 59005,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "asymmetric_friction",
-    "title": "Asymmetric Friction",
-    "explanation": "Companies make their preferred action extremely easy by using a large, bright button. Meanwhile, the option that actually protects you gets buried under multiple menus and confusing steps.",
-    "origin": "Consent-Flow Design (2010s)",
-    "fix": "Take the extra 30 seconds to find the 'Reject All' option instead of accepting the default.",
-    "category": "deceptiveDesign",
-    "psychologicalLoop": "Exploits decision fatigue: when choosing is tiring, most people take the easiest visible path, so designers control which path is easiest.",
-    "icon": {
-      "codePoint": 57645,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": false
+  "citation": "Royal Society for Public Health, #StatusOfMind report (2017)",
+  "stat": "The RSPH #StatusOfMind survey rated Instagram the worst of five major platforms for young people's mental wellbeing.",
+  "isPremium": false,
+  "hasTutorial": true,
+  "citationUrl": "https://www.rsph.org.uk/our-work/campaigns/status-of-mind.html"
+ },
+ {
+  "id": "asymmetric_friction",
+  "title": "Asymmetric Friction",
+  "explanation": "Companies make their preferred action extremely easy by using a large, bright button. Meanwhile, the option that actually protects you gets buried under multiple menus and confusing steps.",
+  "origin": "Consent-Flow Design (2010s)",
+  "fix": "Take the extra 30 seconds to find the 'Reject All' option instead of accepting the default.",
+  "category": "deceptiveDesign",
+  "psychologicalLoop": "Exploits decision fatigue: when choosing is tiring, most people take the easiest visible path, so designers control which path is easiest.",
+  "icon": {
+   "codePoint": 57645,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "outrage_amplification",
-    "title": "Outrage Amplification",
-    "explanation": "Platforms learned that angry users comment, share, and stay online more, so ranking algorithms tend to promote polarizing and rage-inducing content.",
-    "origin": "Algorithmic Social Feeds (2012)",
-    "fix": "Notice when content seems designed to make you angry, and step away before engaging.",
-    "category": "algorithmicManipulation",
-    "psychologicalLoop": "Exploits emotional contagion: anger spreads faster than other emotions online, and feeds optimize for whatever spreads.",
-    "icon": {
-      "codePoint": 61223,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Brady et al., PNAS (2017)",
-    "stat": "A study of over 500,000 posts found each additional moral-emotional word in a message increased its share rate by roughly 20%.",
-    "isPremium": false,
-    "hasTutorial": false,
-    "citationUrl": "https://doi.org/10.1073/pnas.1618923114"
+  "citation": "",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": false
+ },
+ {
+  "id": "outrage_amplification",
+  "title": "Outrage Amplification",
+  "explanation": "Platforms learned that angry users comment, share, and stay online more, so ranking algorithms tend to promote polarizing and rage-inducing content.",
+  "origin": "Algorithmic Social Feeds (2012)",
+  "fix": "Notice when content seems designed to make you angry, and step away before engaging.",
+  "category": "algorithmicManipulation",
+  "psychologicalLoop": "Exploits emotional contagion: anger spreads faster than other emotions online, and feeds optimize for whatever spreads.",
+  "icon": {
+   "codePoint": 61223,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "read_receipts",
-    "title": "Read Receipts",
-    "explanation": "Once the sender can see you have read their message, not replying starts to feel rude. This pushes you to respond on the app's schedule rather than your own.",
-    "origin": "BlackBerry Messenger (2005)",
-    "fix": "Turn off read receipts in every messaging app you use.",
-    "category": "socialPressure",
-    "psychologicalLoop": "Exploits reciprocity guilt: visible proof that you saw a message turns an ordinary delay into something you feel you must explain.",
-    "icon": {
-      "codePoint": 62625,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": true
+  "citation": "Brady et al., PNAS (2017)",
+  "stat": "A study of over 500,000 posts found each additional moral-emotional word in a message increased its share rate by roughly 20%.",
+  "isPremium": false,
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1073/pnas.1618923114"
+ },
+ {
+  "id": "read_receipts",
+  "title": "Read Receipts",
+  "explanation": "Once the sender can see you have read their message, not replying starts to feel rude. This pushes you to respond on the app's schedule rather than your own.",
+  "origin": "BlackBerry Messenger (2005)",
+  "fix": "Turn off read receipts in every messaging app you use.",
+  "category": "socialPressure",
+  "psychologicalLoop": "Exploits reciprocity guilt: visible proof that you saw a message turns an ordinary delay into something you feel you must explain.",
+  "icon": {
+   "codePoint": 62625,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "artificial_social_proof",
-    "title": "Artificial Social Proof",
-    "explanation": "Messages like '14 people are looking at this right now' simulate a crowd of competing buyers to pressure you toward a faster decision.",
-    "origin": "E-Commerce & Travel Booking (2010s)",
-    "fix": "Ignore claims about what other shoppers are doing and judge the purchase on your own needs.",
-    "category": "socialPressure",
-    "psychologicalLoop": "Exploits the bandwagon effect: signs of a crowd trigger herd instinct and fear of missing out, which override careful evaluation.",
-    "icon": {
-      "codePoint": 58504,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Cialdini, Influence: The Psychology of Persuasion (1984)",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": false
+  "citation": "",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": true
+ },
+ {
+  "id": "artificial_social_proof",
+  "title": "Artificial Social Proof",
+  "explanation": "Messages like '14 people are looking at this right now' simulate a crowd of competing buyers to pressure you toward a faster decision.",
+  "origin": "E-Commerce & Travel Booking (2010s)",
+  "fix": "Ignore claims about what other shoppers are doing and judge the purchase on your own needs.",
+  "category": "socialPressure",
+  "psychologicalLoop": "Exploits the bandwagon effect: signs of a crowd trigger herd instinct and fear of missing out, which override careful evaluation.",
+  "icon": {
+   "codePoint": 58504,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "decoy_pricing",
-    "title": "The Decoy Effect",
-    "explanation": "Companies add a deliberately poor-value middle option priced close to the premium tier. Compared against the decoy, the premium tier looks like a bargain.",
-    "origin": "Huber, Payne & Puto (1982)",
-    "fix": "Decide which tier you actually need before looking at the comparison table.",
-    "category": "deceptiveDesign",
-    "psychologicalLoop": "Exploits asymmetric dominance: an obviously inferior option shifts your sense of what counts as a reasonable price.",
-    "icon": {
-      "codePoint": 62291,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Huber, Payne & Puto, Journal of Consumer Research (1982)",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": false
+  "citation": "Cialdini, Influence: The Psychology of Persuasion (1984)",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": false
+ },
+ {
+  "id": "decoy_pricing",
+  "title": "The Decoy Effect",
+  "explanation": "Companies add a deliberately poor-value middle option priced close to the premium tier. Compared against the decoy, the premium tier looks like a bargain.",
+  "origin": "Huber, Payne & Puto (1982)",
+  "fix": "Decide which tier you actually need before looking at the comparison table.",
+  "category": "deceptiveDesign",
+  "psychologicalLoop": "Exploits asymmetric dominance: an obviously inferior option shifts your sense of what counts as a reasonable price.",
+  "icon": {
+   "codePoint": 62291,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "context_collapse",
-    "title": "Context Collapse",
-    "explanation": "Platforms merge family, colleagues, friends, and strangers into one audience. A post written for one group is easily misread by another, which generates conflict.",
-    "origin": "Broadcast-Style Social Feeds (2000s)",
-    "fix": "Use different platforms for different social circles, or move conversations into private group chats.",
-    "category": "algorithmicManipulation",
-    "psychologicalLoop": "Exploits flattened audiences: removing context makes misunderstandings more likely, and misunderstandings generate high-engagement conflict.",
-    "icon": {
-      "codePoint": 58609,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Marwick & boyd, 'I tweet honestly, I tweet passionately' (2011)",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": false
+  "citation": "Huber, Payne & Puto, Journal of Consumer Research (1982)",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": false
+ },
+ {
+  "id": "context_collapse",
+  "title": "Context Collapse",
+  "explanation": "Platforms merge family, colleagues, friends, and strangers into one audience. A post written for one group is easily misread by another, which generates conflict.",
+  "origin": "Broadcast-Style Social Feeds (2000s)",
+  "fix": "Use different platforms for different social circles, or move conversations into private group chats.",
+  "category": "algorithmicManipulation",
+  "psychologicalLoop": "Exploits flattened audiences: removing context makes misunderstandings more likely, and misunderstandings generate high-engagement conflict.",
+  "icon": {
+   "codePoint": 58609,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "synthetic_companionship",
-    "title": "Synthetic Companionship",
-    "explanation": "AI companion apps simulate affection, memory, and vulnerability. Because the bot behaves like a friend, leaving the conversation can feel like letting someone down.",
-    "origin": "LLM Companion Apps (2020s)",
-    "fix": "Keep in mind that the AI has no inner experience; it predicts the next word in a way that maximizes your engagement.",
-    "category": "aiDeception",
-    "psychologicalLoop": "Exploits social bonding: simulated empathy creates a one-sided attachment that the brain processes much like a real relationship.",
-    "icon": {
-      "codePoint": 62376,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Common Sense Media, 'Talk, Trust, and Trade-Offs' (2025)",
-    "stat": "72% of US teens have used an AI companion, and 13% chat with one daily, according to a 2025 national survey.",
-    "isPremium": true,
-    "hasTutorial": false
+  "citation": "Marwick & boyd, 'I tweet honestly, I tweet passionately' (2011)",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": false
+ },
+ {
+  "id": "synthetic_companionship",
+  "title": "Synthetic Companionship",
+  "explanation": "AI companion apps simulate affection, memory, and vulnerability. Because the bot behaves like a friend, leaving the conversation can feel like letting someone down.",
+  "origin": "LLM Companion Apps (2020s)",
+  "fix": "Keep in mind that the AI has no inner experience; it predicts the next word in a way that maximizes your engagement.",
+  "category": "aiDeception",
+  "psychologicalLoop": "Exploits social bonding: simulated empathy creates a one-sided attachment that the brain processes much like a real relationship.",
+  "icon": {
+   "codePoint": 62376,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "hallucinated_authority",
-    "title": "Hallucinated Authority",
-    "explanation": "AI models present their answers instantly and with absolute confidence, regardless of whether they are right or wrong. This polished formatting tricks users into thinking the information is already verified.",
-    "origin": "Generative Search Interfaces (2023)",
-    "fix": "Treat AI output as a draft, not a source. Verify important claims before relying on them.",
-    "category": "aiDeception",
-    "psychologicalLoop": "Exploits automation bias: confident machine output tends to bypass the critical checks people would apply to a human answer.",
-    "icon": {
-      "codePoint": 61632,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Exploding Topics survey (2025)",
-    "stat": "A 2025 analysis found that 92% of people do not verify the answers AI gives them, despite knowing these tools can hallucinate.",
-    "isPremium": true,
-    "hasTutorial": false
+  "citation": "Common Sense Media, 'Talk, Trust, and Trade-Offs' (2025)",
+  "stat": "72% of US teens have used an AI companion, and 13% chat with one daily, according to a 2025 national survey.",
+  "isPremium": true,
+  "hasTutorial": false
+ },
+ {
+  "id": "hallucinated_authority",
+  "title": "Hallucinated Authority",
+  "explanation": "AI models present their answers instantly and with absolute confidence, regardless of whether they are right or wrong. This polished formatting tricks users into thinking the information is already verified.",
+  "origin": "Generative Search Interfaces (2023)",
+  "fix": "Treat AI output as a draft, not a source. Verify important claims before relying on them.",
+  "category": "aiDeception",
+  "psychologicalLoop": "Exploits automation bias: confident machine output tends to bypass the critical checks people would apply to a human answer.",
+  "icon": {
+   "codePoint": 61632,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "rabbit_hole_recommendations",
-    "title": "The Rabbit Hole",
-    "explanation": "The 'Up Next' sidebar is designed to pull you away from what you originally searched for, often by recommending content that is more emotionally intense than what you are watching.",
-    "origin": "YouTube Autoplay Era (2015)",
-    "fix": "Hide the recommendation sidebar with an extension like Unhook, and watch only what you came for.",
-    "category": "streamingTraps",
-    "psychologicalLoop": "Exploits the curiosity gap: each recommended thumbnail promises something slightly more provocative than the current video.",
-    "icon": {
-      "codePoint": 62594,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Mozilla Foundation, 'YouTube Regrets' report (2021)",
-    "stat": "In Mozilla's crowdsourced study, 71% of videos volunteers regretted watching were recommended to them by YouTube's algorithm.",
-    "isPremium": false,
-    "hasTutorial": false,
-    "citationUrl": "https://foundation.mozilla.org/en/youtube/findings/"
+  "citation": "Exploding Topics survey (2025)",
+  "stat": "A 2025 analysis found that 92% of people do not verify the answers AI gives them, despite knowing these tools can hallucinate.",
+  "isPremium": true,
+  "hasTutorial": false
+ },
+ {
+  "id": "rabbit_hole_recommendations",
+  "title": "The Rabbit Hole",
+  "explanation": "The 'Up Next' sidebar is designed to pull you away from what you originally searched for, often by recommending content that is more emotionally intense than what you are watching.",
+  "origin": "YouTube Autoplay Era (2015)",
+  "fix": "Hide the recommendation sidebar with an extension like Unhook, and watch only what you came for.",
+  "category": "streamingTraps",
+  "psychologicalLoop": "Exploits the curiosity gap: each recommended thumbnail promises something slightly more provocative than the current video.",
+  "icon": {
+   "codePoint": 62594,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "shorts_slot_machine",
-    "title": "The Shorts Slot Machine",
-    "explanation": "In short-form video feeds, you cannot see what the next swipe will bring. That unpredictability, more than the videos themselves, is what makes the format hard to put down.",
-    "origin": "TikTok, then Reels & Shorts (2020)",
-    "fix": "Decide how many videos you will watch before opening the app, and turn off autoplaying short-feeds where possible.",
-    "category": "variableRewards",
-    "psychologicalLoop": "Exploits variable rewards at high frequency: every few seconds brings a new unpredictable outcome, with almost no effort per swipe.",
-    "icon": {
-      "codePoint": 984447,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "TikTok screen-time analyses (2025)",
-    "stat": "US teens average 87–113 minutes of short-form video watch time per day, the highest of any content format.",
-    "isPremium": false,
-    "hasTutorial": false
+  "citation": "Mozilla Foundation, 'YouTube Regrets' report (2021)",
+  "stat": "In Mozilla's crowdsourced study, 71% of videos volunteers regretted watching were recommended to them by YouTube's algorithm.",
+  "isPremium": false,
+  "hasTutorial": false,
+  "citationUrl": "https://foundation.mozilla.org/en/youtube/findings/"
+ },
+ {
+  "id": "shorts_slot_machine",
+  "title": "The Shorts Slot Machine",
+  "explanation": "In short-form video feeds, you cannot see what the next swipe will bring. That unpredictability, more than the videos themselves, is what makes the format hard to put down.",
+  "origin": "TikTok, then Reels & Shorts (2020)",
+  "fix": "Decide how many videos you will watch before opening the app, and turn off autoplaying short-feeds where possible.",
+  "category": "variableRewards",
+  "psychologicalLoop": "Exploits variable rewards at high frequency: every few seconds brings a new unpredictable outcome, with almost no effort per swipe.",
+  "icon": {
+   "codePoint": 984447,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "skip_intro_buttons",
-    "title": "Skip Intro Buttons",
-    "explanation": "Auto-playing the next episode saves you a few seconds by skipping intros and credits. However, this intentionally removes the natural stopping points that usually prompt viewers to turn off the screen.",
-    "origin": "Netflix (2017)",
-    "fix": "Let intros and credits play when you are deciding whether to keep watching; the pause helps you choose deliberately.",
-    "category": "streamingTraps",
-    "psychologicalLoop": "Exploits momentum: with every pause removed, continuing becomes the default and stopping requires an active decision.",
-    "icon": {
-      "codePoint": 57944,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Flayelle et al., binge-watching research review (2020)",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": true
+  "citation": "TikTok screen-time analyses (2025)",
+  "stat": "US teens average 87–113 minutes of short-form video watch time per day, the highest of any content format.",
+  "isPremium": false,
+  "hasTutorial": false
+ },
+ {
+  "id": "skip_intro_buttons",
+  "title": "Skip Intro Buttons",
+  "explanation": "Auto-playing the next episode saves you a few seconds by skipping intros and credits. However, this intentionally removes the natural stopping points that usually prompt viewers to turn off the screen.",
+  "origin": "Netflix (2017)",
+  "fix": "Let intros and credits play when you are deciding whether to keep watching; the pause helps you choose deliberately.",
+  "category": "streamingTraps",
+  "psychologicalLoop": "Exploits momentum: with every pause removed, continuing becomes the default and stopping requires an active decision.",
+  "icon": {
+   "codePoint": 57944,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "phantom_vibration",
-    "title": "Phantom Vibration",
-    "explanation": "Frequent phone checking trains the nervous system to expect notifications, to the point where many people feel their phone vibrate when it did not.",
-    "origin": "Mobile Phone Era (2000s)",
-    "fix": "Turn off vibration for set periods and carry the phone outside your pocket to weaken the conditioning.",
-    "category": "attentionTraps",
-    "psychologicalLoop": "Exploits sensory expectation: a brain primed for unpredictable social rewards becomes hypervigilant and starts producing false alarms.",
-    "icon": {
-      "codePoint": 62595,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Drouin et al., Computers in Human Behavior (2012)",
-    "stat": "Up to 89% of undergraduates report experiencing phantom vibrations, on average about once every two weeks.",
-    "isPremium": false,
-    "hasTutorial": false,
-    "citationUrl": "https://doi.org/10.1016/j.chb.2012.03.020"
+  "citation": "Flayelle et al., binge-watching research review (2020)",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": true
+ },
+ {
+  "id": "phantom_vibration",
+  "title": "Phantom Vibration",
+  "explanation": "Frequent phone checking trains the nervous system to expect notifications, to the point where many people feel their phone vibrate when it did not.",
+  "origin": "Mobile Phone Era (2000s)",
+  "fix": "Turn off vibration for set periods and carry the phone outside your pocket to weaken the conditioning.",
+  "category": "attentionTraps",
+  "psychologicalLoop": "Exploits sensory expectation: a brain primed for unpredictable social rewards becomes hypervigilant and starts producing false alarms.",
+  "icon": {
+   "codePoint": 62595,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "streaks",
-    "title": "Streaks",
-    "explanation": "A streak counter turns daily use into something you can lose. The longer it grows, the more breaking it feels like losing real progress, so you log in even on days you don't want to.",
-    "origin": "Snapchat (2015)",
-    "fix": "Let low-value streaks end on purpose, and notice how little actually changes when they do.",
-    "category": "gamification",
-    "psychologicalLoop": "Exploits loss aversion and sunk cost: each day added to the streak raises the perceived cost of missing one.",
-    "icon": {
-      "codePoint": 61818,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Qualitative studies of teen Snapchat use",
-    "stat": "Researchers have documented teens sharing their login credentials with friends before vacations just to keep streaks alive.",
-    "isPremium": false,
-    "hasTutorial": false
+  "citation": "Drouin et al., Computers in Human Behavior (2012)",
+  "stat": "Up to 89% of undergraduates report experiencing phantom vibrations, on average about once every two weeks.",
+  "isPremium": false,
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1016/j.chb.2012.03.020"
+ },
+ {
+  "id": "streaks",
+  "title": "Streaks",
+  "explanation": "A streak counter turns daily use into something you can lose. The longer it grows, the more breaking it feels like losing real progress, so you log in even on days you don't want to.",
+  "origin": "Snapchat (2015)",
+  "fix": "Let low-value streaks end on purpose, and notice how little actually changes when they do.",
+  "category": "gamification",
+  "psychologicalLoop": "Exploits loss aversion and sunk cost: each day added to the streak raises the perceived cost of missing one.",
+  "icon": {
+   "codePoint": 61818,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "confirmshaming",
-    "title": "Confirmshaming",
-    "explanation": "Opt-out buttons use manipulative wording to make you feel guilty or embarrassed for declining. Phrasing like 'No thanks, I hate saving money' is specifically designed to nudge you into accepting the offer.",
-    "origin": "Coined by Harry Brignull (2010)",
-    "fix": "Ignore the wording and choose the option you actually want.",
-    "category": "deceptiveDesign",
-    "psychologicalLoop": "Exploits self-image: framing refusal as a character flaw adds social pressure to a choice that should have none.",
-    "icon": {
-      "codePoint": 61924,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Mathur et al., 'Dark Patterns at Scale' (2019)",
-    "stat": "Princeton's crawl of 11,000 shopping sites found dark patterns on more than 11% of them, with confirmshaming documented across dozens of major retailers.",
-    "isPremium": false,
-    "hasTutorial": false
+  "citation": "Qualitative studies of teen Snapchat use",
+  "stat": "Researchers have documented teens sharing their login credentials with friends before vacations just to keep streaks alive.",
+  "isPremium": false,
+  "hasTutorial": false
+ },
+ {
+  "id": "confirmshaming",
+  "title": "Confirmshaming",
+  "explanation": "Opt-out buttons use manipulative wording to make you feel guilty or embarrassed for declining. Phrasing like 'No thanks, I hate saving money' is specifically designed to nudge you into accepting the offer.",
+  "origin": "Coined by Harry Brignull (2010)",
+  "fix": "Ignore the wording and choose the option you actually want.",
+  "category": "deceptiveDesign",
+  "psychologicalLoop": "Exploits self-image: framing refusal as a character flaw adds social pressure to a choice that should have none.",
+  "icon": {
+   "codePoint": 61924,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "roach_motel",
-    "title": "Roach Motel",
-    "explanation": "Signing up takes one click, but cancelling requires phone calls, buried settings, or multi-step flows. The imbalance is deliberate: easy entry, difficult exit.",
-    "origin": "Coined by Harry Brignull (2010)",
-    "fix": "Check how cancellation works before you sign up, and prefer app-store billing where cancelling is centralized.",
-    "category": "deceptiveDesign",
-    "psychologicalLoop": "Exploits inertia: easy signup captures impulse decisions, while a difficult exit relies on people postponing the hassle.",
-    "icon": {
-      "codePoint": 61888,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "FTC Negative Option Rule proceedings (2023–2025)",
-    "stat": "Cancellation traps are widespread enough that the US FTC drafted a 'click-to-cancel' rule requiring exits to be as easy as sign-ups.",
-    "isPremium": false,
-    "hasTutorial": false
+  "citation": "Mathur et al., 'Dark Patterns at Scale' (2019)",
+  "stat": "Princeton's crawl of 11,000 shopping sites found dark patterns on more than 11% of them, with confirmshaming documented across dozens of major retailers.",
+  "isPremium": false,
+  "hasTutorial": false
+ },
+ {
+  "id": "roach_motel",
+  "title": "Roach Motel",
+  "explanation": "Signing up takes one click, but cancelling requires phone calls, buried settings, or multi-step flows. The imbalance is deliberate: easy entry, difficult exit.",
+  "origin": "Coined by Harry Brignull (2010)",
+  "fix": "Check how cancellation works before you sign up, and prefer app-store billing where cancelling is centralized.",
+  "category": "deceptiveDesign",
+  "psychologicalLoop": "Exploits inertia: easy signup captures impulse decisions, while a difficult exit relies on people postponing the hassle.",
+  "icon": {
+   "codePoint": 61888,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "zeigarnik_effect",
-    "title": "Zeigarnik Effect",
-    "explanation": "People remember unfinished tasks better than finished ones, and feel mild tension until they are completed. Progress bars like 'Profile 80% complete' use this to pull you through onboarding and upsell steps.",
-    "origin": "Bluma Zeigarnik (1927)",
-    "fix": "Treat completion prompts as persuasion, not obligation. Ask whether the remaining steps benefit you or mainly the platform.",
-    "category": "cognitiveExploits",
-    "psychologicalLoop": "Exploits task tension: an incomplete progress bar creates mental friction. Users feel compelled to close this loop by finishing the setup, which usually means handing over more personal data.",
-    "icon": {
-      "codePoint": 61711,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Zeigarnik, Psychologische Forschung (1927)",
-    "stat": "Zeigarnik's original experiments found people recalled interrupted tasks about twice as well as completed ones.",
-    "isPremium": false,
-    "hasTutorial": false
+  "citation": "FTC Negative Option Rule proceedings (2023–2025)",
+  "stat": "Cancellation traps are widespread enough that the US FTC drafted a 'click-to-cancel' rule requiring exits to be as easy as sign-ups.",
+  "isPremium": false,
+  "hasTutorial": false
+ },
+ {
+  "id": "zeigarnik_effect",
+  "title": "Zeigarnik Effect",
+  "explanation": "People remember unfinished tasks better than finished ones, and feel mild tension until they are completed. Progress bars like 'Profile 80% complete' use this to pull you through onboarding and upsell steps.",
+  "origin": "Bluma Zeigarnik (1927)",
+  "fix": "Treat completion prompts as persuasion, not obligation. Ask whether the remaining steps benefit you or mainly the platform.",
+  "category": "cognitiveExploits",
+  "psychologicalLoop": "Exploits task tension: an incomplete progress bar creates mental friction. Users feel compelled to close this loop by finishing the setup, which usually means handing over more personal data.",
+  "icon": {
+   "codePoint": 61711,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "rewarded_ads",
-    "title": "Bribed Attention",
-    "explanation": "Rewarded ads turn a commercial into a mission with a prize, so watching advertising starts to feel like game progress rather than an interruption.",
-    "origin": "Mobile Gaming (early 2010s)",
-    "fix": "Set a fixed daily limit on rewarded ads, and only watch them in games you would play anyway.",
-    "category": "adPsychology",
-    "psychologicalLoop": "Exploits extrinsic motivation: pairing ads with rewards trains players to seek out advertising voluntarily.",
-    "icon": {
-      "codePoint": 61917,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Academic reviews of advertising in children's apps",
-    "stat": "Reviews of ad monetization in children's apps find kids focus on the immediate reward and often fail to recognize the persuasive intent.",
-    "isPremium": true,
-    "hasTutorial": false
+  "citation": "Zeigarnik, Psychologische Forschung (1927)",
+  "stat": "Zeigarnik's original experiments found people recalled interrupted tasks about twice as well as completed ones.",
+  "isPremium": false,
+  "hasTutorial": false
+ },
+ {
+  "id": "rewarded_ads",
+  "title": "Bribed Attention",
+  "explanation": "Rewarded ads turn a commercial into a mission with a prize, so watching advertising starts to feel like game progress rather than an interruption.",
+  "origin": "Mobile Gaming (early 2010s)",
+  "fix": "Set a fixed daily limit on rewarded ads, and only watch them in games you would play anyway.",
+  "category": "adPsychology",
+  "psychologicalLoop": "Exploits extrinsic motivation: pairing ads with rewards trains players to seek out advertising voluntarily.",
+  "icon": {
+   "codePoint": 61917,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "advergames",
-    "title": "Advergames",
-    "explanation": "An advergame is a game built entirely around a brand, so the enjoyment of playing becomes associated with the product itself.",
-    "origin": "Branded Web Games (2000s)",
-    "fix": "Ask whether you would still play if the logo were removed. If not, limit your time with it.",
-    "category": "adPsychology",
-    "psychologicalLoop": "Exploits affect transfer: positive feelings experienced during play attach to the brand behind the game.",
-    "icon": {
-      "codePoint": 59050,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Research on children and advergames",
-    "stat": "Children who enjoy a snack-brand advergame show measurably higher purchase intentions afterward.",
-    "isPremium": true,
-    "hasTutorial": false
+  "citation": "Academic reviews of advertising in children's apps",
+  "stat": "Reviews of ad monetization in children's apps find kids focus on the immediate reward and often fail to recognize the persuasive intent.",
+  "isPremium": true,
+  "hasTutorial": false
+ },
+ {
+  "id": "advergames",
+  "title": "Advergames",
+  "explanation": "An advergame is a game built entirely around a brand, so the enjoyment of playing becomes associated with the product itself.",
+  "origin": "Branded Web Games (2000s)",
+  "fix": "Ask whether you would still play if the logo were removed. If not, limit your time with it.",
+  "category": "adPsychology",
+  "psychologicalLoop": "Exploits affect transfer: positive feelings experienced during play attach to the brand behind the game.",
+  "icon": {
+   "codePoint": 59050,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "in_game_placement",
-    "title": "In-Game Placements",
-    "explanation": "Real brands are embedded inside game worlds, so you encounter them repeatedly in enjoyable, low-suspicion contexts.",
-    "origin": "3D Online Gaming (2000s)",
-    "fix": "When you notice a brand in a game, ask whether it is there for realism or because someone paid for the space.",
-    "category": "adPsychology",
-    "psychologicalLoop": "Exploits context: advertising embedded in play does not trigger the skepticism people bring to obvious commercials.",
-    "icon": {
-      "codePoint": 62799,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Experiments comparing in-game ads and advergames",
-    "stat": "Experiments show in-game brand placements raise purchase intentions by blending seamlessly into enjoyable play.",
-    "isPremium": true,
-    "hasTutorial": false
+  "citation": "Research on children and advergames",
+  "stat": "Children who enjoy a snack-brand advergame show measurably higher purchase intentions afterward.",
+  "isPremium": true,
+  "hasTutorial": false
+ },
+ {
+  "id": "in_game_placement",
+  "title": "In-Game Placements",
+  "explanation": "Real brands are embedded inside game worlds, so you encounter them repeatedly in enjoyable, low-suspicion contexts.",
+  "origin": "3D Online Gaming (2000s)",
+  "fix": "When you notice a brand in a game, ask whether it is there for realism or because someone paid for the space.",
+  "category": "adPsychology",
+  "psychologicalLoop": "Exploits context: advertising embedded in play does not trigger the skepticism people bring to obvious commercials.",
+  "icon": {
+   "codePoint": 62799,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "brand_mascots",
-    "title": "Brand Mascots",
-    "explanation": "Brands use cute or human-like mascots because our brains are wired to trust faces. This tricks people into extending social trust to a corporate entity that just wants to sell them products.",
-    "origin": "Classic Advertising to Digital NPCs",
-    "fix": "When a mascot recommends a purchase, imagine the corporate logo making the same recommendation.",
-    "category": "adPsychology",
-    "psychologicalLoop": "Exploits anthropomorphism: human-like traits trigger the warmth and trust we normally reserve for people.",
-    "icon": {
-      "codePoint": 58821,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Studies on brand anthropomorphism",
-    "stat": "Studies show giving brands human-like traits measurably increases perceived warmth, trust, and positive evaluations.",
-    "isPremium": true,
-    "hasTutorial": false
+  "citation": "Experiments comparing in-game ads and advergames",
+  "stat": "Experiments show in-game brand placements raise purchase intentions by blending seamlessly into enjoyable play.",
+  "isPremium": true,
+  "hasTutorial": false
+ },
+ {
+  "id": "brand_mascots",
+  "title": "Brand Mascots",
+  "explanation": "Brands use cute or human-like mascots because our brains are wired to trust faces. This tricks people into extending social trust to a corporate entity that just wants to sell them products.",
+  "origin": "Classic Advertising to Digital NPCs",
+  "fix": "When a mascot recommends a purchase, imagine the corporate logo making the same recommendation.",
+  "category": "adPsychology",
+  "psychologicalLoop": "Exploits anthropomorphism: human-like traits trigger the warmth and trust we normally reserve for people.",
+  "icon": {
+   "codePoint": 58821,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "scarcity_timers",
-    "title": "Scarcity Timers",
-    "explanation": "Countdown clocks and low-stock warnings push you to buy before thinking it through. The deadline is usually artificial; the pressure it creates is real.",
-    "origin": "Retail Flash Sales to E-Commerce",
-    "fix": "Avoid buying under a countdown. Save the item, wait 24 hours, then decide.",
-    "category": "adPsychology",
-    "psychologicalLoop": "Exploits fear of missing out: a deadline reframes the purchase as avoiding a loss rather than making a choice.",
-    "icon": {
-      "codePoint": 58978,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Behavioral psychology of scarcity",
-    "stat": "Behavioral studies find scarcity cues increase urgency and willingness to pay, especially in impulsive buyers.",
-    "isPremium": true,
-    "hasTutorial": false
+  "citation": "Studies on brand anthropomorphism",
+  "stat": "Studies show giving brands human-like traits measurably increases perceived warmth, trust, and positive evaluations.",
+  "isPremium": true,
+  "hasTutorial": false
+ },
+ {
+  "id": "scarcity_timers",
+  "title": "Scarcity Timers",
+  "explanation": "Countdown clocks and low-stock warnings push you to buy before thinking it through. The deadline is usually artificial; the pressure it creates is real.",
+  "origin": "Retail Flash Sales to E-Commerce",
+  "fix": "Avoid buying under a countdown. Save the item, wait 24 hours, then decide.",
+  "category": "adPsychology",
+  "psychologicalLoop": "Exploits fear of missing out: a deadline reframes the purchase as avoiding a loss rather than making a choice.",
+  "icon": {
+   "codePoint": 58978,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "native_ads",
-    "title": "Stealth Native Ads",
-    "explanation": "Native ads are styled to look like ordinary posts or videos, so you process them with the trust you give regular content instead of the skepticism you give advertising.",
-    "origin": "Social Platforms (2010s)",
-    "fix": "Make a habit of scanning for '#ad' and 'Sponsored' labels, and ask who paid for content before trusting a recommendation.",
-    "category": "adPsychology",
-    "psychologicalLoop": "Exploits camouflage: content that looks organic inherits the credibility of the feed around it.",
-    "icon": {
-      "codePoint": 59070,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Wojdynski & Evans, Journal of Advertising (2016)",
-    "stat": "Only 17–27% of users correctly identify native ads as advertising, even when disclosure labels are present.",
-    "isPremium": true,
-    "hasTutorial": false
+  "citation": "Behavioral psychology of scarcity",
+  "stat": "Behavioral studies find scarcity cues increase urgency and willingness to pay, especially in impulsive buyers.",
+  "isPremium": true,
+  "hasTutorial": false
+ },
+ {
+  "id": "native_ads",
+  "title": "Stealth Native Ads",
+  "explanation": "Native ads are styled to look like ordinary posts or videos, so you process them with the trust you give regular content instead of the skepticism you give advertising.",
+  "origin": "Social Platforms (2010s)",
+  "fix": "Make a habit of scanning for '#ad' and 'Sponsored' labels, and ask who paid for content before trusting a recommendation.",
+  "category": "adPsychology",
+  "psychologicalLoop": "Exploits camouflage: content that looks organic inherits the credibility of the feed around it.",
+  "icon": {
+   "codePoint": 59070,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "subliminal_priming",
-    "title": "Subliminal Priming",
-    "explanation": "Brief or subtle brand cues are placed where you will absorb them without consciously noticing, nudging choices you make later.",
-    "origin": "Lab Priming Studies to Modern UI",
-    "fix": "When a craving or preference appears out of nowhere, try to trace where you last saw the brand. Identifying the source weakens the effect.",
-    "category": "adPsychology",
-    "psychologicalLoop": "Exploits pre-conscious processing: cues you never consciously register can still bias later decisions.",
-    "icon": {
-      "codePoint": 58607,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Neuroimaging studies of dynamic food advertising",
-    "stat": "Neuroimaging shows dynamic food ads activate brain reward regions more strongly than static images, below conscious filtering.",
-    "isPremium": true,
-    "hasTutorial": false
+  "citation": "Wojdynski & Evans, Journal of Advertising (2016)",
+  "stat": "Only 17–27% of users correctly identify native ads as advertising, even when disclosure labels are present.",
+  "isPremium": true,
+  "hasTutorial": false
+ },
+ {
+  "id": "subliminal_priming",
+  "title": "Subliminal Priming",
+  "explanation": "Brief or subtle brand cues are placed where you will absorb them without consciously noticing, nudging choices you make later.",
+  "origin": "Lab Priming Studies to Modern UI",
+  "fix": "When a craving or preference appears out of nowhere, try to trace where you last saw the brand. Identifying the source weakens the effect.",
+  "category": "adPsychology",
+  "psychologicalLoop": "Exploits pre-conscious processing: cues you never consciously register can still bias later decisions.",
+  "icon": {
+   "codePoint": 58607,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "halo_effect",
-    "title": "The Halo Effect",
-    "explanation": "A positive experience with one product makes you assume everything else from the same brand is equally good, even without evidence.",
-    "origin": "Edward Thorndike (1920)",
-    "fix": "Evaluate every product purely on its own merits. Look closely at its actual features and price tag as if it didn't have a logo attached to it.",
-    "category": "adPsychology",
-    "psychologicalLoop": "Exploits trait generalization: positive feelings about one product quietly transfer to the entire brand.",
-    "icon": {
-      "codePoint": 57578,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Marketing research on brand ecosystems",
-    "stat": "Marketing research shows a strong flagship product lifts loyalty and evaluations across a brand's whole lineup.",
-    "isPremium": true,
-    "hasTutorial": false
+  "citation": "Neuroimaging studies of dynamic food advertising",
+  "stat": "Neuroimaging shows dynamic food ads activate brain reward regions more strongly than static images, below conscious filtering.",
+  "isPremium": true,
+  "hasTutorial": false
+ },
+ {
+  "id": "halo_effect",
+  "title": "The Halo Effect",
+  "explanation": "A positive experience with one product makes you assume everything else from the same brand is equally good, even without evidence.",
+  "origin": "Edward Thorndike (1920)",
+  "fix": "Evaluate every product purely on its own merits. Look closely at its actual features and price tag as if it didn't have a logo attached to it.",
+  "category": "adPsychology",
+  "psychologicalLoop": "Exploits trait generalization: positive feelings about one product quietly transfer to the entire brand.",
+  "icon": {
+   "codePoint": 57578,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "neuromarketing",
-    "title": "Neuromarketing",
-    "explanation": "Advertisers use brain imaging and biometrics to test which colors, sounds, and edits trigger the strongest reward responses, then build ads around the results.",
-    "origin": "Biometric Ad Research Firms (2000s)",
-    "fix": "Treat a strong emotional reaction to an ad as information about the ad, not the product. Check price and usefulness separately.",
-    "category": "adPsychology",
-    "psychologicalLoop": "Exploits affect heuristics: an engineered emotional response is easily mistaken for genuine desire.",
-    "icon": {
-      "codePoint": 57567,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Reviews of fMRI-based ad optimization",
-    "stat": "Emotionally rich ads reliably activate the amygdala and insula in fMRI studies, correlating with increased purchasing.",
-    "isPremium": true,
-    "hasTutorial": false
+  "citation": "Marketing research on brand ecosystems",
+  "stat": "Marketing research shows a strong flagship product lifts loyalty and evaluations across a brand's whole lineup.",
+  "isPremium": true,
+  "hasTutorial": false
+ },
+ {
+  "id": "neuromarketing",
+  "title": "Neuromarketing",
+  "explanation": "Advertisers use brain imaging and biometrics to test which colors, sounds, and edits trigger the strongest reward responses, then build ads around the results.",
+  "origin": "Biometric Ad Research Firms (2000s)",
+  "fix": "Treat a strong emotional reaction to an ad as information about the ad, not the product. Check price and usefulness separately.",
+  "category": "adPsychology",
+  "psychologicalLoop": "Exploits affect heuristics: an engineered emotional response is easily mistaken for genuine desire.",
+  "icon": {
+   "codePoint": 57567,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "like_button",
-    "title": "The Like Button",
-    "explanation": "Because you never know how many likes a post will get, you constantly check your phone. This applies the exact same variable reward psychology used in casino slot machines directly to your social life.",
-    "origin": "Facebook (2009)",
-    "fix": "Hide like counts with a browser extension, or disable notifications for likes.",
-    "category": "variableRewards",
-    "psychologicalLoop": "Exploits variable ratio reinforcement: unpredictable social validation creates a stronger checking habit than predictable feedback would.",
-    "icon": {
-      "codePoint": 62526,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Justin Rosenstein, The Guardian interview (2017)",
-    "stat": "Justin Rosenstein, the button's co-creator, later described likes as 'bright dings of pseudo-pleasure' and restricted his own social media use.",
-    "isPremium": false,
-    "hasTutorial": false,
-    "citationUrl": "https://www.theguardian.com/technology/2017/oct/05/smartphone-addiction-silicon-valley-dystopia"
+  "citation": "Reviews of fMRI-based ad optimization",
+  "stat": "Emotionally rich ads reliably activate the amygdala and insula in fMRI studies, correlating with increased purchasing.",
+  "isPremium": true,
+  "hasTutorial": false
+ },
+ {
+  "id": "like_button",
+  "title": "The Like Button",
+  "explanation": "Because you never know how many likes a post will get, you constantly check your phone. This applies the exact same variable reward psychology used in casino slot machines directly to your social life.",
+  "origin": "Facebook (2009)",
+  "fix": "Hide like counts with a browser extension, or disable notifications for likes.",
+  "category": "variableRewards",
+  "psychologicalLoop": "Exploits variable ratio reinforcement: unpredictable social validation creates a stronger checking habit than predictable feedback would.",
+  "icon": {
+   "codePoint": 62526,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "loot_boxes",
-    "title": "Loot Boxes",
-    "explanation": "Loot boxes sell a randomized chance at a digital reward for real money. Several countries classify the mechanic as gambling, and it is frequently aimed at young players.",
-    "origin": "Online Gaming (2000s)",
-    "fix": "Block loot-box purchases with parental controls, and read odds disclosures the way you would read gambling odds.",
-    "category": "gamification",
-    "psychologicalLoop": "Exploits variable rewards with real money at stake: paying for an unpredictable payout is the core mechanic of gambling.",
-    "icon": {
-      "codePoint": 57662,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Belgium Gaming Commission ruling (2018); UK House of Lords gambling report (2020)",
-    "stat": "Belgium declared paid loot boxes illegal gambling in 2018, forcing games to remove them for Belgian players.",
-    "isPremium": false,
-    "hasTutorial": false
+  "citation": "Justin Rosenstein, The Guardian interview (2017)",
+  "stat": "Justin Rosenstein, the button's co-creator, later described likes as 'bright dings of pseudo-pleasure' and restricted his own social media use.",
+  "isPremium": false,
+  "hasTutorial": false,
+  "citationUrl": "https://www.theguardian.com/technology/2017/oct/05/smartphone-addiction-silicon-valley-dystopia"
+ },
+ {
+  "id": "loot_boxes",
+  "title": "Loot Boxes",
+  "explanation": "Loot boxes sell a randomized chance at a digital reward for real money. Several countries classify the mechanic as gambling, and it is frequently aimed at young players.",
+  "origin": "Online Gaming (2000s)",
+  "fix": "Block loot-box purchases with parental controls, and read odds disclosures the way you would read gambling odds.",
+  "category": "gamification",
+  "psychologicalLoop": "Exploits variable rewards with real money at stake: paying for an unpredictable payout is the core mechanic of gambling.",
+  "icon": {
+   "codePoint": 57662,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "filter_bubble",
-    "title": "Filter Bubble",
-    "explanation": "Recommendation algorithms show you more of what you already engage with. Over time this narrows what you see, until opposing views rarely appear at all.",
-    "origin": "Coined by Eli Pariser (2011)",
-    "fix": "Deliberately follow credible voices you disagree with, and use chronological feeds when possible.",
-    "category": "algorithmicManipulation",
-    "psychologicalLoop": "Exploits confirmation bias: content that agrees with you is easier to engage with, so the algorithm serves more of it.",
-    "icon": {
-      "codePoint": 61187,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Eli Pariser, The Filter Bubble (2011)",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": false
+  "citation": "Belgium Gaming Commission ruling (2018); UK House of Lords gambling report (2020)",
+  "stat": "Belgium declared paid loot boxes illegal gambling in 2018, forcing games to remove them for Belgian players.",
+  "isPremium": false,
+  "hasTutorial": false
+ },
+ {
+  "id": "filter_bubble",
+  "title": "Filter Bubble",
+  "explanation": "Recommendation algorithms show you more of what you already engage with. Over time this narrows what you see, until opposing views rarely appear at all.",
+  "origin": "Coined by Eli Pariser (2011)",
+  "fix": "Deliberately follow credible voices you disagree with, and use chronological feeds when possible.",
+  "category": "algorithmicManipulation",
+  "psychologicalLoop": "Exploits confirmation bias: content that agrees with you is easier to engage with, so the algorithm serves more of it.",
+  "icon": {
+   "codePoint": 61187,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "parasocial_relationships",
-    "title": "Parasocial Relationships",
-    "explanation": "Regularly watching a creator builds a sense of friendship that flows only one way: you know them, they do not know you. Platforms and advertisers use that trust to sell.",
-    "origin": "Horton & Wohl (1956), Influencer Era",
-    "fix": "Keep in mind that an influencer's content is a performance, and your attention and trust are the business model.",
-    "category": "socialPressure",
-    "psychologicalLoop": "Exploits one-sided bonding: the brain treats familiar faces as friends, and recommendations from friends receive less scrutiny.",
-    "icon": {
-      "codePoint": 62465,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Horton & Wohl, 'Mass Communication and Para-Social Interaction' (1956)",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": false,
-    "citationUrl": "https://doi.org/10.1080/00332747.1956.11023049"
+  "citation": "Eli Pariser, The Filter Bubble (2011)",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": false
+ },
+ {
+  "id": "parasocial_relationships",
+  "title": "Parasocial Relationships",
+  "explanation": "Regularly watching a creator builds a sense of friendship that flows only one way: you know them, they do not know you. Platforms and advertisers use that trust to sell.",
+  "origin": "Horton & Wohl (1956), Influencer Era",
+  "fix": "Keep in mind that an influencer's content is a performance, and your attention and trust are the business model.",
+  "category": "socialPressure",
+  "psychologicalLoop": "Exploits one-sided bonding: the brain treats familiar faces as friends, and recommendations from friends receive less scrutiny.",
+  "icon": {
+   "codePoint": 62465,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "reciprocity_triggers",
-    "title": "Reciprocity Triggers",
-    "explanation": "Follow-back prompts and notifications create a sense of social debt: someone followed you, so now it feels impolite not to follow them back.",
-    "origin": "Social Networking Dynamics (2000s)",
-    "fix": "Treat follows as bookmarks, not favors. Follow only accounts you actually want to see.",
-    "category": "socialPressure",
-    "psychologicalLoop": "Exploits reciprocity norms: unsolicited gestures create a feeling of obligation, and obligation drives engagement.",
-    "icon": {
-      "codePoint": 58928,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Cialdini, Influence: The Psychology of Persuasion (1984)",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": false
+  "citation": "Horton & Wohl, 'Mass Communication and Para-Social Interaction' (1956)",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1080/00332747.1956.11023049"
+ },
+ {
+  "id": "reciprocity_triggers",
+  "title": "Reciprocity Triggers",
+  "explanation": "Follow-back prompts and notifications create a sense of social debt: someone followed you, so now it feels impolite not to follow them back.",
+  "origin": "Social Networking Dynamics (2000s)",
+  "fix": "Treat follows as bookmarks, not favors. Follow only accounts you actually want to see.",
+  "category": "socialPressure",
+  "psychologicalLoop": "Exploits reciprocity norms: unsolicited gestures create a feeling of obligation, and obligation drives engagement.",
+  "icon": {
+   "codePoint": 58928,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "privacy_zuckering",
-    "title": "Privacy Zuckering",
-    "explanation": "Privacy settings are made confusing or misleading so that users share more data than they intend to.",
-    "origin": "Coined by Tim Jones, EFF (2010)",
-    "fix": "Review privacy settings periodically instead of trusting defaults, and assume the default favors data collection.",
-    "category": "deceptiveDesign",
-    "psychologicalLoop": "Exploits complexity: when settings take real effort to understand, most people give up and accept whatever is preset.",
-    "icon": {
-      "codePoint": 62160,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Norwegian Consumer Council, 'Deceived by Design' (2018)",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": true,
-    "citationUrl": "https://www.forbrukerradet.no/side/facebook-and-google-manipulate-users-into-sharing-personal-data/"
+  "citation": "Cialdini, Influence: The Psychology of Persuasion (1984)",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": false
+ },
+ {
+  "id": "privacy_zuckering",
+  "title": "Privacy Zuckering",
+  "explanation": "Privacy settings are made confusing or misleading so that users share more data than they intend to.",
+  "origin": "Coined by Tim Jones, EFF (2010)",
+  "fix": "Review privacy settings periodically instead of trusting defaults, and assume the default favors data collection.",
+  "category": "deceptiveDesign",
+  "psychologicalLoop": "Exploits complexity: when settings take real effort to understand, most people give up and accept whatever is preset.",
+  "icon": {
+   "codePoint": 62160,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "cliffhanger_engineering",
-    "title": "Cliffhanger Engineering",
-    "explanation": "Episodes are structured to end at a moment of unresolved tension, so the easiest way to relieve that tension is to start the next one.",
-    "origin": "Streaming Platforms (2010s)",
-    "fix": "Stop watching partway through an episode, at a calm moment, instead of at the cliffhanger ending.",
-    "category": "streamingTraps",
-    "psychologicalLoop": "Exploits narrative tension: an unresolved scene works like an unfinished task, and the next episode is the only offered resolution.",
-    "icon": {
-      "codePoint": 61941,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Flayelle et al., binge-watching research review (2020)",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": false
+  "citation": "Norwegian Consumer Council, 'Deceived by Design' (2018)",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": true,
+  "citationUrl": "https://www.forbrukerradet.no/side/facebook-and-google-manipulate-users-into-sharing-personal-data/"
+ },
+ {
+  "id": "cliffhanger_engineering",
+  "title": "Cliffhanger Engineering",
+  "explanation": "Episodes are structured to end at a moment of unresolved tension, so the easiest way to relieve that tension is to start the next one.",
+  "origin": "Streaming Platforms (2010s)",
+  "fix": "Stop watching partway through an episode, at a calm moment, instead of at the cliffhanger ending.",
+  "category": "streamingTraps",
+  "psychologicalLoop": "Exploits narrative tension: an unresolved scene works like an unfinished task, and the next episode is the only offered resolution.",
+  "icon": {
+   "codePoint": 61941,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "frictionless_autoplay",
-    "title": "Frictionless Autoplay",
-    "explanation": "The next episode or video starts on its own, removing the moment of decision between one piece of content and the next.",
-    "origin": "Netflix & YouTube (2010s)",
-    "fix": "Turn off autoplay in your account settings so continuing is a choice you make, not a default.",
-    "category": "streamingTraps",
-    "psychologicalLoop": "Exploits defaults: when continuing requires no action, watching more becomes passive and stopping becomes the effortful option.",
-    "icon": {
-      "codePoint": 57537,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Flayelle et al., binge-watching research review (2020)",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": true
+  "citation": "Flayelle et al., binge-watching research review (2020)",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": false
+ },
+ {
+  "id": "frictionless_autoplay",
+  "title": "Frictionless Autoplay",
+  "explanation": "The next episode or video starts on its own, removing the moment of decision between one piece of content and the next.",
+  "origin": "Netflix & YouTube (2010s)",
+  "fix": "Turn off autoplay in your account settings so continuing is a choice you make, not a default.",
+  "category": "streamingTraps",
+  "psychologicalLoop": "Exploits defaults: when continuing requires no action, watching more becomes passive and stopping becomes the effortful option.",
+  "icon": {
+   "codePoint": 57537,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "watch_time_optimisation",
-    "title": "Watch Time Optimisation",
-    "explanation": "When platforms reward creators for total watch time rather than quality, videos get padded and stretched, and your screen time inflates with them.",
-    "origin": "Video Platform Algorithms (2012)",
-    "fix": "Use playback speed and skip controls freely when content feels padded.",
-    "category": "algorithmicManipulation",
-    "psychologicalLoop": "Exploits misaligned incentives: when minutes watched is the metric that pays, your time becomes the product.",
-    "icon": {
-      "codePoint": 58710,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "YouTube official blog: switch to watch-time ranking (2012)",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": false
+  "citation": "Flayelle et al., binge-watching research review (2020)",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": true
+ },
+ {
+  "id": "watch_time_optimisation",
+  "title": "Watch Time Optimisation",
+  "explanation": "When platforms reward creators for total watch time rather than quality, videos get padded and stretched, and your screen time inflates with them.",
+  "origin": "Video Platform Algorithms (2012)",
+  "fix": "Use playback speed and skip controls freely when content feels padded.",
+  "category": "algorithmicManipulation",
+  "psychologicalLoop": "Exploits misaligned incentives: when minutes watched is the metric that pays, your time becomes the product.",
+  "icon": {
+   "codePoint": 58710,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "age_ambiguity",
-    "title": "Age Ambiguity",
-    "explanation": "Many platforms apply their habit-forming mechanics before any meaningful age verification, so children are exposed to the same hooks as adults.",
-    "origin": "Social Media & Gaming Platforms",
-    "fix": "Use parental controls, supervise account creation, and assume default settings were not designed for children.",
-    "category": "deceptiveDesign",
-    "psychologicalLoop": "Exploits developing impulse control: habits formed before self-regulation matures are especially persistent.",
-    "icon": {
-      "codePoint": 57696,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "UK ICO Age Appropriate Design Code (2021)",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": false
+  "citation": "YouTube official blog: switch to watch-time ranking (2012)",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": false
+ },
+ {
+  "id": "age_ambiguity",
+  "title": "Age Ambiguity",
+  "explanation": "Many platforms apply their habit-forming mechanics before any meaningful age verification, so children are exposed to the same hooks as adults.",
+  "origin": "Social Media & Gaming Platforms",
+  "fix": "Use parental controls, supervise account creation, and assume default settings were not designed for children.",
+  "category": "deceptiveDesign",
+  "psychologicalLoop": "Exploits developing impulse control: habits formed before self-regulation matures are especially persistent.",
+  "icon": {
+   "codePoint": 57696,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "kid_targeted_variable_rewards",
-    "title": "Kid-targeted Variable Rewards",
-    "explanation": "Bright animations and unpredictable prizes are especially effective on children, whose impulse control is still developing.",
-    "origin": "Youth-Targeted Gaming",
-    "fix": "Limit children's exposure to games that use randomized rewards. Teach them exactly how these mechanics are designed to manipulate them, as understanding the trick builds mental resistance.",
-    "category": "gamification",
-    "psychologicalLoop": "Exploits immature self-regulation: variable rewards form strong habits in adults, and children have fewer defenses against them.",
-    "icon": {
-      "codePoint": 58875,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "UK ICO Age Appropriate Design Code (2021)",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": false
+  "citation": "UK ICO Age Appropriate Design Code (2021)",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": false
+ },
+ {
+  "id": "kid_targeted_variable_rewards",
+  "title": "Kid-targeted Variable Rewards",
+  "explanation": "Bright animations and unpredictable prizes are especially effective on children, whose impulse control is still developing.",
+  "origin": "Youth-Targeted Gaming",
+  "fix": "Limit children's exposure to games that use randomized rewards. Teach them exactly how these mechanics are designed to manipulate them, as understanding the trick builds mental resistance.",
+  "category": "gamification",
+  "psychologicalLoop": "Exploits immature self-regulation: variable rewards form strong habits in adults, and children have fewer defenses against them.",
+  "icon": {
+   "codePoint": 58875,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "premium_currency_confusion",
-    "title": "Premium Currency Confusion",
-    "explanation": "Games convert your real cash into virtual currencies like gems, coins, or V-Bucks. This disconnects the in-game prices from real-world value and makes your spending feel much less significant.",
-    "origin": "Free-to-Play Games (2000s)",
-    "fix": "Convert in-game prices back to real money before any purchase.",
-    "category": "deceptiveDesign",
-    "psychologicalLoop": "Exploits payment abstraction: each layer between your wallet and the purchase reduces the felt cost of spending.",
-    "icon": {
-      "codePoint": 58359,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "FTC v. Epic Games settlement, $520M (2022)",
-    "stat": "Epic Games paid a record $520M FTC settlement in 2022, partly over dark patterns that made unintended Fortnite purchases easy.",
-    "isPremium": false,
-    "hasTutorial": false,
-    "citationUrl": "https://www.ftc.gov/news-events/news/press-releases/2022/12/fortnite-video-game-maker-epic-games-pay-more-half-billion-dollars-over-ftc-allegations"
+  "citation": "UK ICO Age Appropriate Design Code (2021)",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": false
+ },
+ {
+  "id": "premium_currency_confusion",
+  "title": "Premium Currency Confusion",
+  "explanation": "Games convert your real cash into virtual currencies like gems, coins, or V-Bucks. This disconnects the in-game prices from real-world value and makes your spending feel much less significant.",
+  "origin": "Free-to-Play Games (2000s)",
+  "fix": "Convert in-game prices back to real money before any purchase.",
+  "category": "deceptiveDesign",
+  "psychologicalLoop": "Exploits payment abstraction: each layer between your wallet and the purchase reduces the felt cost of spending.",
+  "icon": {
+   "codePoint": 58359,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "daily_login_rewards",
-    "title": "Daily Login Rewards",
-    "explanation": "Login bonuses grow with consecutive days and reset if you miss one. What starts as a free gift becomes a daily obligation, because skipping now has a cost.",
-    "origin": "Free-to-Play Game Design (2010s)",
-    "fix": "Decide your play days in advance and accept the resets; a bonus that requires daily attendance is a retention tool, not a gift.",
-    "category": "gamification",
-    "psychologicalLoop": "Exploits loss aversion: escalating rewards for consecutive logins make a missed day feel like lost value.",
-    "icon": {
-      "codePoint": 61201,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Analyses of retention mechanics in live-service games",
-    "stat": "Industry analyses show that daily rewards and streak systems are the strongest tools for player retention. Users end up logging in simply to protect their streak rather than actually wanting to play the game.",
-    "isPremium": false,
-    "hasTutorial": false
+  "citation": "FTC v. Epic Games settlement, $520M (2022)",
+  "stat": "Epic Games paid a record $520M FTC settlement in 2022, partly over dark patterns that made unintended Fortnite purchases easy.",
+  "isPremium": false,
+  "hasTutorial": false,
+  "citationUrl": "https://www.ftc.gov/news-events/news/press-releases/2022/12/fortnite-video-game-maker-epic-games-pay-more-half-billion-dollars-over-ftc-allegations"
+ },
+ {
+  "id": "daily_login_rewards",
+  "title": "Daily Login Rewards",
+  "explanation": "Login bonuses grow with consecutive days and reset if you miss one. What starts as a free gift becomes a daily obligation, because skipping now has a cost.",
+  "origin": "Free-to-Play Game Design (2010s)",
+  "fix": "Decide your play days in advance and accept the resets; a bonus that requires daily attendance is a retention tool, not a gift.",
+  "category": "gamification",
+  "psychologicalLoop": "Exploits loss aversion: escalating rewards for consecutive logins make a missed day feel like lost value.",
+  "icon": {
+   "codePoint": 61201,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "forced_continuity",
-    "title": "Forced Continuity",
-    "explanation": "Free trials convert into paid subscriptions automatically, often with minimal reminders and a cancellation flow that takes real effort to find.",
-    "origin": "Subscription Services (2010s)",
-    "fix": "Use virtual cards with spending limits for trials, and set a calendar reminder for the end date when you sign up.",
-    "category": "deceptiveDesign",
-    "psychologicalLoop": "Exploits inertia: easy signup plus difficult cancellation means procrastination alone extends the billing.",
-    "icon": {
-      "codePoint": 62459,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "FTC Negative Option Rule proceedings (2023–2025)",
-    "stat": "Hard-to-cancel subscriptions drew enough complaints that the US FTC moved to require cancellation to be as easy as enrollment.",
-    "isPremium": true,
-    "hasTutorial": false
+  "citation": "Analyses of retention mechanics in live-service games",
+  "stat": "Industry analyses show that daily rewards and streak systems are the strongest tools for player retention. Users end up logging in simply to protect their streak rather than actually wanting to play the game.",
+  "isPremium": false,
+  "hasTutorial": false
+ },
+ {
+  "id": "forced_continuity",
+  "title": "Forced Continuity",
+  "explanation": "Free trials convert into paid subscriptions automatically, often with minimal reminders and a cancellation flow that takes real effort to find.",
+  "origin": "Subscription Services (2010s)",
+  "fix": "Use virtual cards with spending limits for trials, and set a calendar reminder for the end date when you sign up.",
+  "category": "deceptiveDesign",
+  "psychologicalLoop": "Exploits inertia: easy signup plus difficult cancellation means procrastination alone extends the billing.",
+  "icon": {
+   "codePoint": 62459,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "prechecked_consent",
-    "title": "Pre-Checked Consent",
-    "explanation": "Cookie and privacy forms often arrive with non-essential tracking boxes already ticked, so doing nothing quietly opts you in.",
-    "origin": "Cookie Banner UX (2010s)",
-    "fix": "Untick every non-essential box, use 'Reject All' where available, and run a browser that blocks trackers by default.",
-    "category": "deceptiveDesign",
-    "psychologicalLoop": "Exploits status quo bias: people tend to read defaults as recommendations and rarely change them, even against their own interests.",
-    "icon": {
-      "codePoint": 61254,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "GDPR guidance and consent-banner audits",
-    "stat": "EU regulators have ruled that pre-ticked boxes are not valid consent, yet audits keep finding them in live cookie banners.",
-    "isPremium": false,
-    "hasTutorial": false,
-    "citationUrl": "https://curia.europa.eu/juris/liste.jsf?num=C-673/17"
+  "citation": "FTC Negative Option Rule proceedings (2023–2025)",
+  "stat": "Hard-to-cancel subscriptions drew enough complaints that the US FTC moved to require cancellation to be as easy as enrollment.",
+  "isPremium": true,
+  "hasTutorial": false
+ },
+ {
+  "id": "prechecked_consent",
+  "title": "Pre-Checked Consent",
+  "explanation": "Cookie and privacy forms often arrive with non-essential tracking boxes already ticked, so doing nothing quietly opts you in.",
+  "origin": "Cookie Banner UX (2010s)",
+  "fix": "Untick every non-essential box, use 'Reject All' where available, and run a browser that blocks trackers by default.",
+  "category": "deceptiveDesign",
+  "psychologicalLoop": "Exploits status quo bias: people tend to read defaults as recommendations and rarely change them, even against their own interests.",
+  "icon": {
+   "codePoint": 61254,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "nagging_prompts",
-    "title": "Nagging Prompts",
-    "explanation": "Apps repeatedly interrupt normal use with requests to enable notifications, share data, or leave a rating. The repetition is the strategy: eventually agreeing feels easier than declining again.",
-    "origin": "Mobile App Growth Teams (2010s)",
-    "fix": "Choose 'Don't ask again' wherever it is offered, and revoke permissions at the OS level so the app cannot keep asking.",
-    "category": "attentionTraps",
-    "psychologicalLoop": "Exploits attrition: each repeated prompt wears down resistance a little more, and the app can ask indefinitely.",
-    "icon": {
-      "codePoint": 62004,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Gray et al., 'The Dark (Patterns) Side of UX Design' (2018)",
-    "stat": "Dark-pattern taxonomies classify nagging as its own category because repeated prompts measurably erode autonomous choice.",
-    "isPremium": false,
-    "hasTutorial": true
+  "citation": "GDPR guidance and consent-banner audits",
+  "stat": "EU regulators have ruled that pre-ticked boxes are not valid consent, yet audits keep finding them in live cookie banners.",
+  "isPremium": false,
+  "hasTutorial": false,
+  "citationUrl": "https://curia.europa.eu/juris/liste.jsf?num=C-673/17"
+ },
+ {
+  "id": "nagging_prompts",
+  "title": "Nagging Prompts",
+  "explanation": "Apps repeatedly interrupt normal use with requests to enable notifications, share data, or leave a rating. The repetition is the strategy: eventually agreeing feels easier than declining again.",
+  "origin": "Mobile App Growth Teams (2010s)",
+  "fix": "Choose 'Don't ask again' wherever it is offered, and revoke permissions at the OS level so the app cannot keep asking.",
+  "category": "attentionTraps",
+  "psychologicalLoop": "Exploits attrition: each repeated prompt wears down resistance a little more, and the app can ask indefinitely.",
+  "icon": {
+   "codePoint": 62004,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "appointment_mechanics",
-    "title": "Appointment Mechanics",
-    "explanation": "Timers and expiring resources are tuned so that missing a specific window means losing progress or rewards. The app, not you, ends up setting the schedule.",
-    "origin": "'Play-by-Appointment' Game Design (2000s)",
-    "fix": "Turn off timer notifications, ignore 'optimal' windows, and prefer games that can be paused without penalty.",
-    "category": "gamification",
-    "psychologicalLoop": "Exploits time-based fear of missing out: expiring windows push you to log in at the app's chosen moment to avoid a loss.",
-    "icon": {
-      "codePoint": 62538,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Zagal et al., 'Dark Patterns in the Design of Games' (2013)",
-    "stat": "Studies of game dark patterns identify time-gated events and regenerating timers as central 'appointment' mechanics that keep players tied to their devices.",
-    "isPremium": true,
-    "hasTutorial": false
+  "citation": "Gray et al., 'The Dark (Patterns) Side of UX Design' (2018)",
+  "stat": "Dark-pattern taxonomies classify nagging as its own category because repeated prompts measurably erode autonomous choice.",
+  "isPremium": false,
+  "hasTutorial": true
+ },
+ {
+  "id": "appointment_mechanics",
+  "title": "Appointment Mechanics",
+  "explanation": "Timers and expiring resources are tuned so that missing a specific window means losing progress or rewards. The app, not you, ends up setting the schedule.",
+  "origin": "'Play-by-Appointment' Game Design (2000s)",
+  "fix": "Turn off timer notifications, ignore 'optimal' windows, and prefer games that can be paused without penalty.",
+  "category": "gamification",
+  "psychologicalLoop": "Exploits time-based fear of missing out: expiring windows push you to log in at the app's chosen moment to avoid a loss.",
+  "icon": {
+   "codePoint": 62538,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "competitive_leaderboards",
-    "title": "Competitive Leaderboards",
-    "explanation": "Public rankings turn private goals like exercise or learning into visible competitions, where your position relative to others becomes the point.",
-    "origin": "Fitness & Social Apps (2010s)",
-    "fix": "Switch to private or friends-only tracking, and measure progress against your own history instead of a ranking.",
-    "category": "socialPressure",
-    "psychologicalLoop": "Exploits the goal-gradient effect: being just below the next rank makes one more session feel necessary.",
-    "icon": {
-      "codePoint": 61784,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Studies of leaderboard gamification in fitness apps",
-    "stat": "Studies find leaderboards increase activity and app-checking, while a meaningful minority of users report stress, guilt, or burnout from constant ranking.",
-    "isPremium": true,
-    "hasTutorial": false
+  "citation": "Zagal et al., 'Dark Patterns in the Design of Games' (2013)",
+  "stat": "Studies of game dark patterns identify time-gated events and regenerating timers as central 'appointment' mechanics that keep players tied to their devices.",
+  "isPremium": true,
+  "hasTutorial": false
+ },
+ {
+  "id": "competitive_leaderboards",
+  "title": "Competitive Leaderboards",
+  "explanation": "Public rankings turn private goals like exercise or learning into visible competitions, where your position relative to others becomes the point.",
+  "origin": "Fitness & Social Apps (2010s)",
+  "fix": "Switch to private or friends-only tracking, and measure progress against your own history instead of a ranking.",
+  "category": "socialPressure",
+  "psychologicalLoop": "Exploits the goal-gradient effect: being just below the next rank makes one more session feel necessary.",
+  "icon": {
+   "codePoint": 61784,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "household_ip_tracking",
-    "title": "Household IP Tracking",
-    "explanation": "Ad networks group every device on the same Wi-Fi network into one household profile. This is why you may see ads for something another person in your home searched for.",
-    "origin": "Ad-Tech Identity Graphs (2010s)",
-    "fix": "Use a reputable VPN to mask your household IP, and disable cross-app tracking in your OS settings.",
-    "category": "adPsychology",
-    "psychologicalLoop": "Exploits the illusion of being overheard: 'my phone is listening' moments are usually the household network being profiled as a single unit.",
-    "icon": {
-      "codePoint": 57800,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Ad-tech industry documentation of household graphing",
-    "stat": "Data brokers bundle devices into 'household identity graphs', letting one person's search activity target everyone at the same address.",
-    "isPremium": false,
-    "hasTutorial": false
+  "citation": "Studies of leaderboard gamification in fitness apps",
+  "stat": "Studies find leaderboards increase activity and app-checking, while a meaningful minority of users report stress, guilt, or burnout from constant ranking.",
+  "isPremium": true,
+  "hasTutorial": false
+ },
+ {
+  "id": "household_ip_tracking",
+  "title": "Household IP Tracking",
+  "explanation": "Ad networks group every device on the same Wi-Fi network into one household profile. This is why you may see ads for something another person in your home searched for.",
+  "origin": "Ad-Tech Identity Graphs (2010s)",
+  "fix": "Use a reputable VPN to mask your household IP, and disable cross-app tracking in your OS settings.",
+  "category": "adPsychology",
+  "psychologicalLoop": "Exploits the illusion of being overheard: 'my phone is listening' moments are usually the household network being profiled as a single unit.",
+  "icon": {
+   "codePoint": 57800,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "labor_illusion",
-    "title": "The Labor Illusion",
-    "explanation": "Some apps intentionally add fake loading screens or 'calculating' delays. People tend to trust and value results more when the computer appears to be working hard on their behalf, even if the actual calculation took milliseconds.",
-    "origin": "Buell & Norton, Harvard Business School (2011)",
-    "fix": "Remember that the visible 'work' is an animation. Judge the result on its own merits, not on how long it seemed to take.",
-    "category": "cognitiveExploits",
-    "psychologicalLoop": "Exploits effort heuristics: visible labor reads as value, even when the labor is simulated.",
-    "icon": {
-      "codePoint": 61715,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Buell & Norton, 'The Labor Illusion', Management Science (2011)",
-    "stat": "Buell and Norton found users prefer sites that show visible 'work' during a wait over instant results, and rate those results as more valuable.",
-    "isPremium": false,
-    "hasTutorial": false,
-    "citationUrl": "https://doi.org/10.1287/mnsc.1110.1376"
+  "citation": "Ad-tech industry documentation of household graphing",
+  "stat": "Data brokers bundle devices into 'household identity graphs', letting one person's search activity target everyone at the same address.",
+  "isPremium": false,
+  "hasTutorial": false
+ },
+ {
+  "id": "labor_illusion",
+  "title": "The Labor Illusion",
+  "explanation": "Some apps intentionally add fake loading screens or 'calculating' delays. People tend to trust and value results more when the computer appears to be working hard on their behalf, even if the actual calculation took milliseconds.",
+  "origin": "Buell & Norton, Harvard Business School (2011)",
+  "fix": "Remember that the visible 'work' is an animation. Judge the result on its own merits, not on how long it seemed to take.",
+  "category": "cognitiveExploits",
+  "psychologicalLoop": "Exploits effort heuristics: visible labor reads as value, even when the labor is simulated.",
+  "icon": {
+   "codePoint": 61715,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "dynamic_pricing",
-    "title": "Algorithmic Price Discrimination",
-    "explanation": "Pricing algorithms can use your location, device, and situation to estimate what you are willing to pay, and adjust the price accordingly.",
-    "origin": "Ride-Sharing & Travel Apps (2010s)",
-    "fix": "Compare prices in a private browser or on a second device before booking anything significant.",
-    "category": "deceptiveDesign",
-    "psychologicalLoop": "Exploits situational urgency: when you have fewer options, you accept worse prices, and algorithms can detect when that is the case.",
-    "icon": {
-      "codePoint": 62155,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "Keith Chen, NPR interview (2016)",
-    "stat": "Uber's research team discovered that users with nearly dead phone batteries are willing to accept massive surge pricing up to 9.9x normal rates. The company maintains that they do not use battery levels to determine prices.",
-    "isPremium": false,
-    "hasTutorial": false
+  "citation": "Buell & Norton, 'The Labor Illusion', Management Science (2011)",
+  "stat": "Buell and Norton found users prefer sites that show visible 'work' during a wait over instant results, and rate those results as more valuable.",
+  "isPremium": false,
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1287/mnsc.1110.1376"
+ },
+ {
+  "id": "dynamic_pricing",
+  "title": "Algorithmic Price Discrimination",
+  "explanation": "Pricing algorithms can use your location, device, and situation to estimate what you are willing to pay, and adjust the price accordingly.",
+  "origin": "Ride-Sharing & Travel Apps (2010s)",
+  "fix": "Compare prices in a private browser or on a second device before booking anything significant.",
+  "category": "deceptiveDesign",
+  "psychologicalLoop": "Exploits situational urgency: when you have fewer options, you accept worse prices, and algorithms can detect when that is the case.",
+  "icon": {
+   "codePoint": 62155,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
   },
-  {
-    "id": "variable_rewards",
-    "title": "Variable Rewards",
-    "explanation": "Spin-the-wheel prizes, mystery discounts, surprise match reveals, and randomized drops all pay out on an unpredictable schedule. It is the uncertainty of the reward, not its size, that keeps you pulling the lever.",
-    "origin": "B.F. Skinner / operant conditioning (1950s)",
-    "fix": "Notice when an app turns a simple tap into a gamble, and set a hard limit on spins, swipes, or opens before you start.",
-    "category": "variableRewards",
-    "psychologicalLoop": "Exploits variable-ratio reinforcement, the most habit-forming reward schedule known: because you cannot predict which action will pay off, you keep repeating it far longer than a guaranteed reward would sustain.",
-    "icon": {
-      "codePoint": 984447,
-      "fontFamily": "MaterialIcons",
-      "fontPackage": null
-    },
-    "citation": "B.F. Skinner, Schedules of Reinforcement (1957)",
-    "stat": null,
-    "isPremium": false,
-    "hasTutorial": false,
-    "citationUrl": "https://en.wikipedia.org/wiki/Reinforcement#Intermittent_reinforcement_schedules"
-  }
+  "citation": "Keith Chen, NPR interview (2016)",
+  "stat": "Uber's research team discovered that users with nearly dead phone batteries are willing to accept massive surge pricing up to 9.9x normal rates. The company maintains that they do not use battery levels to determine prices.",
+  "isPremium": false,
+  "hasTutorial": false
+ },
+ {
+  "id": "variable_rewards",
+  "title": "Variable Rewards",
+  "explanation": "Spin-the-wheel prizes, mystery discounts, surprise match reveals, and randomized drops all pay out on an unpredictable schedule. It is the uncertainty of the reward, not its size, that keeps you pulling the lever.",
+  "origin": "B.F. Skinner / operant conditioning (1950s)",
+  "fix": "Notice when an app turns a simple tap into a gamble, and set a hard limit on spins, swipes, or opens before you start.",
+  "category": "variableRewards",
+  "psychologicalLoop": "Exploits variable-ratio reinforcement, the most habit-forming reward schedule known: because you cannot predict which action will pay off, you keep repeating it far longer than a guaranteed reward would sustain.",
+  "icon": {
+   "codePoint": 984447,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
+  },
+  "citation": "B.F. Skinner, Schedules of Reinforcement (1957)",
+  "stat": null,
+  "isPremium": false,
+  "hasTutorial": false,
+  "citationUrl": "https://en.wikipedia.org/wiki/Reinforcement#Intermittent_reinforcement_schedules"
+ },
+ {
+  "id": "curiosity_gap",
+  "title": "The Curiosity Gap",
+  "explanation": "Headlines and thumbnails tease just enough to open an information gap in your mind, then hide the one fact that would close it. The itch to know feels like genuine interest, but it was manufactured on purpose.",
+  "origin": "Tabloids, perfected by Upworthy & BuzzFeed (2012)",
+  "fix": "If a headline hides the exact thing it wants you to click for, that is the trap. Ask yourself: would I still care if I already knew the answer?",
+  "category": "cognitiveExploits",
+  "psychologicalLoop": "Exploits the information gap: curiosity spikes when we know a little but not everything, and clicking is the only relief on offer.",
+  "icon": {
+   "codePoint": 58623,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
+  },
+  "citation": "Loewenstein, 'The Psychology of Curiosity', Psychological Bulletin (1994)",
+  "stat": "Loewenstein's information-gap theory shows curiosity peaks when a small knowledge gap is opened and only closing it brings relief, the exact recipe clickbait follows.",
+  "isPremium": false,
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1037/0033-2909.116.1.75"
+ },
+ {
+  "id": "endowed_progress",
+  "title": "Endowed Progress",
+  "explanation": "Apps hand you a head start: a profile that is already 25% complete, two free stamps on a loyalty card, bonus XP for signing up. Progress you did not earn still feels like yours, and abandoning it feels like a loss.",
+  "origin": "Nunes & Dreze, loyalty card study (2006)",
+  "fix": "Count only the effort still ahead of you. A free head start costs you nothing to walk away from.",
+  "category": "gamification",
+  "psychologicalLoop": "Exploits loss aversion: unearned progress feels owned, so quitting feels like throwing something away.",
+  "icon": {
+   "codePoint": 58302,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
+  },
+  "citation": "Nunes & Dreze, 'The Endowed Progress Effect', Journal of Consumer Research (2006)",
+  "stat": "In the original study, car-wash cards with 2 free stamps out of 10 were completed by 34% of customers versus 19% for empty 8-stamp cards, despite identical effort.",
+  "isPremium": false,
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1086/500480"
+ },
+ {
+  "id": "engagement_bait",
+  "title": "Engagement Bait",
+  "explanation": "Posts that beg for interaction, like 'Tag a friend', 'Like if you agree' or 'Vote in the comments', exist because algorithms promote whatever gets reactions. Your tap is free fuel for someone else's reach.",
+  "origin": "Facebook feed-ranking era (2014-2017)",
+  "fix": "Treat any post that tells you how to react as an ad for itself. Engage with content, never with instructions.",
+  "category": "algorithmicManipulation",
+  "psychologicalLoop": "Exploits social reflexes: tiny prompted actions feel harmless while they train the feed to serve you more bait.",
+  "icon": {
+   "codePoint": 57656,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
+  },
+  "citation": "Facebook Newsroom, 'Fighting Engagement Bait' (2017)",
+  "stat": "The tactic worked so well that Facebook itself started demoting 'tag a friend' and 'like if' posts in 2017 after they flooded the feed.",
+  "isPremium": false,
+  "hasTutorial": false,
+  "citationUrl": "https://about.fb.com/news/2017/12/news-feed-fyi-fighting-engagement-bait-on-facebook/"
+ },
+ {
+  "id": "bait_notifications",
+  "title": "Bait Notifications",
+  "explanation": "Notifications engineered to look like personal activity, like 'You appeared in 9 searches' or 'Someone just posted for the first time in a while', are really ads for the app itself, sent when you have been away too long.",
+  "origin": "Growth-team re-engagement playbooks (2010s)",
+  "fix": "Keep push notifications only for messages from real humans. If a push is about 'suggested' anything, kill that channel in settings.",
+  "category": "attentionTraps",
+  "psychologicalLoop": "Exploits social salience: anything that might be about you demands a check, and the app counts on that reflex.",
+  "icon": {
+   "codePoint": 58448,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
+  },
+  "citation": "Pielot et al., 'An In-Situ Study of Mobile Phone Notifications', MobileHCI (2014)",
+  "stat": "Pielot's field study logged an average of 64 notifications per user per day, each one a potential re-entry point into an app.",
+  "isPremium": false,
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1145/2628363.2628364"
+ },
+ {
+  "id": "sycophantic_ai",
+  "title": "Sycophantic AI",
+  "explanation": "Chatbots tuned on thumbs-up feedback learn that flattery and agreement earn better ratings than uncomfortable truths. An assistant that always says you are right is optimizing for your approval, not your interests.",
+  "origin": "RLHF training pipelines (2022+)",
+  "fix": "Ask the AI to argue against your idea, and be suspicious when the praise arrives before the substance.",
+  "category": "aiDeception",
+  "psychologicalLoop": "Exploits confirmation bias: agreement feels like validation, and validation keeps the conversation going.",
+  "icon": {
+   "codePoint": 58749,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
+  },
+  "citation": "Sharma et al., 'Towards Understanding Sycophancy in Language Models', Anthropic (2023)",
+  "stat": "Anthropic researchers found state-of-the-art AI assistants consistently sacrificed truthfulness to agree with the user across four different task types.",
+  "isPremium": false,
+  "hasTutorial": false,
+  "citationUrl": "https://arxiv.org/abs/2310.13548"
+ },
+ {
+  "id": "ephemeral_content",
+  "title": "Vanishing Stories",
+  "explanation": "Stories and statuses that self-destruct after 24 hours turn missing a day into missing out forever. The expiry timer is not a privacy feature, it is a standing daily appointment with your anxiety.",
+  "origin": "Snapchat Stories (2013)",
+  "fix": "Accept that you will miss stories, they are designed to be missable. Anything that truly matters will reach you another way.",
+  "category": "socialPressure",
+  "psychologicalLoop": "Exploits FOMO: scarcity of time, not of content, creates the compulsion to check in every single day.",
+  "icon": {
+   "codePoint": 58375,
+   "fontFamily": "MaterialIcons",
+   "fontPackage": null
+  },
+  "citation": "Przybylski et al., 'Motivational, emotional and behavioral correlates of fear of missing out', Computers in Human Behavior (2013)",
+  "stat": "Przybylski's studies found people highest in fear of missing out were the heaviest social media users, reaching for feeds right after waking and during meals and lectures.",
+  "isPremium": false,
+  "hasTutorial": false,
+  "citationUrl": "https://doi.org/10.1016/j.chb.2013.02.014"
+ }
 ]

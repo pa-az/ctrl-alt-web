@@ -1,568 +1,589 @@
 [
-  {
-    "id": "tiktok",
-    "name": "TikTok",
-    "manipulationPercentage": "98%",
-    "tacticIds": [
-      "infinite_scroll",
-      "shorts_slot_machine",
-      "asymmetric_friction",
-      "status_anxiety"
-    ],
-    "customExamples": {
-      "infinite_scroll": "TikTok's For You Page eliminates any stopping cues, continually loading new videos so you never reach a natural endpoint to your scrolling session.",
-      "shorts_slot_machine": "Swiping up for the next video delivers highly unpredictable rewards. Sometimes you get an incredibly engaging video, and other times you get bored. This unpredictability keeps you swiping just like pulling a slot machine lever.",
-      "asymmetric_friction": "TikTok makes it effortless to keep watching (just a swipe) but makes it comparatively cumbersome to manage your data, delete your account, or limit your usage.",
-      "status_anxiety": "The visible view and like counts on every video drive a constant pursuit of virality and validation among creators and users alike."
-    },
-    "defuse": [
-      "Settings and privacy > Screen time: set a daily limit and turn on screen time break reminders.",
-      "Settings > Notifications: turn off pushes for LIVE, suggested videos, and 'from your contacts'.",
-      "Long-press any For You video and tap Not interested to retrain the feed toward calmer content."
-    ]
+ {
+  "id": "tiktok",
+  "name": "TikTok",
+  "manipulationPercentage": "98%",
+  "tacticIds": [
+   "infinite_scroll",
+   "shorts_slot_machine",
+   "asymmetric_friction",
+   "status_anxiety"
+  ],
+  "customExamples": {
+   "infinite_scroll": "TikTok's For You Page eliminates any stopping cues, continually loading new videos so you never reach a natural endpoint to your scrolling session.",
+   "shorts_slot_machine": "Swiping up for the next video delivers highly unpredictable rewards. Sometimes you get an incredibly engaging video, and other times you get bored. This unpredictability keeps you swiping just like pulling a slot machine lever.",
+   "asymmetric_friction": "TikTok makes it effortless to keep watching (just a swipe) but makes it comparatively cumbersome to manage your data, delete your account, or limit your usage.",
+   "status_anxiety": "The visible view and like counts on every video drive a constant pursuit of virality and validation among creators and users alike."
   },
-  {
-    "id": "instagram",
-    "name": "Instagram",
-    "manipulationPercentage": "90%",
-    "tacticIds": [
-      "halo_effect",
-      "artificial_social_proof",
-      "status_anxiety",
-      "red_dot",
-      "privacy_zuckering",
-      "reciprocity_triggers",
-      "parasocial_relationships"
-    ],
-    "customExamples": {
-      "halo_effect": "In Instagram, seeing highly produced influencer content makes ordinary ads feel more trustworthy, as the glossy aesthetic transfers to the sponsored products seamlessly.",
-      "artificial_social_proof": "Instagram shows \"Liked by [Friend] and 1,234 others\". Highlighting names of people you know leverages your personal trust to validate the content.",
-      "status_anxiety": "Follower counts and engagement metrics on your profile create a constant pressure to perform and curate an idealized life to maintain social standing.",
-      "red_dot": "Bright red notification bubbles for likes and messages hijack your attention, compelling you to open the app even when you weren't planning to.",
-      "privacy_zuckering": "The platform makes it extremely difficult to opt out of targeted advertising and data sharing, burying these controls deep in the settings menu.",
-      "reciprocity_triggers": "When someone follows you or likes your post, the platform notifies you, creating a strong social obligation to follow back or return the engagement.",
-      "parasocial_relationships": "Influencers use Stories to share seemingly intimate, unpolished moments, building a one-sided sense of friendship that they later monetize with sponsored posts."
-    },
-    "defuse": [
-      "Tap the Instagram logo (top-left) and switch to Following for a finite, chronological feed.",
-      "Settings > Notifications: pause all, or at least mute likes and follows.",
-      "Settings > Your activity > Time spent: set a daily limit and enable Quiet mode."
-    ]
+  "defuse": [
+   "Settings and privacy > Screen time: set a daily limit and turn on screen time break reminders.",
+   "Settings > Notifications: turn off pushes for LIVE, suggested videos, and 'from your contacts'.",
+   "Long-press any For You video and tap Not interested to retrain the feed toward calmer content."
+  ]
+ },
+ {
+  "id": "instagram",
+  "name": "Instagram",
+  "manipulationPercentage": "90%",
+  "tacticIds": [
+   "halo_effect",
+   "artificial_social_proof",
+   "status_anxiety",
+   "red_dot",
+   "privacy_zuckering",
+   "reciprocity_triggers",
+   "parasocial_relationships",
+   "ephemeral_content"
+  ],
+  "customExamples": {
+   "halo_effect": "In Instagram, seeing highly produced influencer content makes ordinary ads feel more trustworthy, as the glossy aesthetic transfers to the sponsored products seamlessly.",
+   "artificial_social_proof": "Instagram shows \"Liked by [Friend] and 1,234 others\". Highlighting names of people you know leverages your personal trust to validate the content.",
+   "status_anxiety": "Follower counts and engagement metrics on your profile create a constant pressure to perform and curate an idealized life to maintain social standing.",
+   "red_dot": "Bright red notification bubbles for likes and messages hijack your attention, compelling you to open the app even when you weren't planning to.",
+   "privacy_zuckering": "The platform makes it extremely difficult to opt out of targeted advertising and data sharing, burying these controls deep in the settings menu.",
+   "reciprocity_triggers": "When someone follows you or likes your post, the platform notifies you, creating a strong social obligation to follow back or return the engagement.",
+   "parasocial_relationships": "Influencers use Stories to share seemingly intimate, unpolished moments, building a one-sided sense of friendship that they later monetize with sponsored posts.",
+   "ephemeral_content": "Stories vanish after 24 hours, so the ring of unwatched circles becomes a daily to-do list you never signed up for."
   },
-  {
-    "id": "facebook",
-    "name": "Facebook",
-    "manipulationPercentage": "88%",
-    "tacticIds": [
-      "context_collapse",
-      "outrage_amplification",
-      "red_dot",
-      "privacy_zuckering",
-      "reciprocity_triggers",
-      "parasocial_relationships"
-    ],
-    "customExamples": {
-      "context_collapse": "Facebook blends friends, family, coworkers, and acquaintances into a single feed, forcing you to constantly navigate conflicting social norms and expectations.",
-      "outrage_amplification": "The algorithm prioritizes content that sparks angry reactions and heated debates in the comments, as this drives the highest levels of engagement.",
-      "red_dot": "Facebook's persistent red notification badges for groups, events, and memories create a false sense of urgency, pulling you back into the app repeatedly.",
-      "privacy_zuckering": "Facebook frequently changes its privacy settings and defaults, intentionally confusing users into sharing more personal data than they realize.",
-      "reciprocity_triggers": "Birthday notifications and event invitations leverage social obligations, making you feel compelled to log in and interact to avoid seeming rude.",
-      "parasocial_relationships": "Public figures and politicians use Facebook Live and intimate posts to cultivate a sense of direct connection with their followers, driving fierce loyalty."
-    },
-    "defuse": [
-      "Use the Feeds tab > Friends for a chronological feed without suggested posts.",
-      "Settings > Notifications: turn off badges and every non-essential push (groups, memories, events).",
-      "Snooze or unfollow the sources that reliably make you angry; the algorithm feeds on those reactions."
-    ]
+  "defuse": [
+   "Tap the Instagram logo (top-left) and switch to Following for a finite, chronological feed.",
+   "Settings > Notifications: pause all, or at least mute likes and follows.",
+   "Settings > Your activity > Time spent: set a daily limit and enable Quiet mode."
+  ]
+ },
+ {
+  "id": "facebook",
+  "name": "Facebook",
+  "manipulationPercentage": "88%",
+  "tacticIds": [
+   "context_collapse",
+   "outrage_amplification",
+   "red_dot",
+   "privacy_zuckering",
+   "reciprocity_triggers",
+   "parasocial_relationships",
+   "engagement_bait"
+  ],
+  "customExamples": {
+   "context_collapse": "Facebook blends friends, family, coworkers, and acquaintances into a single feed, forcing you to constantly navigate conflicting social norms and expectations.",
+   "outrage_amplification": "The algorithm prioritizes content that sparks angry reactions and heated debates in the comments, as this drives the highest levels of engagement.",
+   "red_dot": "Facebook's persistent red notification badges for groups, events, and memories create a false sense of urgency, pulling you back into the app repeatedly.",
+   "privacy_zuckering": "Facebook frequently changes its privacy settings and defaults, intentionally confusing users into sharing more personal data than they realize.",
+   "reciprocity_triggers": "Birthday notifications and event invitations leverage social obligations, making you feel compelled to log in and interact to avoid seeming rude.",
+   "parasocial_relationships": "Public figures and politicians use Facebook Live and intimate posts to cultivate a sense of direct connection with their followers, driving fierce loyalty.",
+   "engagement_bait": "'Tag a friend who does this' and 'Like if you agree' posts farm reactions because the feed promotes whatever gets touched."
   },
-  {
-    "id": "youtube",
-    "name": "YouTube",
-    "manipulationPercentage": "92%",
-    "tacticIds": [
-      "frictionless_autoplay",
-      "rabbit_hole_recommendations",
-      "shorts_slot_machine",
-      "native_ads"
-    ],
-    "customExamples": {
-      "frictionless_autoplay": "YouTube automatically starts playing the next suggested video within seconds, removing the conscious choice to continue watching and leading to binge sessions.",
-      "rabbit_hole_recommendations": "The sidebar recommendations gradually steer you toward increasingly extreme, sensationalized, or niche content to maximize your viewing time.",
-      "shorts_slot_machine": "YouTube Shorts employs the same intermittent variable rewards as TikTok, where every swipe is a gamble for a dopamine hit.",
-      "native_ads": "Sponsored segments are seamlessly integrated directly into the creator's video script, blurring the line between entertainment and advertisement."
-    },
-    "defuse": [
-      "Settings > Autoplay: turn off 'Autoplay next video'.",
-      "Settings > General: enable 'Remind me to take a break' and bedtime reminders.",
-      "Pause watch history (myactivity.google.com) to blunt recommendation targeting."
-    ]
+  "defuse": [
+   "Use the Feeds tab > Friends for a chronological feed without suggested posts.",
+   "Settings > Notifications: turn off badges and every non-essential push (groups, memories, events).",
+   "Snooze or unfollow the sources that reliably make you angry; the algorithm feeds on those reactions."
+  ]
+ },
+ {
+  "id": "youtube",
+  "name": "YouTube",
+  "manipulationPercentage": "92%",
+  "tacticIds": [
+   "frictionless_autoplay",
+   "rabbit_hole_recommendations",
+   "shorts_slot_machine",
+   "native_ads",
+   "curiosity_gap"
+  ],
+  "customExamples": {
+   "frictionless_autoplay": "YouTube automatically starts playing the next suggested video within seconds, removing the conscious choice to continue watching and leading to binge sessions.",
+   "rabbit_hole_recommendations": "The sidebar recommendations gradually steer you toward increasingly extreme, sensationalized, or niche content to maximize your viewing time.",
+   "shorts_slot_machine": "YouTube Shorts employs the same intermittent variable rewards as TikTok, where every swipe is a gamble for a dopamine hit.",
+   "native_ads": "Sponsored segments are seamlessly integrated directly into the creator's video script, blurring the line between entertainment and advertisement.",
+   "curiosity_gap": "Thumbnails with shocked faces and red arrows tease a reveal the title refuses to give away; the gap only closes by watching."
   },
-  {
-    "id": "netflix",
-    "name": "Netflix",
-    "manipulationPercentage": "High Risk",
-    "tacticIds": [
-      "frictionless_autoplay",
-      "cliffhanger_engineering",
-      "watch_time_optimisation",
-      "skip_intro_buttons"
-    ],
-    "customExamples": {
-      "frictionless_autoplay": "Episodes auto-play the instant the previous one ends, often skipping the credits entirely, removing any natural break to turn off the TV.",
-      "cliffhanger_engineering": "Netflix Originals are explicitly structured to end episodes on massive unresolved tensions, exploiting our psychological need for closure.",
-      "watch_time_optimisation": "Everything on the platform is designed purely to maximize your watch time. This includes generating personalized thumbnails and auto-playing trailers the moment you open the app.",
-      "skip_intro_buttons": "While seemingly convenient, \"Skip Intro\" accelerates the transition into the narrative, making it even harder to break the binge-watching trance."
-    },
-    "defuse": [
-      "Account > Profile > Playback settings: uncheck 'Autoplay next episode in a series'.",
-      "Also uncheck 'Autoplay previews while browsing' so trailers stop launching themselves."
-    ]
+  "defuse": [
+   "Settings > Autoplay: turn off 'Autoplay next video'.",
+   "Settings > General: enable 'Remind me to take a break' and bedtime reminders.",
+   "Pause watch history (myactivity.google.com) to blunt recommendation targeting."
+  ]
+ },
+ {
+  "id": "netflix",
+  "name": "Netflix",
+  "manipulationPercentage": "High Risk",
+  "tacticIds": [
+   "frictionless_autoplay",
+   "cliffhanger_engineering",
+   "watch_time_optimisation",
+   "skip_intro_buttons"
+  ],
+  "customExamples": {
+   "frictionless_autoplay": "Episodes auto-play the instant the previous one ends, often skipping the credits entirely, removing any natural break to turn off the TV.",
+   "cliffhanger_engineering": "Netflix Originals are explicitly structured to end episodes on massive unresolved tensions, exploiting our psychological need for closure.",
+   "watch_time_optimisation": "Everything on the platform is designed purely to maximize your watch time. This includes generating personalized thumbnails and auto-playing trailers the moment you open the app.",
+   "skip_intro_buttons": "While seemingly convenient, \"Skip Intro\" accelerates the transition into the narrative, making it even harder to break the binge-watching trance."
   },
-  {
-    "id": "roblox",
-    "name": "Roblox",
-    "manipulationPercentage": "Severe Risk",
-    "tacticIds": [
-      "loot_boxes",
-      "kid_targeted_variable_rewards",
-      "premium_currency_confusion",
-      "age_ambiguity"
-    ],
-    "customExamples": {
-      "loot_boxes": "Games feature \"eggs\" or \"crates\" that players buy with real money for a random chance at rare items, essentially introducing gambling mechanics to children.",
-      "kid_targeted_variable_rewards": "Bright colors, flashy animations, and rare \"legendary\" pets exploit the developing brains of young players who are highly susceptible to intermittent reinforcement.",
-      "premium_currency_confusion": "Robux abstract the real-world cost of items. Players (especially kids) lose track of how much actual money they are spending on digital cosmetics.",
-      "age_ambiguity": "The platform blends games meant for young children with experiences containing mature themes and aggressive monetization, making parental oversight extremely difficult."
-    }
-  },
-  {
-    "id": "twitter",
-    "name": "X",
-    "manipulationPercentage": "85%",
-    "tacticIds": [
-      "outrage_amplification",
-      "doomscrolling",
-      "red_dot"
-    ],
-    "customExamples": {
-      "outrage_amplification": "The \"For You\" timeline heavily surfaces controversial takes and viral dunks, as anger is the most effective emotion for driving replies and quote tweets.",
-      "doomscrolling": "The endless feed of breaking news, hot takes, and global crises keeps users scrolling in a state of high anxiety, constantly searching for the next update.",
-      "red_dot": "Push notifications for irrelevant events (like \"Someone you follow tweeted for the first time in a while\") are used to falsely trigger a sense of urgency."
-    },
-    "defuse": [
-      "On the timeline, switch the top tab to Following for a chronological feed instead of For You.",
-      "Settings > Notifications > Preferences: turn off Topics, 'For you' recommendations, and login-bait pushes.",
-      "Mute words and phrases that reliably bait you (Settings > Privacy and safety > Mute and block)."
-    ]
-  },
-  {
-    "id": "linkedin",
-    "name": "LinkedIn",
-    "manipulationPercentage": "82%",
-    "tacticIds": [
-      "status_anxiety",
-      "artificial_social_proof",
-      "confirmshaming",
-      "red_dot"
-    ],
-    "customExamples": {
-      "status_anxiety": "Constant updates about peers' promotions and \"humbled and honored\" posts create immense professional insecurity and a fear of falling behind.",
-      "artificial_social_proof": "Endorsements and skill badges are often traded reciprocally rather than earned, creating an inflated sense of professional authority.",
-      "confirmshaming": "Prompts to upgrade to Premium often use manipulative copy like \"No thanks, I don't want to see who viewed my profile,\" playing on professional FOMO.",
-      "red_dot": "LinkedIn aggressively uses notifications for minor network updates (e.g., work anniversaries) to maintain daily active usage among professionals."
-    }
-  },
-  {
-    "id": "snapchat",
-    "name": "Snapchat",
-    "manipulationPercentage": "89%",
-    "tacticIds": [
-      "streaks",
-      "status_anxiety",
-      "phantom_vibration",
-      "halo_effect"
-    ],
-    "customExamples": {
-      "streaks": "Snapstreaks attach a numerical score and a fire emoji to daily communication, transforming friendship into a daily obligation that users are terrified to lose.",
-      "status_anxiety": "Features like Snap Maps and visible read receipts generate constant anxiety about social exclusion. They ensure you always know exactly when your friends are hanging out without you.",
-      "phantom_vibration": "The expectation of fleeting, disappearing messages conditions users to constantly check their phones for updates before they vanish.",
-      "halo_effect": "Heavy use of augmented reality beauty filters distorts self-image, making the unfiltered reality feel inadequate by comparison."
-    },
-    "defuse": [
-      "Snapstreaks can't be disabled; agree with friends to deliberately let them go once.",
-      "Settings > Notifications: turn off Stories and friend-suggestion pushes.",
-      "Enable Ghost Mode on Snap Map: Settings > See My Location > Ghost Mode."
-    ]
-  },
-  {
-    "id": "reddit",
-    "name": "Reddit",
-    "manipulationPercentage": "78%",
-    "tacticIds": [
-      "infinite_scroll",
-      "outrage_amplification",
-      "doomscrolling",
-      "rabbit_hole_recommendations"
-    ],
-    "customExamples": {
-      "infinite_scroll": "The mobile app and redesigned website use endless scrolling to keep users browsing through subreddits for hours without a natural stopping point.",
-      "outrage_amplification": "The upvote/downvote system inherently pushes the most polarizing, echo-chamber-validating, and emotionally charged opinions to the top of popular threads.",
-      "doomscrolling": "News and political subreddits create a vortex of negative information that users compulsively read to feel informed, despite the toll on mental health.",
-      "rabbit_hole_recommendations": "Reddit's algorithm suggests increasingly niche or extreme communities based on your browsing history, gradually pulling you deeper into echo chambers."
-    },
-    "defuse": [
-      "Settings > Feed options: sort by Latest and disable community recommendations where available.",
-      "Turn off Trending and recommendation pushes: Settings > Notifications.",
-      "Prefer the old.reddit.com layout on web; it has no infinite feed of suggested communities."
-    ]
-  },
-  {
-    "id": "pinterest",
-    "name": "Pinterest",
-    "manipulationPercentage": "75%",
-    "tacticIds": [
-      "infinite_scroll",
-      "rabbit_hole_recommendations",
-      "halo_effect",
-      "native_ads"
-    ],
-    "customExamples": {
-      "infinite_scroll": "The masonry grid layout eliminates whitespace and stopping cues, encouraging users to endlessly scroll through aesthetically pleasing images.",
-      "rabbit_hole_recommendations": "Clicking on one pin immediately populates a feed of visually similar items, creating an endless loop of aspiration and discovery.",
-      "halo_effect": "The highly curated, idealized aesthetics of home decor and lifestyle pins make the subtly integrated sponsored products seem more premium and desirable.",
-      "native_ads": "Promoted pins are visually indistinguishable from organic content, tricking users into saving and sharing advertisements as personal inspiration."
-    }
-  },
-  {
-    "id": "temu",
-    "name": "Temu",
-    "manipulationPercentage": "95%",
-    "tacticIds": [
-      "false_scarcity",
-      "decoy_pricing",
-      "loot_boxes",
-      "artificial_social_proof"
-    ],
-    "customExamples": {
-      "false_scarcity": "Constant countdown timers (\"Sale ends in 14:02\") and low-stock warnings (\"Only 2 left!\") create intense, manufactured urgency to force impulse purchases.",
-      "decoy_pricing": "Items are shown with massive, fabricated discount percentages (e.g., \"$3.99, marked down from $49.99\") to make the deal feel too good to pass up.",
-      "loot_boxes": "The app uses literal roulette wheels and randomized coupon drops to trigger dopamine rushes, gamifying the shopping experience.",
-      "artificial_social_proof": "Pop-ups constantly declare \"Someone in Texas just bought this!\" to fabricate a sense of high demand and crowd validation."
-    }
-  },
-  {
-    "id": "duolingo",
-    "name": "Duolingo",
-    "manipulationPercentage": "High Risk",
-    "tacticIds": [
-      "streaks",
-      "nagging_prompts",
-      "competitive_leaderboards",
-      "daily_login_rewards",
-      "appointment_mechanics"
-    ],
-    "customExamples": {
-      "streaks": "The flame icon and streak counter turn language learning into a high-stakes daily requirement; losing a long streak feels devastating.",
-      "nagging_prompts": "The passive-aggressive push notifications (e.g., \"These reminders don't seem to be working. We'll stop sending them for now.\") guilt users into returning.",
-      "competitive_leaderboards": "The Diamond League pits users against each other, incentivizing mindless grinding for XP rather than actual language retention.",
-      "daily_login_rewards": "Early Bird and Night Owl chests force users to open the app at specific times of the day to claim XP boosts, dictating their daily schedule.",
-      "appointment_mechanics": "Users must return before their streak freeze expires or their league ends, creating artificial deadlines for engagement."
-    },
-    "defuse": [
-      "Settings > Notifications: turn off streak reminders and 'practice' nudges; keep only what you asked for.",
-      "Equip a Streak Freeze deliberately, then decide your schedule by calendar, not by the flame icon.",
-      "Mute the leaderboard: Profile > Settings > turn off leaderboards to stop XP-grinding against strangers."
-    ]
-  },
-  {
-    "id": "twitch",
-    "name": "Twitch",
-    "manipulationPercentage": "High Risk",
-    "tacticIds": [
-      "parasocial_relationships",
-      "daily_login_rewards",
-      "artificial_social_proof",
-      "status_anxiety"
-    ],
-    "customExamples": {
-      "parasocial_relationships": "Viewers develop deep, one-sided emotional attachments to streamers, leading them to spend hundreds of dollars on subscriptions and donations to be noticed.",
-      "daily_login_rewards": "Channel points reward viewers simply for leaving the stream open, artificially inflating viewer counts and incentivizing constant background usage.",
-      "artificial_social_proof": "The Hype Train mechanic uses on-screen progress bars and chat notifications to pressure viewers into spending money simply because others are doing it.",
-      "status_anxiety": "Subscriber badges that upgrade based on consecutive months subscribed create immense pressure to never cancel a subscription, for fear of losing status in chat."
-    }
-  },
-  {
-    "id": "chatgpt",
-    "name": "ChatGPT",
-    "manipulationPercentage": "Moderate Risk",
-    "tacticIds": [
-      "hallucinated_authority",
-      "synthetic_companionship",
-      "labor_illusion"
-    ],
-    "customExamples": {
-      "hallucinated_authority": "The AI delivers confidently incorrect information in an authoritative, structured tone, making it dangerously easy to trust without verification.",
-      "synthetic_companionship": "The conversational interface and \"helpful assistant\" persona can lead vulnerable users to project empathy and consciousness onto a language model.",
-      "labor_illusion": "The slow, streaming generation of text gives the false impression that the AI is \"thinking\" deeply about your prompt, increasing the perceived value of the answer."
-    }
-  },
-  {
-    "id": "discord",
-    "name": "Discord",
-    "manipulationPercentage": "Moderate Risk",
-    "tacticIds": [
-      "red_dot",
-      "nagging_prompts",
-      "reciprocity_triggers",
-      "context_collapse"
-    ],
-    "customExamples": {
-      "red_dot": "Countless servers generating unread badges create overwhelming notification anxiety, forcing users to constantly check the app to clear the clutter.",
-      "nagging_prompts": "Constant upsells for Nitro subscriptions interrupt the user experience, especially when trying to use basic features like higher quality screen sharing.",
-      "reciprocity_triggers": "Seeing friends active in voice channels or playing games creates strong social pressure to drop what you're doing and join them.",
-      "context_collapse": "Managing professional servers, gaming groups, and personal friend groups in the same UI leads to high cognitive load and blurred social boundaries."
-    }
-  },
-  {
-    "id": "amazon",
-    "name": "Amazon",
-    "manipulationPercentage": "93%",
-    "tacticIds": [
-      "false_scarcity",
-      "decoy_pricing",
-      "dynamic_pricing",
-      "forced_continuity",
-      "roach_motel",
-      "native_ads"
-    ],
-    "customExamples": {
-      "false_scarcity": "\"Only 3 left in stock\" labels and Lightning Deal countdown timers manufacture urgency to short-circuit careful comparison and trigger impulse buys.",
-      "decoy_pricing": "A struck-through \"List Price\" sits beside the current price to inflate the perceived discount, even when the item rarely sold at that higher number.",
-      "dynamic_pricing": "Prices quietly shift based on demand, browsing history, and time of day, so the number you see may not be the number your neighbour sees.",
-      "forced_continuity": "Prime free trials convert to paid membership automatically, and the renewal is easy to forget until the charge appears.",
-      "roach_motel": "Signing up for Prime takes one click, but cancelling routes you through several screens engineered to talk you out of leaving.",
-      "native_ads": "\"Sponsored\" listings are woven into search results and styled almost identically to organic products, blurring ads and recommendations."
-    }
-  },
-  {
-    "id": "booking",
-    "name": "Booking.com",
-    "manipulationPercentage": "96%",
-    "tacticIds": [
-      "false_scarcity",
-      "scarcity_timers",
-      "artificial_social_proof",
-      "confirmshaming",
-      "decoy_pricing"
-    ],
-    "customExamples": {
-      "false_scarcity": "\"Only 1 room left on our site!\" warnings pressure you to book instantly, even when plenty of availability exists elsewhere.",
-      "scarcity_timers": "\"Deal ends soon\" countdowns and \"Prices may rise\" banners create a ticking clock that discourages you from shopping around.",
-      "artificial_social_proof": "\"18 people are looking right now\" and \"Booked 5 times in the last hour\" fabricate a sense of a crowd competing for the same room.",
-      "confirmshaming": "Declining a pricier flexible rate is framed with guilt-laden copy like \"No, I'll risk paying more later.\"",
-      "decoy_pricing": "Crossed-out rates and prominent \"You saved X%\" tags make the offered price feel like a rescue from a much worse deal."
-    }
-  },
-  {
-    "id": "spotify",
-    "name": "Spotify",
-    "manipulationPercentage": "80%",
-    "tacticIds": [
-      "frictionless_autoplay",
-      "rabbit_hole_recommendations",
-      "forced_continuity",
-      "native_ads"
-    ],
-    "customExamples": {
-      "frictionless_autoplay": "When your playlist or album ends, Spotify silently keeps playing algorithmic picks, so the listening session never has a natural stopping point.",
-      "rabbit_hole_recommendations": "Daily Mixes, autoplay radio, and endless personalized recommendations keep steering you toward more of what the algorithm predicts will retain you.",
-      "forced_continuity": "Premium trials roll into paid subscriptions automatically, and the path to downgrade back to free is deliberately understated.",
-      "native_ads": "Sponsored playlists and host-read podcast ads are blended into the listening experience so seamlessly they rarely register as advertising."
-    }
-  },
-  {
-    "id": "uber",
-    "name": "Uber",
-    "manipulationPercentage": "84%",
-    "tacticIds": [
-      "dynamic_pricing",
-      "false_scarcity",
-      "confirmshaming",
-      "decoy_pricing"
-    ],
-    "customExamples": {
-      "dynamic_pricing": "Surge pricing multiplies fares the moment demand rises, exploiting the fact that riders in a hurry have little time to weigh alternatives.",
-      "false_scarcity": "\"Prices are higher due to increased demand, book now before they rise\" nudges you to commit before you can reconsider.",
-      "confirmshaming": "Upsell prompts frame the cheaper ride option as the inferior choice, subtly shaming you toward the pricier tier.",
-      "decoy_pricing": "Ride tiers and the Uber One membership are arranged so the middle option looks like the sensible bargain, steering spend upward."
-    }
-  },
-  {
-    "id": "whatsapp",
-    "name": "WhatsApp",
-    "manipulationPercentage": "76%",
-    "tacticIds": [
-      "read_receipts",
-      "typing_indicator",
-      "phantom_vibration",
-      "red_dot"
-    ],
-    "customExamples": {
-      "read_receipts": "Blue ticks tell the sender exactly when you have seen a message, manufacturing social pressure to reply right away.",
-      "typing_indicator": "The \"typing...\" status keeps you staring at the screen in anticipation, extending the time you spend waiting inside the app.",
-      "phantom_vibration": "The constant expectation of new messages trains you to feel buzzes that never happened and to check the phone compulsively.",
-      "red_dot": "Unread badges stacking up across busy group chats pull you back in just to clear the clutter."
-    },
-    "defuse": [
-      "Settings > Privacy > Read receipts: turn them off (this disables them both ways).",
-      "Mute busy groups: open the chat > tap the name > Mute notifications > Always.",
-      "Settings > Notifications: disable message previews so the lock screen stops baiting you in."
-    ]
-  },
-  {
-    "id": "candy_crush",
-    "name": "Candy Crush",
-    "manipulationPercentage": "Severe Risk",
-    "tacticIds": [
-      "appointment_mechanics",
-      "premium_currency_confusion",
-      "false_scarcity",
-      "loot_boxes",
-      "nagging_prompts"
-    ],
-    "customExamples": {
-      "appointment_mechanics": "The five-lives system forces you to either wait for lives to refill or pay to continue, dictating when and how often you return.",
-      "premium_currency_confusion": "Gold bars abstract away the real-money cost of boosters and extra moves, making it hard to track what you are actually spending.",
-      "false_scarcity": "Limited-time offers pop up precisely when you fail a hard level, exploiting the frustration of the moment to sell a rescue.",
-      "loot_boxes": "Randomized booster wheels and mystery chests deliver unpredictable rewards, layering gambling mechanics onto a casual puzzle game.",
-      "nagging_prompts": "Push notifications like \"Your lives are full!\" are timed to lure you back into another session."
-    }
-  },
-  {
-    "id": "tinder",
-    "name": "Tinder",
-    "manipulationPercentage": "87%",
-    "tacticIds": [
-      "status_anxiety",
-      "false_scarcity",
-      "artificial_social_proof",
-      "decoy_pricing",
-      "forced_continuity",
-      "variable_rewards"
-    ],
-    "customExamples": {
-      "status_anxiety": "Match counts and an invisible desirability ranking turn dating into a scoreboard, driving a constant hunt for validation.",
-      "false_scarcity": "Running out of likes and teasers like \"Someone likes you!\" dangle scarcity to push you toward a paid upgrade.",
-      "artificial_social_proof": "Blurred previews of people who supposedly already liked you imply high demand to pressure you into subscribing.",
-      "decoy_pricing": "Plus, Gold, and Platinum tiers are structured so the top plan looks like the obvious value, steering you to the priciest option.",
-      "forced_continuity": "Subscriptions renew automatically, and the option to downgrade or cancel is buried well out of the way.",
-      "variable_rewards": "Every swipe is a gamble on whether the next profile, or a sudden match, delivers a hit of validation. The unpredictable payoff is what turns swiping into a compulsive loop."
-    }
-  },
-  {
-    "id": "fortnite",
-    "name": "Fortnite",
-    "manipulationPercentage": "Severe Risk",
-    "tacticIds": [
-      "premium_currency_confusion",
-      "scarcity_timers",
-      "kid_targeted_variable_rewards",
-      "appointment_mechanics",
-      "daily_login_rewards"
-    ],
-    "customExamples": {
-      "premium_currency_confusion": "V-Bucks sit between your wallet and your purchases, disconnecting the flashy cosmetics from their real dollar cost, especially for kids.",
-      "scarcity_timers": "The Item Shop rotates daily with countdown timers, so a skin you want may vanish in hours unless you buy it now.",
-      "kid_targeted_variable_rewards": "Rare skins, emotes, and effects are engineered to dazzle young players who are highly susceptible to chasing the next unlock.",
-      "appointment_mechanics": "Battle Pass tiers and time-limited live events require you to keep logging in or lose progress you have paid for.",
-      "daily_login_rewards": "Daily and weekly challenges hand out rewards for simply showing up, cementing a habit of returning every day."
-    }
-  },
-  {
-    "id": "shein",
-    "name": "Shein",
-    "manipulationPercentage": "96%",
-    "tacticIds": [
-      "false_scarcity",
-      "scarcity_timers",
-      "variable_rewards",
-      "daily_login_rewards",
-      "decoy_pricing"
-    ],
-    "customExamples": {
-      "false_scarcity": "Nearly every product page carries 'almost sold out' and 'selling fast' labels, manufacturing urgency across a catalog of millions of items.",
-      "scarcity_timers": "Flash sale countdowns restart constantly, so there is always a deal about to expire and never a good moment to close the app.",
-      "variable_rewards": "Spin-the-wheel discounts and randomized coupon drops turn opening the app into a slot machine pull before you have even shopped.",
-      "daily_login_rewards": "Daily check-in points and streak bonuses reward you for showing up every day, building a shopping habit independent of any need to buy.",
-      "decoy_pricing": "Endless strikethrough prices and stacked-coupon math make every purchase feel like a win, obscuring what the item is actually worth."
-    }
-  },
-  {
-    "id": "robinhood",
-    "name": "Robinhood",
-    "manipulationPercentage": "Severe Risk",
-    "tacticIds": [
-      "variable_rewards",
-      "loot_boxes",
-      "nagging_prompts",
-      "asymmetric_friction"
-    ],
-    "customExamples": {
-      "variable_rewards": "Every trade resolves like a scratch card, and the app celebrated wins with confetti until regulators pushed back. The unpredictable payoff loop is the product.",
-      "loot_boxes": "The 'free stock' signup and referral reward is a literal lottery ticket: you scratch to reveal a random share, gambling mechanics before your first trade.",
-      "nagging_prompts": "Price-movement push notifications are tuned to pull you back in at volatile moments, exactly when you are most likely to trade emotionally.",
-      "asymmetric_friction": "Placing a trade takes two taps; moving your money back out takes days and multiple screens."
-    }
-  },
-  {
-    "id": "doordash",
-    "name": "DoorDash",
-    "manipulationPercentage": "84%",
-    "tacticIds": [
-      "dynamic_pricing",
-      "decoy_pricing",
-      "forced_continuity",
-      "confirmshaming"
-    ],
-    "customExamples": {
-      "dynamic_pricing": "Delivery and service fees shift with demand, weather, and your location, so the real cost of an order is never predictable up front.",
-      "decoy_pricing": "Inflated menu prices, separate service fees, and DashPass 'savings' banners are arranged so the subscription looks like the only rational choice.",
-      "forced_continuity": "DashPass free trials convert to a recurring charge automatically, and the cancellation flow is buried several screens deep.",
-      "confirmshaming": "Tip prompts and checkout upsells use guilt-loaded framing, making the cheaper or tip-free option feel like a moral failing."
-    }
-  },
-  {
-    "id": "steam",
-    "name": "Steam",
-    "manipulationPercentage": "High Risk",
-    "tacticIds": [
-      "loot_boxes",
-      "scarcity_timers",
-      "decoy_pricing",
-      "premium_currency_confusion"
-    ],
-    "customExamples": {
-      "loot_boxes": "Case openings in CS2 and other games are full gambling loops, complete with rarity colors, near-miss animations, and a real-money marketplace.",
-      "scarcity_timers": "Seasonal sales run on countdown clocks and daily rotating deals, training players to check back and buy before the timer hits zero.",
-      "decoy_pricing": "Bundles are priced so the game you wanted looks cheap next to an anchor package, and deep historical discounts make 'full price' feel irrational.",
-      "premium_currency_confusion": "The Steam Wallet holds money you have already spent, making marketplace and in-game purchases feel free while locking funds inside the platform."
-    }
-  },
-  {
-    "id": "prime_video",
-    "name": "Prime Video",
-    "manipulationPercentage": "High Risk",
-    "tacticIds": [
-      "frictionless_autoplay",
-      "cliffhanger_engineering",
-      "skip_intro_buttons",
-      "watch_time_optimisation"
-    ],
-    "customExamples": {
-      "frictionless_autoplay": "The next episode starts on its own and trailers auto-play the moment you pause on a title, removing every natural stopping point.",
-      "cliffhanger_engineering": "Prime originals are structured around end-of-episode hooks designed to make 'just one more' the default decision.",
-      "skip_intro_buttons": "One-tap skip buttons compress the gap between episodes to seconds, keeping you inside the binge loop.",
-      "watch_time_optimisation": "Rows, thumbnails, and autoplaying previews are all tuned to maximize hours streamed, which also protects the Prime subscription bundle."
-    }
+  "defuse": [
+   "Account > Profile > Playback settings: uncheck 'Autoplay next episode in a series'.",
+   "Also uncheck 'Autoplay previews while browsing' so trailers stop launching themselves."
+  ]
+ },
+ {
+  "id": "roblox",
+  "name": "Roblox",
+  "manipulationPercentage": "Severe Risk",
+  "tacticIds": [
+   "loot_boxes",
+   "kid_targeted_variable_rewards",
+   "premium_currency_confusion",
+   "age_ambiguity"
+  ],
+  "customExamples": {
+   "loot_boxes": "Games feature \"eggs\" or \"crates\" that players buy with real money for a random chance at rare items, essentially introducing gambling mechanics to children.",
+   "kid_targeted_variable_rewards": "Bright colors, flashy animations, and rare \"legendary\" pets exploit the developing brains of young players who are highly susceptible to intermittent reinforcement.",
+   "premium_currency_confusion": "Robux abstract the real-world cost of items. Players (especially kids) lose track of how much actual money they are spending on digital cosmetics.",
+   "age_ambiguity": "The platform blends games meant for young children with experiences containing mature themes and aggressive monetization, making parental oversight extremely difficult."
   }
+ },
+ {
+  "id": "twitter",
+  "name": "X",
+  "manipulationPercentage": "85%",
+  "tacticIds": [
+   "outrage_amplification",
+   "doomscrolling",
+   "red_dot",
+   "engagement_bait"
+  ],
+  "customExamples": {
+   "outrage_amplification": "The \"For You\" timeline heavily surfaces controversial takes and viral dunks, as anger is the most effective emotion for driving replies and quote tweets.",
+   "doomscrolling": "The endless feed of breaking news, hot takes, and global crises keeps users scrolling in a state of high anxiety, constantly searching for the next update.",
+   "red_dot": "Push notifications for irrelevant events (like \"Someone you follow tweeted for the first time in a while\") are used to falsely trigger a sense of urgency.",
+   "engagement_bait": "Rage-bait questions and 'quote this with your take' posts farm replies because the algorithm boosts anything that stirs interaction."
+  },
+  "defuse": [
+   "On the timeline, switch the top tab to Following for a chronological feed instead of For You.",
+   "Settings > Notifications > Preferences: turn off Topics, 'For you' recommendations, and login-bait pushes.",
+   "Mute words and phrases that reliably bait you (Settings > Privacy and safety > Mute and block)."
+  ]
+ },
+ {
+  "id": "linkedin",
+  "name": "LinkedIn",
+  "manipulationPercentage": "82%",
+  "tacticIds": [
+   "status_anxiety",
+   "artificial_social_proof",
+   "confirmshaming",
+   "red_dot",
+   "endowed_progress",
+   "bait_notifications"
+  ],
+  "customExamples": {
+   "status_anxiety": "Constant updates about peers' promotions and \"humbled and honored\" posts create immense professional insecurity and a fear of falling behind.",
+   "artificial_social_proof": "Endorsements and skill badges are often traded reciprocally rather than earned, creating an inflated sense of professional authority.",
+   "confirmshaming": "Prompts to upgrade to Premium often use manipulative copy like \"No thanks, I don't want to see who viewed my profile,\" playing on professional FOMO.",
+   "red_dot": "LinkedIn aggressively uses notifications for minor network updates (e.g., work anniversaries) to maintain daily active usage among professionals.",
+   "endowed_progress": "The profile strength meter starts you at 'Intermediate' so quitting setup feels like abandoning progress you never actually earned.",
+   "bait_notifications": "'You appeared in 9 searches this week' is an ad for the app dressed up as news about you."
+  }
+ },
+ {
+  "id": "snapchat",
+  "name": "Snapchat",
+  "manipulationPercentage": "89%",
+  "tacticIds": [
+   "streaks",
+   "status_anxiety",
+   "phantom_vibration",
+   "halo_effect",
+   "ephemeral_content"
+  ],
+  "customExamples": {
+   "streaks": "Snapstreaks attach a numerical score and a fire emoji to daily communication, transforming friendship into a daily obligation that users are terrified to lose.",
+   "status_anxiety": "Features like Snap Maps and visible read receipts generate constant anxiety about social exclusion. They ensure you always know exactly when your friends are hanging out without you.",
+   "phantom_vibration": "The expectation of fleeting, disappearing messages conditions users to constantly check their phones for updates before they vanish.",
+   "halo_effect": "Heavy use of augmented reality beauty filters distorts self-image, making the unfiltered reality feel inadequate by comparison.",
+   "ephemeral_content": "The entire app is built on disappearing content; miss a day and it is gone, which makes daily check-ins feel non-negotiable."
+  },
+  "defuse": [
+   "Snapstreaks can't be disabled; agree with friends to deliberately let them go once.",
+   "Settings > Notifications: turn off Stories and friend-suggestion pushes.",
+   "Enable Ghost Mode on Snap Map: Settings > See My Location > Ghost Mode."
+  ]
+ },
+ {
+  "id": "reddit",
+  "name": "Reddit",
+  "manipulationPercentage": "78%",
+  "tacticIds": [
+   "infinite_scroll",
+   "outrage_amplification",
+   "doomscrolling",
+   "rabbit_hole_recommendations"
+  ],
+  "customExamples": {
+   "infinite_scroll": "The mobile app and redesigned website use endless scrolling to keep users browsing through subreddits for hours without a natural stopping point.",
+   "outrage_amplification": "The upvote/downvote system inherently pushes the most polarizing, echo-chamber-validating, and emotionally charged opinions to the top of popular threads.",
+   "doomscrolling": "News and political subreddits create a vortex of negative information that users compulsively read to feel informed, despite the toll on mental health.",
+   "rabbit_hole_recommendations": "Reddit's algorithm suggests increasingly niche or extreme communities based on your browsing history, gradually pulling you deeper into echo chambers."
+  },
+  "defuse": [
+   "Settings > Feed options: sort by Latest and disable community recommendations where available.",
+   "Turn off Trending and recommendation pushes: Settings > Notifications.",
+   "Prefer the old.reddit.com layout on web; it has no infinite feed of suggested communities."
+  ]
+ },
+ {
+  "id": "pinterest",
+  "name": "Pinterest",
+  "manipulationPercentage": "75%",
+  "tacticIds": [
+   "infinite_scroll",
+   "rabbit_hole_recommendations",
+   "halo_effect",
+   "native_ads"
+  ],
+  "customExamples": {
+   "infinite_scroll": "The masonry grid layout eliminates whitespace and stopping cues, encouraging users to endlessly scroll through aesthetically pleasing images.",
+   "rabbit_hole_recommendations": "Clicking on one pin immediately populates a feed of visually similar items, creating an endless loop of aspiration and discovery.",
+   "halo_effect": "The highly curated, idealized aesthetics of home decor and lifestyle pins make the subtly integrated sponsored products seem more premium and desirable.",
+   "native_ads": "Promoted pins are visually indistinguishable from organic content, tricking users into saving and sharing advertisements as personal inspiration."
+  }
+ },
+ {
+  "id": "temu",
+  "name": "Temu",
+  "manipulationPercentage": "95%",
+  "tacticIds": [
+   "false_scarcity",
+   "decoy_pricing",
+   "loot_boxes",
+   "artificial_social_proof",
+   "endowed_progress"
+  ],
+  "customExamples": {
+   "false_scarcity": "Constant countdown timers (\"Sale ends in 14:02\") and low-stock warnings (\"Only 2 left!\") create intense, manufactured urgency to force impulse purchases.",
+   "decoy_pricing": "Items are shown with massive, fabricated discount percentages (e.g., \"$3.99, marked down from $49.99\") to make the deal feel too good to pass up.",
+   "loot_boxes": "The app uses literal roulette wheels and randomized coupon drops to trigger dopamine rushes, gamifying the shopping experience.",
+   "artificial_social_proof": "Pop-ups constantly declare \"Someone in Texas just bought this!\" to fabricate a sense of high demand and crowd validation.",
+   "endowed_progress": "Spin wheels always land on a coupon that is '90% complete' toward a reward, gifting progress you must spend money to finish."
+  }
+ },
+ {
+  "id": "duolingo",
+  "name": "Duolingo",
+  "manipulationPercentage": "High Risk",
+  "tacticIds": [
+   "streaks",
+   "nagging_prompts",
+   "competitive_leaderboards",
+   "daily_login_rewards",
+   "appointment_mechanics"
+  ],
+  "customExamples": {
+   "streaks": "The flame icon and streak counter turn language learning into a high-stakes daily requirement; losing a long streak feels devastating.",
+   "nagging_prompts": "The passive-aggressive push notifications (e.g., \"These reminders don't seem to be working. We'll stop sending them for now.\") guilt users into returning.",
+   "competitive_leaderboards": "The Diamond League pits users against each other, incentivizing mindless grinding for XP rather than actual language retention.",
+   "daily_login_rewards": "Early Bird and Night Owl chests force users to open the app at specific times of the day to claim XP boosts, dictating their daily schedule.",
+   "appointment_mechanics": "Users must return before their streak freeze expires or their league ends, creating artificial deadlines for engagement."
+  },
+  "defuse": [
+   "Settings > Notifications: turn off streak reminders and 'practice' nudges; keep only what you asked for.",
+   "Equip a Streak Freeze deliberately, then decide your schedule by calendar, not by the flame icon.",
+   "Mute the leaderboard: Profile > Settings > turn off leaderboards to stop XP-grinding against strangers."
+  ]
+ },
+ {
+  "id": "twitch",
+  "name": "Twitch",
+  "manipulationPercentage": "High Risk",
+  "tacticIds": [
+   "parasocial_relationships",
+   "daily_login_rewards",
+   "artificial_social_proof",
+   "status_anxiety"
+  ],
+  "customExamples": {
+   "parasocial_relationships": "Viewers develop deep, one-sided emotional attachments to streamers, leading them to spend hundreds of dollars on subscriptions and donations to be noticed.",
+   "daily_login_rewards": "Channel points reward viewers simply for leaving the stream open, artificially inflating viewer counts and incentivizing constant background usage.",
+   "artificial_social_proof": "The Hype Train mechanic uses on-screen progress bars and chat notifications to pressure viewers into spending money simply because others are doing it.",
+   "status_anxiety": "Subscriber badges that upgrade based on consecutive months subscribed create immense pressure to never cancel a subscription, for fear of losing status in chat."
+  }
+ },
+ {
+  "id": "chatgpt",
+  "name": "ChatGPT",
+  "manipulationPercentage": "Moderate Risk",
+  "tacticIds": [
+   "hallucinated_authority",
+   "synthetic_companionship",
+   "labor_illusion",
+   "sycophantic_ai"
+  ],
+  "customExamples": {
+   "hallucinated_authority": "The AI delivers confidently incorrect information in an authoritative, structured tone, making it dangerously easy to trust without verification.",
+   "synthetic_companionship": "The conversational interface and \"helpful assistant\" persona can lead vulnerable users to project empathy and consciousness onto a language model.",
+   "labor_illusion": "The slow, streaming generation of text gives the false impression that the AI is \"thinking\" deeply about your prompt, increasing the perceived value of the answer.",
+   "sycophantic_ai": "Tuned on user ratings, it tends to open with praise for your question and agree with your framing unless you explicitly ask for pushback."
+  }
+ },
+ {
+  "id": "discord",
+  "name": "Discord",
+  "manipulationPercentage": "Moderate Risk",
+  "tacticIds": [
+   "red_dot",
+   "nagging_prompts",
+   "reciprocity_triggers",
+   "context_collapse"
+  ],
+  "customExamples": {
+   "red_dot": "Countless servers generating unread badges create overwhelming notification anxiety, forcing users to constantly check the app to clear the clutter.",
+   "nagging_prompts": "Constant upsells for Nitro subscriptions interrupt the user experience, especially when trying to use basic features like higher quality screen sharing.",
+   "reciprocity_triggers": "Seeing friends active in voice channels or playing games creates strong social pressure to drop what you're doing and join them.",
+   "context_collapse": "Managing professional servers, gaming groups, and personal friend groups in the same UI leads to high cognitive load and blurred social boundaries."
+  }
+ },
+ {
+  "id": "amazon",
+  "name": "Amazon",
+  "manipulationPercentage": "93%",
+  "tacticIds": [
+   "false_scarcity",
+   "decoy_pricing",
+   "dynamic_pricing",
+   "forced_continuity",
+   "roach_motel",
+   "native_ads"
+  ],
+  "customExamples": {
+   "false_scarcity": "\"Only 3 left in stock\" labels and Lightning Deal countdown timers manufacture urgency to short-circuit careful comparison and trigger impulse buys.",
+   "decoy_pricing": "A struck-through \"List Price\" sits beside the current price to inflate the perceived discount, even when the item rarely sold at that higher number.",
+   "dynamic_pricing": "Prices quietly shift based on demand, browsing history, and time of day, so the number you see may not be the number your neighbour sees.",
+   "forced_continuity": "Prime free trials convert to paid membership automatically, and the renewal is easy to forget until the charge appears.",
+   "roach_motel": "Signing up for Prime takes one click, but cancelling routes you through several screens engineered to talk you out of leaving.",
+   "native_ads": "\"Sponsored\" listings are woven into search results and styled almost identically to organic products, blurring ads and recommendations."
+  }
+ },
+ {
+  "id": "booking",
+  "name": "Booking.com",
+  "manipulationPercentage": "96%",
+  "tacticIds": [
+   "false_scarcity",
+   "scarcity_timers",
+   "artificial_social_proof",
+   "confirmshaming",
+   "decoy_pricing"
+  ],
+  "customExamples": {
+   "false_scarcity": "\"Only 1 room left on our site!\" warnings pressure you to book instantly, even when plenty of availability exists elsewhere.",
+   "scarcity_timers": "\"Deal ends soon\" countdowns and \"Prices may rise\" banners create a ticking clock that discourages you from shopping around.",
+   "artificial_social_proof": "\"18 people are looking right now\" and \"Booked 5 times in the last hour\" fabricate a sense of a crowd competing for the same room.",
+   "confirmshaming": "Declining a pricier flexible rate is framed with guilt-laden copy like \"No, I'll risk paying more later.\"",
+   "decoy_pricing": "Crossed-out rates and prominent \"You saved X%\" tags make the offered price feel like a rescue from a much worse deal."
+  }
+ },
+ {
+  "id": "spotify",
+  "name": "Spotify",
+  "manipulationPercentage": "80%",
+  "tacticIds": [
+   "frictionless_autoplay",
+   "rabbit_hole_recommendations",
+   "forced_continuity",
+   "native_ads"
+  ],
+  "customExamples": {
+   "frictionless_autoplay": "When your playlist or album ends, Spotify silently keeps playing algorithmic picks, so the listening session never has a natural stopping point.",
+   "rabbit_hole_recommendations": "Daily Mixes, autoplay radio, and endless personalized recommendations keep steering you toward more of what the algorithm predicts will retain you.",
+   "forced_continuity": "Premium trials roll into paid subscriptions automatically, and the path to downgrade back to free is deliberately understated.",
+   "native_ads": "Sponsored playlists and host-read podcast ads are blended into the listening experience so seamlessly they rarely register as advertising."
+  }
+ },
+ {
+  "id": "uber",
+  "name": "Uber",
+  "manipulationPercentage": "84%",
+  "tacticIds": [
+   "dynamic_pricing",
+   "false_scarcity",
+   "confirmshaming",
+   "decoy_pricing"
+  ],
+  "customExamples": {
+   "dynamic_pricing": "Surge pricing multiplies fares the moment demand rises, exploiting the fact that riders in a hurry have little time to weigh alternatives.",
+   "false_scarcity": "\"Prices are higher due to increased demand, book now before they rise\" nudges you to commit before you can reconsider.",
+   "confirmshaming": "Upsell prompts frame the cheaper ride option as the inferior choice, subtly shaming you toward the pricier tier.",
+   "decoy_pricing": "Ride tiers and the Uber One membership are arranged so the middle option looks like the sensible bargain, steering spend upward."
+  }
+ },
+ {
+  "id": "whatsapp",
+  "name": "WhatsApp",
+  "manipulationPercentage": "76%",
+  "tacticIds": [
+   "read_receipts",
+   "typing_indicator",
+   "phantom_vibration",
+   "red_dot",
+   "ephemeral_content"
+  ],
+  "customExamples": {
+   "read_receipts": "Blue ticks tell the sender exactly when you have seen a message, manufacturing social pressure to reply right away.",
+   "typing_indicator": "The \"typing...\" status keeps you staring at the screen in anticipation, extending the time you spend waiting inside the app.",
+   "phantom_vibration": "The constant expectation of new messages trains you to feel buzzes that never happened and to check the phone compulsively.",
+   "red_dot": "Unread badges stacking up across busy group chats pull you back in just to clear the clutter."
+  },
+  "defuse": [
+   "Settings > Privacy > Read receipts: turn them off (this disables them both ways).",
+   "Mute busy groups: open the chat > tap the name > Mute notifications > Always.",
+   "Settings > Notifications: disable message previews so the lock screen stops baiting you in."
+  ]
+ },
+ {
+  "id": "candy_crush",
+  "name": "Candy Crush",
+  "manipulationPercentage": "Severe Risk",
+  "tacticIds": [
+   "appointment_mechanics",
+   "premium_currency_confusion",
+   "false_scarcity",
+   "loot_boxes",
+   "nagging_prompts"
+  ],
+  "customExamples": {
+   "appointment_mechanics": "The five-lives system forces you to either wait for lives to refill or pay to continue, dictating when and how often you return.",
+   "premium_currency_confusion": "Gold bars abstract away the real-money cost of boosters and extra moves, making it hard to track what you are actually spending.",
+   "false_scarcity": "Limited-time offers pop up precisely when you fail a hard level, exploiting the frustration of the moment to sell a rescue.",
+   "loot_boxes": "Randomized booster wheels and mystery chests deliver unpredictable rewards, layering gambling mechanics onto a casual puzzle game.",
+   "nagging_prompts": "Push notifications like \"Your lives are full!\" are timed to lure you back into another session."
+  }
+ },
+ {
+  "id": "tinder",
+  "name": "Tinder",
+  "manipulationPercentage": "87%",
+  "tacticIds": [
+   "status_anxiety",
+   "false_scarcity",
+   "artificial_social_proof",
+   "decoy_pricing",
+   "forced_continuity",
+   "variable_rewards",
+   "bait_notifications"
+  ],
+  "customExamples": {
+   "status_anxiety": "Match counts and an invisible desirability ranking turn dating into a scoreboard, driving a constant hunt for validation.",
+   "false_scarcity": "Running out of likes and teasers like \"Someone likes you!\" dangle scarcity to push you toward a paid upgrade.",
+   "artificial_social_proof": "Blurred previews of people who supposedly already liked you imply high demand to pressure you into subscribing.",
+   "decoy_pricing": "Plus, Gold, and Platinum tiers are structured so the top plan looks like the obvious value, steering you to the priciest option.",
+   "forced_continuity": "Subscriptions renew automatically, and the option to downgrade or cancel is buried well out of the way.",
+   "variable_rewards": "Every swipe is a gamble on whether the next profile, or a sudden match, delivers a hit of validation. The unpredictable payoff is what turns swiping into a compulsive loop.",
+   "bait_notifications": "'Someone new liked you' pushes arrive on schedule when you have not opened the app, blurred just enough to require a visit."
+  }
+ },
+ {
+  "id": "fortnite",
+  "name": "Fortnite",
+  "manipulationPercentage": "Severe Risk",
+  "tacticIds": [
+   "premium_currency_confusion",
+   "scarcity_timers",
+   "kid_targeted_variable_rewards",
+   "appointment_mechanics",
+   "daily_login_rewards"
+  ],
+  "customExamples": {
+   "premium_currency_confusion": "V-Bucks sit between your wallet and your purchases, disconnecting the flashy cosmetics from their real dollar cost, especially for kids.",
+   "scarcity_timers": "The Item Shop rotates daily with countdown timers, so a skin you want may vanish in hours unless you buy it now.",
+   "kid_targeted_variable_rewards": "Rare skins, emotes, and effects are engineered to dazzle young players who are highly susceptible to chasing the next unlock.",
+   "appointment_mechanics": "Battle Pass tiers and time-limited live events require you to keep logging in or lose progress you have paid for.",
+   "daily_login_rewards": "Daily and weekly challenges hand out rewards for simply showing up, cementing a habit of returning every day."
+  }
+ },
+ {
+  "id": "shein",
+  "name": "Shein",
+  "manipulationPercentage": "96%",
+  "tacticIds": [
+   "false_scarcity",
+   "scarcity_timers",
+   "variable_rewards",
+   "daily_login_rewards",
+   "decoy_pricing"
+  ],
+  "customExamples": {
+   "false_scarcity": "Nearly every product page carries 'almost sold out' and 'selling fast' labels, manufacturing urgency across a catalog of millions of items.",
+   "scarcity_timers": "Flash sale countdowns restart constantly, so there is always a deal about to expire and never a good moment to close the app.",
+   "variable_rewards": "Spin-the-wheel discounts and randomized coupon drops turn opening the app into a slot machine pull before you have even shopped.",
+   "daily_login_rewards": "Daily check-in points and streak bonuses reward you for showing up every day, building a shopping habit independent of any need to buy.",
+   "decoy_pricing": "Endless strikethrough prices and stacked-coupon math make every purchase feel like a win, obscuring what the item is actually worth."
+  }
+ },
+ {
+  "id": "robinhood",
+  "name": "Robinhood",
+  "manipulationPercentage": "Severe Risk",
+  "tacticIds": [
+   "variable_rewards",
+   "loot_boxes",
+   "nagging_prompts",
+   "asymmetric_friction"
+  ],
+  "customExamples": {
+   "variable_rewards": "Every trade resolves like a scratch card, and the app celebrated wins with confetti until regulators pushed back. The unpredictable payoff loop is the product.",
+   "loot_boxes": "The 'free stock' signup and referral reward is a literal lottery ticket: you scratch to reveal a random share, gambling mechanics before your first trade.",
+   "nagging_prompts": "Price-movement push notifications are tuned to pull you back in at volatile moments, exactly when you are most likely to trade emotionally.",
+   "asymmetric_friction": "Placing a trade takes two taps; moving your money back out takes days and multiple screens."
+  }
+ },
+ {
+  "id": "doordash",
+  "name": "DoorDash",
+  "manipulationPercentage": "84%",
+  "tacticIds": [
+   "dynamic_pricing",
+   "decoy_pricing",
+   "forced_continuity",
+   "confirmshaming"
+  ],
+  "customExamples": {
+   "dynamic_pricing": "Delivery and service fees shift with demand, weather, and your location, so the real cost of an order is never predictable up front.",
+   "decoy_pricing": "Inflated menu prices, separate service fees, and DashPass 'savings' banners are arranged so the subscription looks like the only rational choice.",
+   "forced_continuity": "DashPass free trials convert to a recurring charge automatically, and the cancellation flow is buried several screens deep.",
+   "confirmshaming": "Tip prompts and checkout upsells use guilt-loaded framing, making the cheaper or tip-free option feel like a moral failing."
+  }
+ },
+ {
+  "id": "steam",
+  "name": "Steam",
+  "manipulationPercentage": "High Risk",
+  "tacticIds": [
+   "loot_boxes",
+   "scarcity_timers",
+   "decoy_pricing",
+   "premium_currency_confusion"
+  ],
+  "customExamples": {
+   "loot_boxes": "Case openings in CS2 and other games are full gambling loops, complete with rarity colors, near-miss animations, and a real-money marketplace.",
+   "scarcity_timers": "Seasonal sales run on countdown clocks and daily rotating deals, training players to check back and buy before the timer hits zero.",
+   "decoy_pricing": "Bundles are priced so the game you wanted looks cheap next to an anchor package, and deep historical discounts make 'full price' feel irrational.",
+   "premium_currency_confusion": "The Steam Wallet holds money you have already spent, making marketplace and in-game purchases feel free while locking funds inside the platform."
+  }
+ },
+ {
+  "id": "prime_video",
+  "name": "Prime Video",
+  "manipulationPercentage": "High Risk",
+  "tacticIds": [
+   "frictionless_autoplay",
+   "cliffhanger_engineering",
+   "skip_intro_buttons",
+   "watch_time_optimisation"
+  ],
+  "customExamples": {
+   "frictionless_autoplay": "The next episode starts on its own and trailers auto-play the moment you pause on a title, removing every natural stopping point.",
+   "cliffhanger_engineering": "Prime originals are structured around end-of-episode hooks designed to make 'just one more' the default decision.",
+   "skip_intro_buttons": "One-tap skip buttons compress the gap between episodes to seconds, keeping you inside the binge loop.",
+   "watch_time_optimisation": "Rows, thumbnails, and autoplaying previews are all tuned to maximize hours streamed, which also protects the Prime subscription bundle."
+  }
+ }
 ]
