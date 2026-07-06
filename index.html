@@ -67,7 +67,7 @@
       transition: opacity 0.35s ease;
     }
     #splash svg {
-      animation: splash-blink 1.1s linear infinite;
+      animation: splash-blink 1.6s linear infinite;
       transform-origin: center;
     }
     #splash p {
@@ -76,10 +76,11 @@
       letter-spacing: 2px;
       margin: 0;
     }
-    /* Open most of the cycle, then one fast snap blink (~130ms). */
+    /* Blink EARLY in the cycle (~250ms in) so even fast loads catch it,
+       then stay open for the rest. */
     @keyframes splash-blink {
-      0%, 84%, 96%, 100% { transform: scaleY(1); }
-      90% { transform: scaleY(0.05); }
+      0%, 10%, 22%, 100% { transform: scaleY(1); }
+      16% { transform: scaleY(0.05); }
     }
   </style>
 </head>
