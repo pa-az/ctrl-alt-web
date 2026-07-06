@@ -52,6 +52,27 @@
 
   <!-- Privacy-respecting analytics: GoatCounter is cookieless and open
        source, so no consent banner is needed. Counts page views only. -->
+  <script>
+    (function() {
+      // Visiting https://ctrl-alt.app/#toggle-goatcounter once on a device
+      // toggles counting off (or back on) for that browser. Use it on your
+      // own machines so your visits don't pollute the stats.
+      if (window.location.hash === '#toggle-goatcounter') {
+        if (localStorage.getItem('skipgc') === 't') {
+          localStorage.removeItem('skipgc');
+          alert('GoatCounter tracking is now ENABLED in this browser.');
+        } else {
+          localStorage.setItem('skipgc', 't');
+          alert('GoatCounter tracking is now DISABLED in this browser.');
+        }
+      }
+      // Never count localhost / preview / dev builds, or opted-out browsers.
+      if (window.location.host !== 'ctrl-alt.app' ||
+          localStorage.getItem('skipgc') === 't') {
+        window.goatcounter = { no_onload: true };
+      }
+    })();
+  </script>
   <script data-goatcounter="https://paaz.goatcounter.com/count"
           async src="https://gc.zgo.at/count.js"></script>
 </body>
