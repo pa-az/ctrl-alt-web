@@ -50417,22 +50417,24 @@ a4=a2.c
 l=s?new A.k6(B.cy,1.5,B.c1,a0,0,A.b([a2.f.a6(0.15),a4,a2.w.a6(0.1)],t.t_),B.a1c,a0):a0
 k=A.a7(30)
 j=A.aSn(14,14)
-i=a2.d.a6(0.72)
-h=A.a7(30)
-g=A.b5(a2.e,1)
-f=A.b([new A.cc(0,B.ap,B.t.a6(a2.b===B.a0?0.3:0.07),B.dp,14)],t.V)
-e=a.GP(a5,B.Wv,1,"Radar",a2)
-d=a3.b&&J.cG($.fa)-a3.y.length>0
+i=a2.b===B.a0
+h=i?0.45:0.72
+h=a2.d.a6(h)
+g=A.a7(30)
+f=A.b5(a2.e,1)
+e=A.b([new A.cc(0,B.ap,B.t.a6(i?0.3:0.07),B.dp,14)],t.V)
+d=a.GP(a5,B.Wv,1,"Radar",a2)
+i=a3.b&&J.cG($.fa)-a3.y.length>0
 c=A.T(""+(J.cG($.fa)-a3.y.length),a0,a0,a0,a0,a0,a0,a0)
-d=A.aW5(a1.d?A.aVY(!1,26,!0,!1,7,a1.e,40):B.Wu,d,c)
+i=A.aW5(a1.d?A.aVY(!1,26,!0,!1,7,a1.e,40):B.Wu,i,c)
 c=t.J
 A.ca(a5,B.ah,c).toString
 b=t.p
-d=A.b([e,a.GP(a5,d,0,"Tactics",a2)],b)
+i=A.b([d,a.GP(a5,i,0,"Tactics",a2)],b)
 A.ca(a5,B.ah,c).toString
-d.push(a.GP(a5,B.Wl,2,"App",a2))
-d.push(a.ad8(a2))
-j=A.mO(!0,new A.aR(B.TY,A.aA(new A.dp(B.MN,A.i9(k,A.aRs(A.V(a0,A.aE(d,B.j,a0,B.oO,B.p,0),B.f,a0,a0,new A.X(i,a0,g,h,f,a0,B.q),a0,a0,a0,a0,B.Uj,a0,a0,a0),j),B.au),a0),1,a0),a0),B.an,!1)
+i.push(a.GP(a5,B.Wl,2,"App",a2))
+i.push(a.ad8(a2))
+j=A.mO(!0,new A.aR(B.TY,A.aA(new A.dp(B.MN,A.i9(k,A.aRs(A.V(a0,A.aE(i,B.j,a0,B.oO,B.p,0),B.f,a0,a0,new A.X(h,a0,f,g,e,a0,B.q),a0,a0,a0,a0,B.Uj,a0,a0,a0),j),B.au),a0),1,a0),a0),B.an,!1)
 k=t.l
 i=A.aV(a0,A.br(a5,a0,k).w.r.b>0?0:12,a0)
 if(a.Q)h=new A.FT(a.at,new A.aDs(a),new A.aDt(a),a0)

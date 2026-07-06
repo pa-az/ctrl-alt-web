@@ -585,5 +585,83 @@
    "skip_intro_buttons": "One-tap skip buttons compress the gap between episodes to seconds, keeping you inside the binge loop.",
    "watch_time_optimisation": "Rows, thumbnails, and autoplaying previews are all tuned to maximize hours streamed, which also protects the Prime subscription bundle."
   }
+ },
+ {
+  "id": "signal",
+  "name": "Signal",
+  "respectful": true,
+  "manipulationPercentage": "Low",
+  "tacticIds": [],
+  "respectNote": "A nonprofit messenger with no ads, no feed, and no engagement metrics of any kind.",
+  "refuses": {
+   "read_receipts": "Read receipts are opt-in and can be switched off completely, so nobody can pressure you with a 'seen' stamp.",
+   "typing_indicator": "Typing indicators are optional, not a default anxiety machine.",
+   "engagement_bait": "There is no algorithmic feed to farm your reactions; the app only carries your conversations."
+  }
+ },
+ {
+  "id": "wikipedia",
+  "name": "Wikipedia",
+  "respectful": true,
+  "manipulationPercentage": "Low",
+  "tacticIds": [],
+  "respectNote": "Donation-funded, so you are the reader it serves, never the product it sells.",
+  "refuses": {
+   "native_ads": "No ads of any kind, native or display; nothing on the page is trying to sell you something.",
+   "infinite_scroll": "Articles have a beginning and an end instead of a bottomless feed engineered to keep you scrolling.",
+   "dynamic_retargeting": "It does not build an ad profile on you or follow you around the web afterwards."
+  }
+ },
+ {
+  "id": "duckduckgo",
+  "name": "DuckDuckGo",
+  "respectful": true,
+  "manipulationPercentage": "Low",
+  "tacticIds": [],
+  "respectNote": "Search that does not build a profile on you to sort what you see.",
+  "refuses": {
+   "filter_bubble": "Results are not personalized from a hidden profile, so you are not quietly sealed inside your own bubble.",
+   "dynamic_retargeting": "Your searches are not logged into an advertising profile that chases you across other sites.",
+   "household_ip_tracking": "It does not stitch your activity to a household identity graph for ad targeting."
+  }
+ },
+ {
+  "id": "mastodon",
+  "name": "Mastodon",
+  "respectful": true,
+  "manipulationPercentage": "Low",
+  "tacticIds": [],
+  "respectNote": "A chronological, ad-free social timeline with no engagement-ranking algorithm.",
+  "refuses": {
+   "outrage_amplification": "Posts appear in time order, not ranked by whatever provokes the strongest reaction.",
+   "filter_bubble": "No opaque algorithm decides what you are allowed to see; you follow, you see.",
+   "engagement_bait": "Favourites and boosts do not feed a reach-maximizing algorithm, so there is nothing to bait."
+  }
+ },
+ {
+  "id": "bandcamp",
+  "name": "Bandcamp",
+  "respectful": true,
+  "manipulationPercentage": "Low",
+  "tacticIds": [],
+  "respectNote": "A music store with honest pricing where artists keep the majority of the sale.",
+  "refuses": {
+   "decoy_pricing": "Prices are shown plainly, with no decoy tier engineered to steer you to a pricier one.",
+   "scarcity_timers": "No countdown clocks or 'only 2 left' pressure manufacturing false urgency.",
+   "forced_continuity": "You buy music once and own it; there is no auto-renewing subscription to trap you."
+  }
+ },
+ {
+  "id": "craigslist",
+  "name": "Craigslist",
+  "respectful": true,
+  "manipulationPercentage": "Low",
+  "tacticIds": [],
+  "respectNote": "Twenty-five years of plain, chronological listings with no feed and no gamification.",
+  "refuses": {
+   "infinite_scroll": "Listings are simple pages you search, not an endless feed built to hold you.",
+   "native_ads": "No display ads or sponsored posts woven into what you are browsing.",
+   "nagging_prompts": "It does not chase you with notifications begging you to come back."
+  }
  }
 ]
