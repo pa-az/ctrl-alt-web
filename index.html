@@ -66,16 +66,20 @@
       z-index: 9999;
       transition: opacity 0.35s ease;
     }
-    #splash svg { animation: splash-pulse 1.6s ease-in-out infinite; }
+    #splash svg {
+      animation: splash-blink 1.4s ease-in-out infinite;
+      transform-origin: center;
+    }
     #splash p {
       color: #8a8a8a;
       font: 500 13px/1 system-ui, -apple-system, sans-serif;
       letter-spacing: 2px;
       margin: 0;
     }
-    @keyframes splash-pulse {
-      0%, 100% { transform: scale(1); opacity: 1; }
-      50% { transform: scale(0.92); opacity: 0.75; }
+    /* Open most of the cycle, with one quick blink. */
+    @keyframes splash-blink {
+      0%, 42%, 58%, 100% { transform: scaleY(1); }
+      50% { transform: scaleY(0.06); }
     }
   </style>
 </head>
