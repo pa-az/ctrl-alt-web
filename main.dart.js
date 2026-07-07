@@ -52946,12 +52946,10 @@ if(s!==a.f)if(s!=="All"){r.e=!1
 r.W(new A.aAs(r))}else{r.e=!1
 r.W(new A.aAt(r))}},
 H(a){return A.fW(new A.aAr(this))},
-ad0(a,b,c,d,e){var s,r,q,p,o=null,n=e*1.6,m=e*1.45,l=B.d.bW(e*0.36,9.5,15),k=a.a.c,j=k==="Attention Traps",i=A.b([this.adh(a,b,d,e)],t.p)
-if(!d){s=j?o:m
-r=j?m:o
-q=this.a.e
-p=q.c
-i.push(A.ct(r,A.eZ(A.P(k,2,B.aU,o,o,A.c8().$6$color$fontSize$fontWeight$height$letterSpacing$shadows(q.r,l,B.v,1.1,0.2,A.b([new A.iy(p,B.h,8),new A.iy(p,B.h,4)],t.kO)),B.bc,o),!0,o),o,o,-56,-56,s,o))}return A.j3(A.d6(o,A.b_(new A.b3(B.p,o,B.H,B.f,i,o),n,n),B.S,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.aAc(this,b,a),o,o,o,o,o,o),B.cS,o,o,o,o)},
+ad0(a,b,c,d,e){var s,r,q=null,p=e*1.6,o=B.d.bW(e*0.36,9.5,15),n=A.b([this.adh(a,b,d,e)],t.p)
+if(!d){s=this.a.e
+r=s.c
+n.push(A.ct(q,A.eZ(A.P(a.a.c,2,B.aU,q,q,A.c8().$6$color$fontSize$fontWeight$height$letterSpacing$shadows(s.r,o,B.v,1.1,0.2,A.b([new A.iy(r,B.h,8),new A.iy(r,B.h,4)],t.kO)),B.bc,q),!0,q),q,q,-56,-56,e*1.45,q))}return A.j3(A.d6(q,A.b_(new A.b3(B.p,q,B.H,B.f,n,q),p,p),B.S,!1,q,q,q,q,q,q,q,q,q,q,q,q,q,q,new A.aAc(this,b,a),q,q,q,q,q,q),B.cS,q,q,q,q)},
 ade(a,b,c,d,e,f,g,h){var s,r,q,p=null,o=A.at9(A.vB(A.hl(A.d6(B.aB,this.acR(a,b),B.S,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.aAe(this,a),p,p,p,p,p,p),p),p,p,A.bM(2e5,0,0),p),B.aaQ,B.f5,A.bM(3e5,0,0),B.p6)
 if(b){s=a.b.a<0
 r=s?Math.max(32,f*0.05):p
