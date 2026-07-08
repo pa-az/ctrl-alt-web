@@ -50797,9 +50797,9 @@ i=a.r
 if(i!=null){i=i.a
 h=A.aG([B.pG,new A.aE3(a)],t.Vz,t.M)
 g=A.k7(0,A.T(a0,a0,B.f,B.v.R(0.6),a0,a0,a0,a0,a0,a0,a0,a0,a0,a0))
-e=A.b2(a5,a0,k).w.a.a>=700?560:Math.min(460,A.b2(a5,a0,k).w.a.a-20)
+e=A.b2(a5,a0,k).w.a.a>=700?480:Math.min(460,A.b2(a5,a0,k).w.a.a-20)
 d=A.b2(a5,a0,k).w.a.a>=700?Math.min(720,A.b2(a5,a0,k).w.a.b*0.9):a.XR(a5)
-c=A.b2(a5,a0,k).w.a.a>=700?560:A.b2(a5,a0,k).w.a.a*0.9
+c=A.b2(a5,a0,k).w.a.a>=700?480:A.b2(a5,a0,k).w.a.a*0.9
 k=A.b2(a5,a0,k).w.a.a>=700?Math.min(720,A.b2(a5,a0,k).w.a.b*0.9):a.XR(a5)
 b=a.r
 b.toString
@@ -55962,7 +55962,7 @@ if(o)l.push(A.k7(0,A.hq(A.a_(20),A.ei(new A.aFa(r,a)),B.aj)))
 if(r.a.d){o=r.c
 o.toString
 o=A.b2(o,B.bE,t.l).w.a.a>=700}else o=!1
-o=o?40:24
+o=o?32:24
 s=r.d?r.adL(a):r.ad4(a)
 l.push(A.k7(0,new A.aL(new A.X(o,o,o,o),A.q9(s,B.aM,A.zq(),B.J,B.J,new A.aFb()),q)))
 return A.d_(q,A.T(q,new A.b3(B.ah,q,B.F,B.u,l,q),B.f,q,q,new A.W(a.d,q,n,p,m,q,B.q),q,1/0,q,q,q,q,q,1/0),B.Q,!1,q,q,q,q,q,q,q,q,q,q,q,q,q,q,new A.aFc(r),q,q,q,q,q,q)},
