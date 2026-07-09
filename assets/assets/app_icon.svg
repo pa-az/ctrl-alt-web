@@ -10,7 +10,7 @@
     <circle cx="100" cy="100" r="30" fill="#F0B429"/>
 
     <!-- Pupil -->
-    <circle cx="100" cy="100" r="11" fill="#1A1A1A"/>
+    <circle cx="100" cy="100" r="11" fill="#000000"/>
 
     <!-- Reflection -->
     <circle cx="103" cy="97" r="3.5" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.8"/>
