@@ -50973,15 +50973,15 @@ else s=f?B.es:a.f
 r=a.w
 q=i.z
 p=q==="brain_map"||q==="grid_view"?i.Q:0
-g=g?"Switch to Brain Map":"Switch to Grid View"
+g=g?"Switch to Grid View":"Switch to Brain Map"
 q=A.a_(25)
 o=B.u.P(0.15)
 n=t.p
 m=A.al(A.b([A.aE(A.ayc(A.a6(B.uU,r.P(0.4),h,h,h,26),!0,!1),50,50),A.aE(A.a6(B.uB,r.P(0.4),h,h,h,26),50,50)],n),B.k,h,B.bD,B.l,0)
-l=i.p3?B.bH:B.aC
+l=i.p3?B.aC:B.bH
 k=A.b([new A.bW(1,B.a7,B.u.P(0.35),B.pe,6),new A.bW(0,B.a7,s.P(0.3),B.h,8)],t.V)
 j=t.lY
-j=!i.p3?A.ayc(A.a6(B.fy,B.n,new A.c8(!1,j),h,h,28),!0,!1):A.a6(B.oy,B.n,new A.c8(!0,j),h,h,28)
+j=i.p3?A.ayc(A.a6(B.fy,B.n,new A.c8(!0,j),h,h,28),!0,!1):A.a6(B.oy,B.n,new A.c8(!1,j),h,h,28)
 return new A.yh(p,s,A.xS(A.ix(A.cO(h,A.aVX(a,A.T(h,new A.b3(B.ah,h,B.G,B.v,A.b([m,A.uO(l,A.T(h,A.jN(j,B.K,A.lT(),B.J,B.J,new A.aCX()),B.f,h,h,new A.U(s,h,h,h,k,h,B.L),h,50,h,h,h,h,h,50),B.dP,B.aF)],n),h),B.f,h,h,new A.U(o,h,h,q,h,h,B.q),h,50,h,h,h,h,h,110),B.dr,32),B.Q,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,h,new A.aCY(i),h,h,h,h,h,h),B.cE,h,h,h,h),g),h)}}
 A.aEJ.prototype={
 $1(a){return a.a},
