@@ -14,11 +14,15 @@ def pages_in(subdir):
     d = os.path.join(ROOT, subdir)
     if not os.path.isdir(d):
         return []
-    return sorted(f'{BASE}/{subdir}/{f[:-5]}' for f in os.listdir(d) if f.endswith('.html'))
+    # index.html is the section hub; it is listed separately as /<subdir>/.
+    return sorted(f'{BASE}/{subdir}/{f[:-5]}' for f in os.listdir(d)
+                  if f.endswith('.html') and f != 'index.html')
 
 def main():
     today = datetime.date.today().isoformat()
     urls = [(f'{BASE}/', '1.0'), (f'{BASE}/privacy', '0.5'), (f'{BASE}/support', '0.5')]
+    if os.path.isfile(os.path.join(ROOT, 'learn', 'index.html')):
+        urls.append((f'{BASE}/learn/', '0.9'))
     urls += [(u, '0.8') for u in pages_in('learn')]
     urls += [(u, '0.6') for u in pages_in('share')]
 

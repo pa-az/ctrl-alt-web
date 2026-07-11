@@ -149,7 +149,7 @@ def main():
 <body>
   <header>
     <a class="wordmark" href="/">C<span>+</span>rl<span>+</span>Al<span>+</span></a>
-    <a href="/">Open the app</a>
+    <nav><a href="/learn/">All tactics</a> &nbsp;&middot;&nbsp; <a href="/">Open the app</a></nav>
   </header>
   <main>
     <span class="badge">{html.escape(cat)}</span>
@@ -160,6 +160,7 @@ def main():
   </main>
   <footer>
     <a href="/">Ctrl+Alt</a>
+    <a href="/learn/">All tactics</a>
     <a href="/privacy">Privacy</a>
     <a href="/support">Support</a>
   </footer>
@@ -169,7 +170,79 @@ def main():
         with open(os.path.join(OUT, f'{fid}.html'), 'w') as fh:
             fh.write(page)
 
-    print(f'Wrote {len(features)} pages to learn/')
+    write_hub(features, by_category, css)
+    print(f'Wrote {len(features)} pages + index to learn/')
+
+
+def write_hub(features, by_category, css):
+    """learn/index.html: the crawlable library hub. Groups every tactic by
+    category so both humans and crawlers reach all pages from one URL."""
+    url = f'{BASE}/learn/'
+    n = len(features)
+    desc = (f'A plain-language library of {n} documented dark patterns and '
+            'manipulation tactics used by apps and platforms: what each one '
+            'is, the psychology it exploits, and how to resist it.')
+
+    sections = []
+    for cat_key in sorted(by_category, key=lambda c: -len(by_category[c])):
+        cat = category_label(cat_key)
+        items = sorted(by_category[cat_key], key=lambda f: f['title'])
+        pills = ''.join(
+            f'<li><a href="/learn/{html.escape(f["id"])}">{html.escape(f["title"])}</a></li>'
+            for f in items
+        )
+        sections.append(section(f'{html.escape(cat)} ({len(items)})',
+                                f'<ul class="pills">{pills}</ul>'))
+
+    ld = json.dumps({
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "headline": f"The dark pattern library: {n} manipulation tactics explained",
+        "description": desc,
+        "url": url,
+        "publisher": {"@type": "Organization", "name": "Ctrl+Alt", "url": BASE},
+    })
+
+    page = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dark pattern library: {n} manipulation tactics explained | Ctrl+Alt</title>
+  <meta name="description" content="{html.escape(desc)}">
+  <link rel="canonical" href="{url}">
+  <link rel="icon" href="/favicon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Ctrl+Alt">
+  <meta property="og:title" content="Dark pattern library: {n} manipulation tactics explained">
+  <meta property="og:description" content="{html.escape(desc)}">
+  <meta property="og:url" content="{url}">
+  <meta property="og:image" content="{BASE}/icons/Icon-512.png">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{ld}</script>
+  <style>{css}</style>
+</head>
+<body>
+  <header>
+    <a class="wordmark" href="/">C<span>+</span>rl<span>+</span>Al<span>+</span></a>
+    <a href="/">Open the app</a>
+  </header>
+  <main>
+    <h1>The dark pattern library</h1>
+    <p class="lead">{html.escape(desc)}</p>
+    {''.join(sections)}
+    <a class="cta" href="/">See how these tactics target you, in the app</a>
+  </main>
+  <footer>
+    <a href="/">Ctrl+Alt</a>
+    <a href="/privacy">Privacy</a>
+    <a href="/support">Support</a>
+  </footer>
+</body>
+</html>
+'''
+    with open(os.path.join(OUT, 'index.html'), 'w') as fh:
+        fh.write(page)
 
 if __name__ == '__main__':
     main()
