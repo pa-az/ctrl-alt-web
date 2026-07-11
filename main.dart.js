@@ -50938,7 +50938,7 @@ j=A.oZ(!0,new A.aD(B.Uv,A.aO(new A.cH(B.N6,A.hp(k,A.adL(A.T(a0,A.al(A.b([h,a.GY(
 k=t.l
 i=A.aG(a0,A.b2(a5,a0,k).w.r.b>0?0:12,a0)
 h=A.b([A.jg(0,new A.aD(B.au,a.at?new A.G9(a.ay,new A.aEA(a),new A.aEB(a),a0):new A.TC(B.bQ,B.j.bV(a.x,0,2),A.b([new A.dh(new A.aEC(a,a2,q,m),a0),a.adC(a2,a3),a.adn(a2,a3)],f),a0),a0))],f)
-if(A.b2(a5,a0,k).w.a.a>=1000){g=a.x===0?new A.aD(B.au,a.adi(a2),B.an6):B.ag9
+if(A.b2(a5,a0,k).w.a.a>=1000){g=a.x===0&&!a.at?new A.aD(B.au,a.adi(a2),B.an6):B.ag9
 h.push(A.uO(B.Ms,new A.aD(B.UW,A.ap(A.b([A.jN(g,B.fi,A.lT(),B.nh,B.tk,new A.aED())],f),B.k,a0,B.i,B.y,B.r),a0),B.jH,B.fi))}g=a3.a&&a.x===0&&!a.p3?new A.aD(B.dR,new A.SS(a.gant(),a.gVV(),a0),B.anb):B.ag4
 g=A.jN(g,B.fi,A.lT(),B.nh,B.tk,new A.aEE())
 e=a.x
