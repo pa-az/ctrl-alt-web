@@ -230,6 +230,14 @@ def write_hub(features, by_category, css):
   <main>
     <h1>The dark pattern library</h1>
     <p class="lead">{html.escape(desc)}</p>
+    <!-- preload=none: the video is fetched only when someone presses play. -->
+    <video controls preload="none" playsinline
+           style="width:100%;border-radius:14px;margin:10px 0 4px;background:#000;aspect-ratio:16/9;"
+           src="/media/intro.mp4">
+      Your browser does not support embedded video.
+      <a href="/media/intro.mp4">Watch the intro</a>.
+    </video>
+    <p class="stat-src">Ctrl+Alt in 46 seconds.</p>
     {''.join(sections)}
     <a class="cta" href="/">See how these tactics target you, in the app</a>
   </main>
