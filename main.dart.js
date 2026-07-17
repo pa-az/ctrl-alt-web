@@ -52930,7 +52930,7 @@ $0(){var s=this.a
 return s.w=!s.w},
 $S:0}
 A.aNv.prototype={
-$0(){return A.O0("https://ctrl-alt.app/media/intro-v2.mp4","_blank")},
+$0(){return A.O0("https://ctrl-alt.app/media/intro-v3.mp4","_blank")},
 $S:0}
 A.aNs.prototype={
 $0(){},
