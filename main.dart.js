@@ -53544,7 +53544,7 @@ if(this.e>0){s=this.d
 r=t.gQ.a(B.b.gcp(s.f)).gmO()
 r.toString
 s.Ld(B.d.ba(r)-1,B.aw,B.aG)}},
-E(a3){var s,r,q,p,o,n,m,l=this,k=null,j=l.a.c,i=A.b4(a3,k,t.l).w.a.a>700,h=l.e,g=A.TO(12,12,k),f=B.v.N(0.55),e=i?680:480,d=i?760:1/0,c=A.Z(28),b=A.aR(j.e,1),a=A.b([new A.bP(0,B.a5,B.v.N(0.4),B.Gt,32)],t.V),a0=l.a.d,a1=i?16:14,a2=j.w
+E(a3){var s,r,q,p,o,n,m,l=this,k=null,j=l.a.c,i=A.b4(a3,k,t.l).w.a.a>700,h=l.e,g=A.TO(12,12,k),f=B.v.N(0.55),e=i?620:480,d=i?700:1/0,c=A.Z(28),b=A.aR(j.e,1),a=A.b([new A.bP(0,B.a5,B.v.N(0.4),B.Gt,32)],t.V),a0=l.a.d,a1=i?15:14,a2=j.w
 a0=A.n8(A.M("Skip",k,k,k,k,A.ah().$3$color$fontSize$fontWeight(a2,a1,B.ak),k,k),a0,k)
 a1=new A.LZ(0)
 a1=A.bv(new A.wG(a1,l.d,k,new A.aAq(l),new A.Gu(new A.aAr(l,j,i),6,!0,!0,!0,A.b4b(),k),B.Q,B.u,k),1,k)
@@ -53556,11 +53556,11 @@ m=new A.aS(4,4)
 s[p]=A.hJ(k,k,B.K,new A.T(o,k,k,new A.cF(m,m,m,m),k,k,B.p),B.aG,k,7,B.tY,k,n)}r=A.ag(s,B.j,k,B.a0,B.l,0)
 o=t.p
 n=A.b([],o)
-if(l.e>0)B.b.R(n,A.b([A.n8(A.M("Back",k,k,k,k,A.ah().$3$color$fontSize$fontWeight(a2,i?16:14,B.ak),k,k),l.gad_(),k),B.b6],o))
-a2=i?60:50
+if(l.e>0)B.b.R(n,A.b([A.n8(A.M("Back",k,k,k,k,A.ah().$3$color$fontSize$fontWeight(a2,i?15:14,B.ak),k,k),l.gad_(),k),B.b6],o))
+a2=i?52:50
 q=A.vN(k,k,q,k,k,k,0,k,k,j.c,k,k,B.at,k,new A.cs(A.Z(16),B.G),k,k,k,k,k)
 h=h===5?"Get Started":"Next"
-n.push(A.bv(A.aC(A.BV(A.M(h,1,B.LO,k,!1,A.bV().$2$fontSize$fontWeight(i?18:15,B.w),k,k),l.ganc(),q),a2,k),1,k))
+n.push(A.bv(A.aC(A.BV(A.M(h,1,B.LO,k,!1,A.bV().$2$fontSize$fontWeight(i?16:15,B.w),k,k),l.ganc(),q),a2,k),1,k))
 return A.dU(B.J,!0,k,A.ae3(A.Q(k,A.p1(!0,A.aH(new A.cG(new A.a4(0,e,0,d),A.Q(k,new A.aJ(B.Va,A.ap(A.b([new A.cL(B.cd,k,k,a0,k),a1,B.aP,r,B.pV,new A.aJ(B.fk,A.ag(n,B.j,k,B.i,B.l,0),k)],o),B.j,k,B.i,B.l,B.r),k),B.f,k,k,new A.T(j.d,k,b,c,a,k,B.p),k,k,k,B.tT,k,k,k,k),k),k,k),B.at,!0),B.f,f,k,k,k,k,k,k,k,k,k,k),g),B.f,k,0,k,k,k,k,k,B.fO)},
 adN(a,b,c){return A.fo(new A.aAo(c,b,a))}}
 A.aAq.prototype={
@@ -53574,12 +53574,12 @@ A.aAr.prototype={
 $2(a,b){return this.a.adN(this.b,B.a1M[b],this.c)},
 $S:86}
 A.aAo.prototype={
-$2(a,b){var s,r=null,q=this.a,p=q?60:28,o=q?260:176,n=q?1.5:1,m=this.b,l=this.c
+$2(a,b){var s,r=null,q=this.a,p=q?60:28,o=q?230:176,n=q?1.25:1,m=this.b,l=this.c
 o=A.aC(A.aH(A.hy(B.m,m.c.$1(l),n,r,r,!0),r,r),o,r)
 n=A.aC(r,q?24:8,r)
-s=q?32:22
+s=q?26:22
 s=A.M(m.a,r,r,r,r,A.bV().$4$color$fontSize$fontWeight$height(l.r,s,B.w,1.2),B.aJ,r)
-q=q?18:14
+q=q?15.5:14
 return A.iI(new A.cG(new A.a4(0,1/0,b.d,1/0),A.ap(A.b([o,n,s,B.bV,A.M(m.b,r,r,r,r,A.ah().$3$color$fontSize$height(l.w,q,1.5),B.aJ,r)],t.p),B.j,r,B.a0,B.x,B.r),r),B.u,r,new A.X(p,0,p,0),r,!1,B.as)},
 $S:90}
 A.aQJ.prototype={
