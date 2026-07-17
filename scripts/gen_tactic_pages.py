@@ -233,11 +233,11 @@ def write_hub(features, by_category, css):
     <!-- preload=none: the video is fetched only when someone presses play. -->
     <video controls preload="none" playsinline
            style="width:100%;border-radius:14px;margin:10px 0 4px;background:#000;aspect-ratio:16/9;"
-           src="/media/intro.mp4">
+           src="/media/intro-v2.mp4">
       Your browser does not support embedded video.
-      <a href="/media/intro.mp4">Watch the intro</a>.
+      <a href="/media/intro-v2.mp4">Watch the intro</a>.
     </video>
-    <p class="stat-src">Ctrl+Alt in 46 seconds.</p>
+    <p class="stat-src">Ctrl+Alt in 36 seconds.</p>
     {''.join(sections)}
     <a class="cta" href="/">See how these tactics target you, in the app</a>
   </main>

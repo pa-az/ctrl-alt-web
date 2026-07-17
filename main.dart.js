@@ -52768,7 +52768,7 @@ g=A.Z(20)
 f=A.aR(f,1)
 d=A.N("Watch the intro",i,i,i,i,A.al().$3$color$fontSize$fontWeight(r,16,B.ak),i,i)
 s=c.w
-m=j.r8(A.Q(i,A.aUl(!1,B.at,i,i,!0,i,i,i,!0,i,i,i,i,i,i,new A.aNv(),!1,i,i,i,i,A.N("Ctrl+Alt in 46 seconds",i,i,i,i,A.al().$2$color$fontSize(s,12.5),i,i),i,d,A.a2(B.uQ,q,i,i,i,i),i),B.f,i,i,new A.T(h,i,f,g,i,i,B.q),i,i,i,i,B.fl,i,i,i))
+m=j.r8(A.Q(i,A.aUl(!1,B.at,i,i,!0,i,i,i,!0,i,i,i,i,i,i,new A.aNv(),!1,i,i,i,i,A.N("Ctrl+Alt in 36 seconds",i,i,i,i,A.al().$2$color$fontSize(s,12.5),i,i),i,d,A.a2(B.uQ,q,i,i,i,i),i),B.f,i,i,new A.T(h,i,f,g,i,i,B.q),i,i,i,i,B.fl,i,i,i))
 l=A.bF(i,i,q,i,i,i,i,i,i,i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i)
 q=A.b4(a,i,t.l).w
 r=A.aWw().$4$color$fontSize$fontWeight$letterSpacing(r,26,B.w,-1)
@@ -52930,7 +52930,7 @@ $0(){var s=this.a
 return s.w=!s.w},
 $S:0}
 A.aNv.prototype={
-$0(){return A.O0("https://ctrl-alt.app/media/intro.mp4","_blank")},
+$0(){return A.O0("https://ctrl-alt.app/media/intro-v2.mp4","_blank")},
 $S:0}
 A.aNs.prototype={
 $0(){},
