@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Regenerate sitemap.xml from what's actually on disk.
 
-Includes: root, /privacy, /support, every share/<platform>.html, and every
-learn/<tactic>.html. Run after gen_tactic_pages.py or gen_share_pages.py.
+Includes: root, /privacy, /support, /learn/ hub, and every learn/<tactic>.html.
+The /share/ pages are deliberately EXCLUDED: they are redirect shims for social
+link previews (they meta-refresh to the app), so telling Google to index them
+just produces "Page with redirect" reports. Run after gen_tactic_pages.py.
 """
 import datetime
 import os
@@ -24,7 +26,6 @@ def main():
     if os.path.isfile(os.path.join(ROOT, 'learn', 'index.html')):
         urls.append((f'{BASE}/learn/', '0.9'))
     urls += [(u, '0.8') for u in pages_in('learn')]
-    urls += [(u, '0.6') for u in pages_in('share')]
 
     out = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

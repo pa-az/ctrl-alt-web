@@ -22,6 +22,12 @@
   <meta name="description" content="Ctrl+Alt teaches you how apps manipulate you: 66 documented dark patterns and manipulation tactics, threat ratings for 35 platforms, and the brain science behind each one.">
   <meta name="theme-color" content="#141414">
 
+  <!-- The app is a single-page app: every ?platform= / ?radar= / ?tactic=
+       deep link serves this same shell, so they all canonicalize to the
+       homepage. Without this, Google flags them as duplicates. The static
+       /learn/ and /share/ pages carry their own self-canonicals. -->
+  <link rel="canonical" href="https://ctrl-alt.app/">
+
   <!-- Social / link previews -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Ctrl+Alt">

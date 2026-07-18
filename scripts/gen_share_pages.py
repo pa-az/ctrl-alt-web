@@ -18,6 +18,10 @@ TEMPLATE = """<!DOCTYPE html>
   <meta charset="UTF-8">
   <title>{name} on Ctrl+Alt: Manipulation Level {level}</title>
   <meta name="description" content="{desc}">
+  <!-- This page only exists to give social crawlers a rich preview, then it
+       redirects into the app. Tell search engines not to index the redirect;
+       social crawlers ignore robots and still read the og: tags below. -->
+  <meta name="robots" content="noindex, follow">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Ctrl+Alt">
   <meta property="og:title" content="{name}: Manipulation Level {level}">
