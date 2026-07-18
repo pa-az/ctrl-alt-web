@@ -4,83 +4,135 @@
     "headline": "Average daily smartphone screen time among adults.",
     "statistic": "3h 46m",
     "sourceName": "PubMed Central (NCBI), 2023",
-    "citationUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9895113/"
+    "citationUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9895113/",
+    "category": "Screen Time"
   },
   {
     "id": "stat_2",
     "headline": "Of university students show signs of problematic smartphone use.",
     "statistic": "30.5%",
     "sourceName": "PubMed Central (NCBI), 2022",
-    "citationUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8913955/"
+    "citationUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8913955/",
+    "category": "Well-being"
   },
   {
     "id": "stat_3",
     "headline": "Average number of times adolescents check or launch apps on their phones daily.",
     "statistic": "85",
     "sourceName": "PubMed Central (NCBI), 2020",
-    "citationUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7302484/"
+    "citationUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7302484/",
+    "category": "Screen Time"
   },
   {
     "id": "stat_4",
     "headline": "Time it takes to regain deep focus after a digital interruption.",
     "statistic": "23m 15s",
     "sourceName": "Mark et al., Human-Computer Interaction (ACM)",
-    "citationUrl": "https://dl.acm.org/doi/10.1145/1357054.1357072"
+    "citationUrl": "https://dl.acm.org/doi/10.1145/1357054.1357072",
+    "category": "Focus"
   },
   {
     "id": "stat_5",
     "headline": "Average daily increase in total screen time for adults since the COVID-19 pandemic.",
     "statistic": "1.0 hour",
     "sourceName": "PubMed Central (NCBI), 2021",
-    "citationUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8570287/"
+    "citationUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8570287/",
+    "category": "Screen Time"
   },
   {
     "id": "stat_6",
     "headline": "Of undergraduates report experiencing 'phantom vibrations' where they feel their phone buzz even when it is completely silent.",
     "statistic": "89%",
     "sourceName": "Drouin et al., Computers in Human Behavior",
-    "citationUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0747563212000799"
+    "citationUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0747563212000799",
+    "category": "Well-being"
   },
   {
     "id": "stat_7",
     "headline": "Of 11,000 top shopping websites were found using dark patterns to steer user choices.",
     "statistic": "11%+",
     "sourceName": "Mathur et al., Princeton University",
-    "citationUrl": "https://webtransparency.cs.princeton.edu/dark-patterns/"
+    "citationUrl": "https://webtransparency.cs.princeton.edu/dark-patterns/",
+    "category": "Dark Patterns"
   },
   {
     "id": "stat_8",
     "headline": "The increased risk of depression and anxiety symptoms for teens spending 3+ hours a day on social media.",
     "statistic": "2x",
     "sourceName": "US Surgeon General Advisory, 2023",
-    "citationUrl": "https://www.hhs.gov/surgeongeneral/reports-and-publications/youth-mental-health/social-media/index.html"
+    "citationUrl": "https://www.hhs.gov/surgeongeneral/reports-and-publications/youth-mental-health/social-media/index.html",
+    "category": "Well-being"
   },
   {
     "id": "stat_9",
     "headline": "Of loot box buyers generate around half of all revenue. Alarmingly, a third of these high-spending players actually qualify as problem gamblers.",
     "statistic": "5%",
     "sourceName": "Close et al., Addictive Behaviors",
-    "citationUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0306460321000368"
+    "citationUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0306460321000368",
+    "category": "Dark Patterns"
   },
   {
     "id": "stat_10",
     "headline": "Average time adults spend focusing on any single digital screen before switching to another task or app.",
     "statistic": "47 Seconds",
     "sourceName": "Dr. Gloria Mark, UC Irvine (2023)",
-    "citationUrl": "https://gloriamark.com/attention-span/"
+    "citationUrl": "https://gloriamark.com/attention-span/",
+    "category": "Focus"
   },
   {
     "id": "stat_11",
     "headline": "The reduction in overall productivity caused by \"switch costs\"—the cognitive load required when shifting back and forth between multiple tasks.",
     "statistic": "Up to 40%",
     "sourceName": "American Psychological Association (APA)",
-    "citationUrl": "https://www.apa.org/topics/research/multitasking"
+    "citationUrl": "https://www.apa.org/topics/research/multitasking",
+    "category": "Focus"
   },
   {
     "id": "stat_12",
     "headline": "Contrary to popular belief, heavy media multitaskers are actually significantly worse at filtering out irrelevant distractions than light multitaskers.",
     "statistic": "Reduced Focus",
     "sourceName": "Ophir et al., PNAS (2009)",
-    "citationUrl": "https://www.pnas.org/doi/10.1073/pnas.0903620106"
+    "citationUrl": "https://www.pnas.org/doi/10.1073/pnas.0903620106",
+    "category": "Focus"
+  },
+  {
+    "id": "stat_13",
+    "category": "Screen Time",
+    "statistic": "46%",
+    "headline": "Of U.S. teens say they are online almost constantly.",
+    "sourceName": "Pew Research Center, 2024",
+    "citationUrl": "https://www.pewresearch.org/internet/2024/12/12/teens-social-media-and-technology-2024/"
+  },
+  {
+    "id": "stat_14",
+    "category": "Screen Time",
+    "statistic": "8h 39m",
+    "headline": "Average daily entertainment screen media use among U.S. teens.",
+    "sourceName": "Common Sense Census, 2021",
+    "citationUrl": "https://www.commonsensemedia.org/research/the-common-sense-census-media-use-by-tweens-and-teens-2021"
+  },
+  {
+    "id": "stat_15",
+    "category": "Dark Patterns",
+    "statistic": "95%",
+    "headline": "Of 240 popular apps analysed contained at least one dark pattern.",
+    "sourceName": "Di Geronimo et al., CHI 2020",
+    "citationUrl": "https://dl.acm.org/doi/10.1145/3313831.3376600"
+  },
+  {
+    "id": "stat_16",
+    "category": "Well-being",
+    "statistic": "3x",
+    "headline": "The increased odds of feeling socially isolated for young adults who check social media most frequently.",
+    "sourceName": "Primack et al., Am. J. Preventive Medicine, 2017",
+    "citationUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5722463/"
+  },
+  {
+    "id": "stat_17",
+    "category": "Well-being",
+    "statistic": "2.2x",
+    "headline": "The risk of inadequate sleep for children with bedtime access to a screen device.",
+    "sourceName": "Carter et al., JAMA Pediatrics, 2016",
+    "citationUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5380441/"
   }
 ]
