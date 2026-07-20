@@ -1,5 +1,9 @@
 {
   "cleanUrls": true,
+  "redirects": [
+    { "source": "/media/intro-appstore.mp4", "destination": "/media/intro-mobile-live-do-not-delete.mp4", "permanent": false },
+    { "source": "/media/intro-v3.mp4", "destination": "/media/intro-desktop-live-do-not-delete.mp4", "permanent": false }
+  ],
   "rewrites": [
     { "source": "/privacy", "destination": "/privacy.html" },
     { "source": "/support", "destination": "/support.html" },
