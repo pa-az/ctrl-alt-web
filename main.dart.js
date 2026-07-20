@@ -53952,7 +53952,7 @@ $2(a,b){var s=null,r=this.a,q=r.f,p=q.N(0.12),o=A.aP(q.N(0.4),1)
 return new A.aI(B.Uv,A.af(A.b([A.Q(s,A.a1(a,q,s,s,s,15),B.f,s,s,new A.T(p,s,o,s,s,s,B.M),s,30,s,s,s,s,s,30),B.c8,A.bz(A.hs(A.Z(3),A.Uv(r.e.N(0.4),s,6,b,new A.jR(q,t.Jn)),B.al),1,s)],t.p),B.j,s,B.i,B.l,0),s)},
 $S:594}
 A.aSn.prototype={
-$1(a){var s,r=null,q=A.b0(a,r,t.l).w.a.a<600,p=q?"https://ctrl-alt.app/media/intro-appstore.mp4":"https://ctrl-alt.app/media/intro-v3.mp4",o=A.Z(18),n=q?96:300,m=A.Z(18),l=this.a.f,k=A.aP(l.N(0.5),1),j=t.V,i=A.b([new A.bP(-4,B.a6,l.N(0.18),B.h,22)],j),h=q?0.5625:1.7777777777777777,g=A.CZ("assets/intro_poster.jpg",r,r,r,B.dv,q?B.NB:B.NA,r,r,r)
+$1(a){var s,r=null,q=A.b0(a,r,t.l).w.a.a<600,p=q?"https://ctrl-alt.app/media/intro-appstore-1080x1920.mp4":"https://ctrl-alt.app/media/intro-v3.mp4",o=A.Z(18),n=q?96:300,m=A.Z(18),l=this.a.f,k=A.aP(l.N(0.5),1),j=t.V,i=A.b([new A.bP(-4,B.a6,l.N(0.18),B.h,22)],j),h=q?0.5625:1.7777777777777777,g=A.CZ("assets/intro_poster.jpg",r,r,r,B.dv,q?B.NB:B.NA,r,r,r)
 j=A.Q(r,B.Xz,B.f,r,r,new A.T(l,r,r,r,A.b([new A.bP(0,B.a6,B.v.N(0.3),B.h,12)],j),r,B.M),r,54,r,r,r,r,r,54)
 l=B.v.N(0.55)
 s=A.Z(8)
