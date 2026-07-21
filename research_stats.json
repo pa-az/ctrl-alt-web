@@ -134,5 +134,29 @@
     "headline": "The risk of inadequate sleep for children with bedtime access to a screen device.",
     "sourceName": "Carter et al., JAMA Pediatrics, 2016",
     "citationUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5380441/"
+  },
+  {
+    "id": "stat_18",
+    "headline": "Median number of notifications U.S. teens receive on their phones in a single day; some receive nearly 5,000.",
+    "statistic": "237",
+    "sourceName": "Common Sense Media, 2023",
+    "citationUrl": "https://www.commonsensemedia.org/press-releases/teens-are-bombarded-with-hundreds-of-notifications-a-day",
+    "category": "Screen Time"
+  },
+  {
+    "id": "stat_19",
+    "headline": "Of the most popular websites and apps used by EU consumers deployed at least one dark pattern in the European Commission's mystery shopping study.",
+    "statistic": "97%",
+    "sourceName": "European Commission, 2022",
+    "citationUrl": "https://op.europa.eu/en/publication-detail/-/publication/606365bc-d58b-11ec-a95f-01aa75ed71a1/language-en",
+    "category": "Dark Patterns"
+  },
+  {
+    "id": "stat_20",
+    "headline": "Of U.S. teens say they often or sometimes feel peaceful when they don't have their smartphone; 44% say being without it makes them anxious.",
+    "statistic": "72%",
+    "sourceName": "Pew Research Center, 2024",
+    "citationUrl": "https://www.pewresearch.org/internet/2024/03/11/how-teens-and-parents-approach-screen-time/",
+    "category": "Well-being"
   }
 ]
