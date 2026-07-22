@@ -1252,5 +1252,62 @@
     "isPremium": false,
     "hasTutorial": false,
     "citationUrl": "https://foundation.mozilla.org/en/youtube/findings/"
+  },
+  {
+    "id": "consent_theater",
+    "title": "Consent Theater",
+    "explanation": "The cookie banner looks like a request for permission, but on many sites the profiling trackers fire the moment the page loads — before you have touched anything. Your choice arrives after the data has already left.",
+    "origin": "EU ePrivacy 'Cookie Law' (2011)",
+    "fix": "Blocking beats consenting: a browser with tracking protection (Firefox, Brave) or uBlock Origin stops trackers before the page loads — which is more than the banner ever did.",
+    "category": "deceptiveDesign",
+    "psychologicalLoop": "Exploits the illusion of control: being asked feels like protection, so you stop questioning what actually happened before the question appeared.",
+    "icon": {
+      "codePoint": 984281,
+      "fontFamily": "MaterialIcons",
+      "fontPackage": null
+    },
+    "citation": "Trevisan et al., '4 Years of EU Cookie Law: Results and Lessons Learned' (PoPETs 2019)",
+    "stat": "Researchers auditing European websites found 49% installed profiling cookies before the visitor gave any consent at all.",
+    "isPremium": false,
+    "hasTutorial": false,
+    "citationUrl": "https://petsymposium.org/popets/2019/popets-2019-0023.php"
+  },
+  {
+    "id": "ignored_rejection",
+    "title": "The Ignored 'No'",
+    "explanation": "Clicking 'Reject All' feels final, but researchers found consent pop-ups that record a 'yes' before you answer — and some that keep that 'yes' stored even after you explicitly refuse. The banner remembers your choice; the trackers ignore it.",
+    "origin": "Consent Management Platforms (2018)",
+    "fix": "Treat the banner as theater, not a contract: keep tracking protection on and periodically clear cookies for sites you've rejected, since your 'no' may never have reached the trackers.",
+    "category": "deceptiveDesign",
+    "psychologicalLoop": "Exploits closure: once you have answered, the interaction feels settled, so almost no one verifies that the site actually obeyed.",
+    "icon": {
+      "codePoint": 984336,
+      "fontFamily": "MaterialIcons",
+      "fontPackage": null
+    },
+    "citation": "Matte, Bielova & Santos, 'Do Cookie Banners Respect my Choice?' (IEEE S&P 2020)",
+    "stat": "A crawl of 1,426 European sites found 141 registered positive consent before the visitor clicked anything, and 27 stored a 'yes' even after an explicit refusal.",
+    "isPremium": false,
+    "hasTutorial": false,
+    "citationUrl": "https://arxiv.org/abs/1911.09964"
+  },
+  {
+    "id": "legitimate_interest_loophole",
+    "title": "The 'Legitimate Interest' Loophole",
+    "explanation": "'Reject All' usually only switches off the tracking that asks for consent. Hidden in a second tab, dozens of ad vendors keep processing your data under pre-enabled 'legitimate interest' toggles that your rejection never touched.",
+    "origin": "IAB Transparency & Consent Framework (2018)",
+    "fix": "Open the banner's 'Legitimate interest' or 'Vendors' tab and press 'Object to all' — it is a separate switch from Reject All, and often the one that matters.",
+    "category": "deceptiveDesign",
+    "psychologicalLoop": "Exploits satisficing: 'Reject All' looks like the complete answer, so you never look for the second layer where the tracking continues.",
+    "icon": {
+      "codePoint": 58987,
+      "fontFamily": "MaterialIcons",
+      "fontPackage": null
+    },
+    "citation": "Belgian Data Protection Authority ruling against IAB Europe's Transparency & Consent Framework (2022)",
+    "stat": "EU regulators ruled the ad industry's standard consent framework unlawful and ordered it to stop using 'legitimate interest' for ad tracking — yet the pre-enabled toggles still appear in banners across the web.",
+    "isPremium": false,
+    "hasTutorial": false,
+    "citationUrl": "https://privacymatters.dlapiper.com/2022/03/belgian-dpa-decision-on-iab-transparency-and-consent-framework/"
   }
 ]
