@@ -53930,7 +53930,7 @@ if(this.e>0){s=this.d
 r=t.gQ.a(B.b.gcu(s.f)).gmW()
 r.toString
 s.Lu(B.d.ba(r)-1,B.aw,B.aH)}},
-E(a3){var s,r,q,p,o,n,m,l,k=this,j=null,i=k.a.c,h=A.b_(a3,j,t.l).w.a.a>700,g=k.e,f=A.U5(12,12,j),e=B.v.N(0.55),d=h?620:480,c=h?700:580,b=A.Z(28),a=A.aP(i.e,1),a0=A.b([new A.bP(0,B.a6,B.v.N(0.4),B.Gz,32)],t.V),a1=k.e===0,a2=a1?1:0
+E(a3){var s,r,q,p,o,n,m,l,k=this,j=null,i=k.a.c,h=A.b_(a3,j,t.l).w.a.a>700,g=k.e,f=A.U5(12,12,j),e=B.v.N(0.55),d=h?560:480,c=h?620:580,b=A.Z(28),a=A.aP(i.e,1),a0=A.b([new A.bP(0,B.a6,B.v.N(0.4),B.Gz,32)],t.V),a1=k.e===0,a2=a1?1:0
 a1=a1?k.a.d:j
 s=h?15:14
 r=i.w
@@ -53963,10 +53963,10 @@ A.aAT.prototype={
 $2(a,b){return this.a.aek(this.b,B.a1W[b],this.c)},
 $S:75}
 A.aAQ.prototype={
-$2(a,b){var s,r=null,q=this.a,p=q?60:28,o=q?230:176,n=q?1.25:1,m=this.b,l=this.c
+$2(a,b){var s,r=null,q=this.a,p=q?60:28,o=q?196:176,n=q?1.1:1,m=this.b,l=this.c
 o=A.ay(A.aJ(A.hB(B.m,m.c.$1(l),n,r,r,!0),r,r),o,r)
-n=A.ay(r,q?24:8,r)
-s=q?26:22
+n=A.ay(r,q?20:8,r)
+s=q?24:22
 s=A.M(m.a,r,r,r,r,A.bV().$4$color$fontSize$fontWeight$height(l.r,s,B.w,1.2),B.aQ,r,r)
 q=q?15.5:14
 return A.i6(new A.cD(new A.a0(0,1/0,b.d,1/0),A.aq(A.b([o,n,s,B.bV,A.M(m.b,r,r,r,r,A.ah().$3$color$fontSize$height(l.w,q,1.5),B.aQ,r,r)],t.p),B.j,r,B.a0,B.x,B.r),r),B.u,r,new A.X(p,0,p,0),r,!1,B.ad)},
