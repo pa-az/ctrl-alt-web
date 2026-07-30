@@ -6,7 +6,7 @@ every `GoogleFonts.x()` call against this folder and never touches
 fonts.gstatic.com.
 
 Before this, each family and weight was downloaded the first time a screen
-needed it — during the session, not at startup — which showed up as UI lag on
+needed it (during the session, not at startup) which showed up as UI lag on
 slow or proxied networks.
 
 ## What is here
@@ -20,7 +20,7 @@ slow or proxied networks.
 | `Inter-ExtraBold.ttf` | `w800` |
 | `SpaceGrotesk-SemiBold.ttf` | `GoogleFonts.spaceGrotesk(fontWeight: w600)` |
 | `SpaceGrotesk-Bold.ttf` | `w700`, and `w800` (Space Grotesk stops at 700, so the package resolves w800 to the closest available weight) |
-| `Audiowide-Regular.ttf` | `GoogleFonts.audiowide()` — Audiowide ships one weight, so `bold` resolves here |
+| `Audiowide-Regular.ttf` | `GoogleFonts.audiowide()`. Audiowide ships one weight, so `bold` resolves here |
 | `Outfit-Bold.ttf` | `GoogleFonts.outfit(fontWeight: bold)` |
 | `Caveat-Bold.ttf` | `GoogleFonts.caveat(fontWeight: bold)` |
 
@@ -34,14 +34,14 @@ space-free name in the package's `fontFamily:` literal (`SpaceGrotesk`, not
 is silently ignored and, with runtime fetching off, the text falls back to the
 platform default.
 
-Do not download from fonts.google.com — that now serves variable fonts, which
+Do not download from fonts.google.com: that now serves variable fonts, which
 do not resolve to these static weights. Take the exact file the package would
 have fetched instead: find the family's `static TextStyle <name>(` block in
 `~/.pub-cache/hosted/pub.dev/google_fonts-*/lib/src/google_fonts_parts/part_<letter>.dart`,
 read the sha256 and byte length for the weight you want out of its
 `GoogleFontsFile(...)` entry, and download
 `https://fonts.gstatic.com/s/a/<sha256>.ttf`. Verify both the hash and the
-length before committing — the package checks them too.
+length before committing; the package checks them too.
 
 Then add the weight to the table above and rebuild.
 
